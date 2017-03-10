@@ -956,8 +956,8 @@
     </Row>
 
 	<Row id="A037">
-	    <userName>T87</userName>
-        <passWord>T87</passWord>
+	    <userName>SYSTEM</userName>
+        <passWord>E5</passWord>
         <code>AKI</code> 
         
  		<elements>********************</elements>
@@ -967,8 +967,8 @@
     </Row>
 	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  
 	<Row id="A038">
-	    <userName>T82</userName>
-        <passWord>T82</passWord>
+	    <userName>SYSTEM</userName>
+        <passWord>E5</passWord>
         <code>Submit EP2</code> 
         <process>EP2</process>
         
@@ -978,8 +978,8 @@
     </Row>
 	  	  
 	<Row id="A041">
-	    <userName>T82</userName>
-        <passWord>T82</passWord>
+	    <userName>SYSTEM</userName>
+        <passWord>E5</passWord>
         <ep4ProcessList>Submit EP4</ep4ProcessList> 
         <ep4ProcessList>EAQ</ep4ProcessList>
         <ep4ProcessList>EP4</ep4ProcessList>
@@ -994,8 +994,8 @@
     </Row>
 
 	<Row id="A042">
-	    <userName>T42</userName>
-        <passWord>T42</passWord>
+	    <userName>SYSTEM</userName>
+        <passWord>E5</passWord>
    		<code>EYB</code>
    		
    		<errorMessage>Cannot roll GL period across Year End, Use process EY1</errorMessage>

@@ -22,6 +22,12 @@
 			<attribute name="maven.pomderived" value="true"/>
 		</attributes>
 	</classpathentry>
+	<classpathentry exported="true" kind="con" path="org.eclipse.m2e.MAVEN2_CLASSPATH_CONTAINER">
+		<attributes>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="D:/E5H5TestAutomation/Automation Setup/Selenium2.52.0/selenium-server-standalone-2.52.0.jar"/>
 	<classpathentry kind="lib" path="D:/E5H5TestAutomation/Automation Setup/Selenium2.52.0/selenium-java-2.52.0/selenium-2.52.0/selenium-java-2.52.0.jar"/>
 	<classpathentry kind="lib" path="D:/E5H5TestAutomation/Automation Setup/Selenium2.52.0/selenium-java-2.52.0/selenium-2.52.0/selenium-java-2.52.0-srcs.jar"/>
 	<classpathentry kind="lib" path="D:/E5H5TestAutomation/Automation Setup/Selenium2.52.0/selenium-java-2.52.0/selenium-2.52.0/libs/apache-mime4j-0.6.jar"/>
@@ -74,10 +80,12 @@
 	<classpathentry kind="lib" path="D:/E5H5TestAutomation/Automation Setup/Selenium2.52.0/selenium-java-2.52.0/selenium-2.52.0/libs/xalan-2.7.2.jar"/>
 	<classpathentry kind="lib" path="D:/E5H5TestAutomation/Automation Setup/Selenium2.52.0/selenium-java-2.52.0/selenium-2.52.0/libs/xercesImpl-2.11.0.jar"/>
 	<classpathentry kind="lib" path="D:/E5H5TestAutomation/Automation Setup/Selenium2.52.0/selenium-java-2.52.0/selenium-2.52.0/libs/xml-apis-1.4.01.jar"/>
-	<classpathentry kind="lib" path="D:/E5H5TestAutomation/Automation Setup/Selenium2.52.0/selenium-server-standalone-2.52.0.jar"/>
 	<classpathentry kind="lib" path="D:/E5H5TestAutomation/Automation Setup/ojdbc6.jar/ojdbc6.jar"/>
 	<classpathentry kind="lib" path="D:/E5H5TestAutomation/Automation Setup/slf4j-api-1.7.22.jar"/>
 	<classpathentry kind="lib" path="D:/E5H5TestAutomation/Automation Setup/slf4j-log4j12-1.7.22.jar"/>
-	<classpathentry kind="lib" path="D:/E5H5TestAutomation/Automation Setup/log4j-1.2.17.jar"/>
+	<classpathentry kind="con" path="org.testng.TESTNG_CONTAINER"/>
+	<classpathentry kind="lib" path="D:/E5H5TestAutomation/Automation Setup/httpcore-4.4.6.jar"/>
+	<classpathentry kind="lib" path="D:/E5H5TestAutomation/Automation Setup/stax-api-1.0.1.jar"/>
+	<classpathentry kind="lib" path="D:/E5H5TestAutomation/Automation Setup/sqljdbc4.jar"/>
 	<classpathentry kind="output" path="target/classes"/>
 </classpath>

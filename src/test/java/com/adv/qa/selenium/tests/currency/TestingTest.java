@@ -1,13 +1,13 @@
 package com.adv.qa.selenium.tests.currency;
 
 import javax.xml.parsers.ParserConfigurationException;
+
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
-import com.adv.qa.selenium.framework.Assert;
+
 import com.adv.qa.selenium.framework.BaseTest;
-import com.adv.qa.selenium.framework.pageObjects.LoginPage;
 import com.adv.qa.selenium.framework.pageObjects.currency.CurrencyPage;
 import com.adv.qa.selenium.helpers.DataResource;
 import com.adv.qa.selenium.helpers.DataRow;

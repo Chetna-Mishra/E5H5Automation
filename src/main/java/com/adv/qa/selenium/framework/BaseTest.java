@@ -21,7 +21,6 @@ import org.openqa.selenium.NoAlertPresentException;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.ie.InternetExplorerDriver;
@@ -194,7 +193,9 @@ public class BaseTest {
 			
 			else if(browser.equals("firefox".trim())) {
 //				System.setProperty("webdriver.gecko.driver","D://E5H5TestAutomation//Automation Setup//geckodriver-v0.13.0-win64//geckodriver.exe");
-				System.setProperty("webdriver.gecko.driver","D://E5H5TestAutomation//Automation Setup//geckodriver-v0.14.0-win64//geckodriver.exe");
+//				System.setProperty("webdriver.gecko.driver","D://E5H5TestAutomation//Automation Setup//geckodriver-v0.14.0-win64//geckodriver.exe");
+//				System.setProperty("webdriver.chrome.driver", "src/test/resources/drivers/geckodriver.exe");
+				
 				browerDriver = new FirefoxDriver();
 			
 				driver = new EventFiringWebDriver(browerDriver);
@@ -305,11 +306,11 @@ public class BaseTest {
 	
 	private PageObjects pObject = new PageObjects();
 	
-	private List<WebElement> getCancelButton(){
-		WaitHelper.waitAdditional(2);
-		List<WebElement> wbs = driver.findElements(By.className(pObject.HEADER_TAB_BTN));
-		return wbs;
-	}
+//	private List<WebElement> getCancelButton(){
+//		WaitHelper.waitAdditional(2);
+//		List<WebElement> wbs = driver.findElements(By.className(pObject.HEADER_TAB_BTN));
+//		return wbs;
+//	}
 	
 	/**
 	 * Click on Cancel button

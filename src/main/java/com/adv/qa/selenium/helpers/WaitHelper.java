@@ -77,7 +77,7 @@ public class WaitHelper {
 	public static void waitUntilWebElementDisplayed(WebDriver driver, final WebElement element) {
 		long timeOut = 120;
 	}
-	
+
 	/**
 	 * Wait until the given WebElement is not displayed not longer than given timeOutInSeconds; WebElement should exist on the page
 	 * @param driver

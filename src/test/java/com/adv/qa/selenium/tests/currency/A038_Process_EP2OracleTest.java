@@ -13,14 +13,14 @@ import com.adv.qa.selenium.helpers.DataResource;
 import com.adv.qa.selenium.helpers.DataRow;
 
 /**
- * @author              :   Draxayani
- * Test Reference No	: 	A038 Process EP2
+ * @author              :   Chetna
+ * Test Reference No	: 	A038 Process EP2 for Oracle
  * Purpose              :   Run Structure Rebuild
- * Date					:   26-05-2014
+ * Date					:   10-03-2017
  * ACCESS               :   Submit EP2
  */
 
-public class A038_Process_EP2Test extends BaseTest{
+public class A038_Process_EP2OracleTest extends BaseTest{
 	/*Launch the browser*/
 	@BeforeClass
 	public void beforeClass() throws Exception {
@@ -59,11 +59,12 @@ public class A038_Process_EP2Test extends BaseTest{
 		
 		String statBefore = currencyPage.getProcessDetailsOracle(process,processList.get(1));
 		Assert.assertEquals(testcases,statBefore, "2","Precess has","entered task list");
+		
 		if(statBefore.equals("2")){
-			currencyPage.updateProcess(process,processList.get(1));
+			currencyPage.updateProcessOracle(process,processList.get(1));
 		}
 		
-		String statAfter = currencyPage.getProcessDetails(process,processList.get(1));
+		String statAfter = currencyPage.getProcessDetailsOracle(process,processList.get(1));
 		
 		if(statAfter == null || statAfter.equals("3"))
 		{

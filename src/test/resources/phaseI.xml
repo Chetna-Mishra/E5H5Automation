@@ -175,6 +175,7 @@
     	<classes>
     	    <class name="com.adv.qa.selenium.tests.currency.A038_Process_EP2Test"/> 
     	    <class name="com.adv.qa.selenium.tests.currency.A039_EnquiryTest"/> 
+    	    
        		<class name="com.adv.qa.selenium.tests.currency.A041_Group_Category_And_Structure_PostingsTest"/>
        		<class name="com.adv.qa.selenium.tests.currency.A042_Period_End_Test"/>      		    	    
     	</classes>

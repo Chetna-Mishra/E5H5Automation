@@ -2,7 +2,6 @@ package com.adv.qa.selenium.tests.currency;
 
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
-import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
 
 import com.adv.qa.selenium.framework.BaseTest;

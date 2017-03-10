@@ -2,22 +2,17 @@ package com.adv.qa.selenium.tests.currency;
 
 import java.util.List;
 
-import org.openqa.selenium.By;
-import org.openqa.selenium.Keys;
-import org.openqa.selenium.WebElement;
-import org.openqa.selenium.interactions.Actions;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
+
 import com.adv.qa.selenium.framework.Assert;
 import com.adv.qa.selenium.framework.BaseTest;
 import com.adv.qa.selenium.framework.pageObjects.LoginPage;
-import com.adv.qa.selenium.framework.pageObjects.PageObjects;
 import com.adv.qa.selenium.framework.pageObjects.currency.CurrencyPage;
 import com.adv.qa.selenium.helpers.DataResource;
 import com.adv.qa.selenium.helpers.DataRow;
-import org.openqa.selenium.JavascriptExecutor;
 
 
 /**
@@ -26,11 +21,11 @@ import org.openqa.selenium.JavascriptExecutor;
  * Purpose              :   Set Up Normal Balance Sheet Controls
  * Date					:   21-04-2014
  * ACCESS               :   API
+ * 
  */
 
 public class A013_Fiscal_CalendarTest extends BaseTest{
 
-	private PageObjects pObject = new PageObjects();
 	/*Launch the browser*/
 	@BeforeClass
 	public void beforeClass() throws Exception {

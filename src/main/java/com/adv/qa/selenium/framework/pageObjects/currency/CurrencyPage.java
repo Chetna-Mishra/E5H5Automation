@@ -498,10 +498,10 @@ public class CurrencyPage extends Page{
 		return cancel;
 	}
 
-	/*Get id of YES button*/
-	private WebElement getYesButton(){
-		return getDriver().findElement(By.id(pObject.TWO+pObject._ZERO));
-	}
+//	/*Get id of YES button*/
+//	private WebElement getYesButton(){
+//		return getDriver().findElement(By.id(pObject.TWO+pObject._ZERO));
+//	}
 	
 	private List<WebElement> getButton()
 	{
@@ -4327,146 +4327,6 @@ if(entityname.get(1).equals("1"))
 	
 	
 	
-//	{
-//		log.info("Enter company control details");
-//		WaitHelper.waitAdditional(1);
-//		getDriver().findElement(By.id(pObject.ZERO_+pObject.ZERO)).clear();
-//		WaitHelper.waitAdditional(1);
-//		getDriver().findElement(By.id(pObject.ZERO_+pObject.ZERO)).sendKeys(companyName);//Company A006_COMPANY
-//		
-//		getDriver().findElement(By.id(pObject.ZERO_+pObject.ONE)).clear();
-//		WaitHelper.waitAdditional(2);
-//		getDriver().findElement(By.id(pObject.ZERO_+pObject.ONE)).sendKeys(companyControl.get(0));//Period A023_CURNT_PER
-//		getDriver().findElement(By.id(pObject.ZERO_+pObject.TWO)).clear();
-//		WaitHelper.waitAdditional(2);
-//		getDriver().findElement(By.id(pObject.ZERO_+pObject.TWO)).sendKeys(companyControl.get(1));//Year A023_CURNT_YR
-//		getDriver().findElement(By.id(pObject.ZERO_+pObject.THREE)).clear();
-//		WaitHelper.waitAdditional(2);
-//		getDriver().findElement(By.id(pObject.ZERO_+pObject.THREE)).sendKeys(companyControl.get(2));//Control account code A023_CNTL_AC_CD
-//		getDriver().findElement(By.id(pObject.ZERO_+pObject.FIVE)).clear();
-//		WaitHelper.waitAdditional(2);
-//		getDriver().findElement(By.id(pObject.ZERO_+pObject.FIVE)).sendKeys(companyControl.get(3));//Calender A023_CALDR
-//		getDriver().findElement(By.id(pObject.ZERO_+pObject.SEVEN)).clear();
-//		WaitHelper.waitAdditional(2);
-//		getDriver().findElement(By.id(pObject.ZERO_+pObject.SEVEN)).sendKeys(companyControl.get(4));//Future A023_YR_RNGE_FUTR
-//		
-//		getDriver().findElement(By.id(pObject.ZERO_+pObject.EIGHT)).clear();
-//		WaitHelper.waitAdditional(2);
-//		getDriver().findElement(By.id(pObject.ZERO_+pObject.EIGHT)).sendKeys(companyControl.get(5));//History  A023_YR_RNGE_HIST
-//		
-//		ClickOnAnyTab("Batch Types", 1);
-//		
-////		getDriver().findElement(By.id(pObject.TAB_STRIP+pObject.SECOND_TAB)).click();//Batch Types
-//		WaitHelper.waitAdditional(2);
-//		
-//		getDriver().findElement(By.id(pObject.ZERO_+pObject.TWO+pObject.TWO)).clear();
-//		WaitHelper.waitAdditional(1);
-//		getDriver().findElement(By.id(pObject.ZERO_+pObject.TWO+pObject.TWO)).sendKeys(companyControl.get(6));//Summ A023_SUMMAR
-//		WaitHelper.waitAdditional(1);
-//		
-////		getDriver().findElement(By.id(pObject.TAB_STRIP+pObject.THIRD_TAB)).click();//Account Controls
-//		
-//		ClickOnAnyTab("Account Controls", 1);
-//		
-//		WaitHelper.waitAdditional(1);
-//		getDriver().findElement(By.id(pObject.ZERO_+pObject.THREE+pObject.FOUR)).clear();
-//		WaitHelper.waitAdditional(1);
-//		getDriver().findElement(By.id(pObject.ZERO_+pObject.THREE+pObject.FOUR)).sendKeys(companyControl.get(7)); //Transac A023_TRANSAC
-//		WaitHelper.waitAdditional(1);
-//		
-//		getDriver().findElement(By.id(pObject.ZERO_+pObject.THREE+pObject.EIGHT)).clear();
-//		WaitHelper.waitAdditional(1);
-//		getDriver().findElement(By.id(pObject.ZERO_+pObject.THREE+pObject.EIGHT)).sendKeys(companyControl.get(8));//Stat balance Class A023_STSCL_BAL
-//		WaitHelper.waitAdditional(1);
-//		getDriver().findElement(By.id("chk_0_40")).click();//Financial A023_CHK_FINC
-//		
-//		getDriver().findElement(By.id("chk_0_41")).click();//Summarise A023_CHK_SUMM
-//		
-//		getDriver().findElement(By.id("chk_0_42")).click();//Cost allocation A023_CHK_CST_ALLW
-//	
-//		getDriver().findElement(By.id("chk_0_43")).click();//Planning A023_CHK_PLANG
-//		
-//		getDriver().findElement(By.id("chk_0_44")).click();//Average balances A023_CHK_AVG_BAL
-//		
-//		
-////		getDriver().findElement(By.id("chk_0_45")).click();//Alt balances
-//		WaitHelper.waitAdditional(1);
-//		
-////		getDriver().findElement(By.id(pObject.TAB_STRIP+pObject.FOURTH_TAB)).click();//Data Entry Controls
-//		
-//		ClickOnAnyTab("Data Entry Controls",1);
-//		WaitHelper.waitAdditional(2);
-//		
-//		getDriver().findElement(By.id("0_54")).sendKeys(companyControl.get(9));//Suspense account A023_SUSPN_ACC
-//		WaitHelper.waitAdditional(1);
-////		getDriver().findElement(By.id("0_75")).sendKeys(companyControl.get(10));//Dynamic bal sheet 
-//		
-//		getDriver().findElement(By.id("chk_0_59")).click();//Accept warnings off line A023_CHK_ACCEPT_WAR_OFF
-//		
-//		getDriver().findElement(By.id("chk_0_62")).click();//Totaling on quantity A023_CHK_TOTL_ON_QTY
-//		
-//		getDriver().findElement(By.id("chk_0_66")).click();//Generate batch balancing records A023_CHK_GNE_BATCH_BAL_RCRD
-//		
-//		getDriver().findElement(By.id("chk_0_67")).click();//Close account for last year A023_CHK_CLS_ACC_LST_YR
-//		
-//		getDriver().findElement(By.id("chk_0_69")).click();//Revolution write off flag A023_CHK_REV_WRIT_FLG
-//		
-//		getDriver().findElement(By.id("chk_0_70")).click();//Data entry immidiate update  A023_CHK_DTA_ENTRY_IMD_UPD
-//		
-//		getDriver().findElement(By.id("chk_0_72")).click();//Reconcilation message A023_CHK_REC_MSG
-//		
-//		getDriver().findElement(By.id("chk_0_74")).click();//Delete check A023_CHK_DEL_CHK
-//		WaitHelper.waitAdditional(1);
-//		
-//		ClickOnAnyTab("Currency Controls/PEV",1);
-//		
-////		getDriver().findElement(By.id(pObject.TAB_STRIP+pObject.FIFTH_TAB)).click();//Currency Control
-//		WaitHelper.waitAdditional(2);
-//		getDriver().findElement(By.id("0_76")).clear();
-//		WaitHelper.waitAdditional(1);
-//		getDriver().findElement(By.id("0_76")).sendKeys(companyControl.get(11));//Currency rate type A023_CURR_R_TYPE
-//		WaitHelper.waitAdditional(1);
-//		getDriver().findElement(By.id("0_78")).clear();
-//		WaitHelper.waitAdditional(1);
-//		getDriver().findElement(By.id("0_78")).sendKeys(companyControl.get(12));//Rounding currency A023_RNDG_TOLRN_AMT
-//		WaitHelper.waitAdditional(1);
-//		getDriver().findElement(By.id("0_79")).clear();
-//		WaitHelper.waitAdditional(1);
-//		getDriver().findElement(By.id("0_79")).sendKeys(companyControl.get(13));//Rounding tolerance % A023_RNDG_TOLRN_PERC
-//		WaitHelper.waitAdditional(1);
-//		getDriver().findElement(By.id("chk_0_87")).click();//Currency revaluation allowed A023_CHK_CURR_REV_ALLW
-//		WaitHelper.waitAdditional(1);
-//		getDriver().findElement(By.id("0_86")).sendKeys(companyControl.get(14));//Currency tolerence processing A023_CURR_TOL_PROC
-//		WaitHelper.waitAdditional(1);
-//		getDriver().findElement(By.id("0_88")).sendKeys(companyControl.get(15));//Batch type A023_BTCH_TYPE
-//		WaitHelper.waitAdditional(1);
-//		
-////		getDriver().findElement(By.id(pObject.TAB_STRIP+pObject.SIXTH_TAB)).click();//Reconcillation
-//		
-//		ClickOnAnyTab("Reconciliation/Archive",1);
-//		WaitHelper.waitAdditional(2);
-//		
-//		getDriver().findElement(By.id("chk_0_90")).click();//A023_CHK_ACCT_PAYBL
-//		
-//		getDriver().findElement(By.id("chk_0_91")).click();//Archive A023_CHK_ACCT_PAYBL
-//		
-//		getDriver().findElement(By.id("chk_0_92")).click();//Archive A023_CHK_ACCT_RECIBL
-//		
-//		getDriver().findElement(By.id("chk_0_93")).click(); //A023_CHK_PURC_MNGT
-//		
-//		getDriver().findElement(By.id("chk_0_95")).click();//A023_CHK_INV_MNGT
-//		
-//		getDriver().findElement(By.id("chk_0_96")).click();//A023_CHK_FIX_ASST
-//		
-//		getDriver().findElement(By.id("chk_0_97")).click();//A023_CHK_FIX_ASST_LEA
-//		
-//		getDriver().findElement(By.id("chk_0_98")).click();//A023_CHK_ARC_TRAN_INDI
-//		WaitHelper.waitAdditional(1);
-//		
-//		getDriver().findElement(By.id("chk_0_98")).click();//A023_CHK_ARC_UNREC_TRANS
-//		WaitHelper.waitAdditional(1);
-//		
-//	}
 	
 	/**
 	 * Update company controls A031
@@ -4643,21 +4503,33 @@ if(entityname.get(1).equals("1"))
 		getDriver().findElement(By.id(pObject.ZERO_+pObject.ZERO)).sendKeys(companyName);//Company ID
 		WaitHelper.waitAdditional(1);
 		getDriver().findElement(By.id(pObject.ZERO_+pObject.ZERO)).sendKeys(Keys.ENTER);
-		WaitHelper.waitAdditional(4);
-		getDriver().findElement(By.id(pObject.CHECK+pObject.ZERO_+pObject.ONE)).click();//Update all
 		WaitHelper.waitAdditional(3);
+		getDriver().findElement(By.id(pObject.CHECK+pObject.ZERO_+pObject.ONE)).click();//Update all
+		WaitHelper.waitAdditional(2);
 		getDriver().findElement(By.id(pObject.CHECK+pObject.ZERO_+pObject.TWO)).click();//Net balance
-		WaitHelper.waitAdditional(5);
-		Actions builder = new Actions(driver);
+		WaitHelper.waitAdditional(2);
 		
-		/*Balance class field*/
-		builder.moveToElement(driver.findElement(By.xpath("//div[2]/div[2]/div/div/div/div[1]/table/tbody/tr/td[5]"))).click().sendKeys(processDetails.get(2)).build().perform();
+		getDriver().findElement(By.xpath("//div[1]/table/tbody/tr/td[5]")).click();//Balance class field
+		getDriver().findElement(By.xpath("//div[1]/table/tbody/tr/td[5]")).click();
+		getDriver().findElement(By.xpath("//div[1]/table/tbody/tr/td[5]/input")).sendKeys(processDetails.get(2));
+		
+//		Actions builder = new Actions(driver);
+//		
+//		/*Balance class field*/
+//		builder.moveToElement(driver.findElement(By.xpath("//div[2]/div[2]/div/div/div/div[1]/table/tbody/tr/td[5]"))).click().sendKeys(processDetails.get(2)).build().perform();
 
 		WaitHelper.waitAdditional(3);
-		getDriver().findElement(By.id(pObject.ZERO_+21+pObject.LABEL)).click();//Submit button
+		ClickOnSubmit();//Submit button
+		
 		WaitHelper.waitAdditional(5);
-		getDriver().findElement(By.id(pObject.ZERO_+21+pObject.LABEL)).click();//Submit button
-		WaitHelper.waitAdditional(2);
+		ClickOnSubmit();//Submit button
+		WaitHelper.waitAdditional(3);
+		
+//		getDriver().findElement(By.id(pObject.ZERO_+21+pObject.LABEL)).click();//Submit button
+//		WaitHelper.waitAdditional(5);
+//		getDriver().findElement(By.id(pObject.ZERO_+21+pObject.LABEL)).click();//Submit button
+//		WaitHelper.waitAdditional(2);
+		
 	}
 	
 	/**
