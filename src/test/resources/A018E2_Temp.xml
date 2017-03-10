@@ -1,0 +1,340 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Root xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	  <Row>
+ 			<userName>BM</userName>
+          	<passWord>E5</passWord>
+            <code>EBA</code> 
+              				
+			<nominalGLICA1>GLICA1</nominalGLICA1>
+			<nominalGLICA1>GL ICA Account1</nominalGLICA1>
+			<nominalGLICA1>A</nominalGLICA1>
+			<nominalGLICA1>02</nominalGLICA1>
+			<nominalGLICA1>Balance Sheet</nominalGLICA1>
+			<nominalGLICA1>Both</nominalGLICA1>
+			<nominalGLICA1>A</nominalGLICA1>
+			<nominalGLICA1>***</nominalGLICA1>
+			<nominalGLICA1>Both</nominalGLICA1>
+			<nominalGLICA1>0</nominalGLICA1>
+			
+			<nominal4000>4000</nominal4000>
+			<nominal4000>Account 4000</nominal4000>
+			<nominal4000>P</nominal4000>
+			<nominal4000>03</nominal4000>
+			<nominal4000>Profit &amp; Loss</nominal4000>
+			<nominal4000>Both</nominal4000>
+			<nominal4000>A</nominal4000>
+			<nominal4000>***</nominal4000>
+			<nominal4000>Both</nominal4000>
+			<nominal4000>0</nominal4000>
+			
+						<nominal4100>4100</nominal4100>
+			<nominal4100>Account 4100</nominal4100>
+			<nominal4100>P</nominal4100>
+			<nominal4100>03</nominal4100>
+			<nominal4100>Profit &amp; Loss</nominal4100>
+			<nominal4100>Both</nominal4100>
+			<nominal4100>A</nominal4100>
+			<nominal4100>***</nominal4100>
+			<nominal4100>Both</nominal4100>
+			<nominal4100>0</nominal4100>
+			
+			<nominal4200>4200</nominal4200>
+			<nominal4200>Account 4200</nominal4200>
+			<nominal4200>P</nominal4200>
+			<nominal4200>03</nominal4200>
+			<nominal4200>Profit &amp; Loss</nominal4200>
+			<nominal4200>Both</nominal4200>
+			<nominal4200>A</nominal4200>
+			<nominal4200>UKP</nominal4200>
+			<nominal4200>Base</nominal4200>
+			<nominal4200>0</nominal4200>
+			
+			<nominal6000>6000</nominal6000>
+			<nominal6000>Account 6000</nominal6000>
+			<nominal6000>P</nominal6000>
+			<nominal6000>04</nominal6000>
+			<nominal6000>Profit &amp; Loss</nominal6000>
+			<nominal6000>Both</nominal6000>
+			<nominal6000>A</nominal6000>
+			<nominal6000>UKP</nominal6000>
+			<nominal6000>Base</nominal6000>
+			<nominal6000>0</nominal6000>
+			
+			<nominal6100>6100</nominal6100>
+			<nominal6100>Account 6100</nominal6100>
+			<nominal6100>P</nominal6100>
+			<nominal6100>04</nominal6100>
+			<nominal6100>Profit &amp; Loss</nominal6100>
+			<nominal6100>Both</nominal6100>
+			<nominal6100>A</nominal6100>
+			<nominal6100>UKP</nominal6100>
+			<nominal6100>Base</nominal6100>
+			<nominal6100>0</nominal6100>
+			
+			<nominal1560>1560</nominal1560>
+			<nominal1560>Purch.Curr.Bank A/C</nominal1560>
+			<nominal1560>B</nominal1560>
+			<nominal1560>01</nominal1560>
+			<nominal1560>Balance Sheet</nominal1560>
+			<nominal1560>Both</nominal1560>
+			<nominal1560>A</nominal1560>
+			<nominal1560>***</nominal1560>
+			<nominal1560>Both</nominal1560>
+			<nominal1560>0</nominal1560>
+			
+			<nominal1661>1661</nominal1661>
+			<nominal1661>PrePayments A</nominal1661>
+			<nominal1661>B</nominal1661>
+			<nominal1661>01</nominal1661>
+			<nominal1661>Balance Sheet</nominal1661>
+			<nominal1661>Both</nominal1661>
+			<nominal1661>A</nominal1661>
+			<nominal1661>***</nominal1661>
+			<nominal1661>Both</nominal1661>
+			<nominal1661>0</nominal1661>
+			
+			<nominal2001>2001</nominal2001>
+			<nominal2001>Creditors Control A</nominal2001>
+			<nominal2001>B</nominal2001>
+			<nominal2001>02</nominal2001>
+			<nominal2001>Balance Sheet</nominal2001>
+			<nominal2001>Both</nominal2001>
+			<nominal2001>A</nominal2001>
+			<nominal2001>***</nominal2001>
+			<nominal2001>Both</nominal2001>
+			<nominal2001>0</nominal2001>
+					
+			<nominal2100>2100</nominal2100>
+			<nominal2100>Standard VAT</nominal2100>
+			<nominal2100>C</nominal2100>
+			<nominal2100>02</nominal2100>
+			<nominal2100>Balance Sheet</nominal2100>
+			<nominal2100>Both</nominal2100>
+			<nominal2100>A</nominal2100>
+			<nominal2100>***</nominal2100>
+			<nominal2100>Both</nominal2100>
+			<nominal2100>0</nominal2100>
+			
+			<nominal5500>5500</nominal5500>
+			<nominal5500>PL Account</nominal5500>
+			<nominal5500>T</nominal5500>
+			<nominal5500>04</nominal5500>
+			<nominal5500>Profit &amp; Loss</nominal5500>
+			<nominal5500>Both</nominal5500>
+			<nominal5500>A</nominal5500>
+			<nominal5500>***</nominal5500>
+			<nominal5500>Both</nominal5500>
+			<nominal5500>0</nominal5500>
+			
+			<nominalVATA>VATA</nominalVATA>
+			<nominalVATA>VAT Control Account</nominalVATA>
+			<nominalVATA>B</nominalVATA>
+			<nominalVATA>03</nominalVATA>
+			<nominalVATA>Balance Sheet</nominalVATA>
+			<nominalVATA>Both</nominalVATA>
+			<nominalVATA>A</nominalVATA>
+			<nominalVATA>***</nominalVATA>
+			<nominalVATA>Both</nominalVATA>
+			<nominalVATA>0</nominalVATA>
+			
+			<nominal5901>5901</nominal5901>
+			<nominal5901>PPV Control</nominal5901>
+			<nominal5901>G</nominal5901>
+			<nominal5901>01</nominal5901>
+			<nominal5901>Balance Sheet</nominal5901>
+			<nominal5901>Both</nominal5901>
+			<nominal5901>A</nominal5901>
+			<nominal5901>***</nominal5901>
+			<nominal5901>Both</nominal5901>
+			<nominal5901>0</nominal5901>
+			
+			<nominal5902>5902</nominal5902>
+			<nominal5902>PPV Reserve</nominal5902>
+			<nominal5902>G</nominal5902>
+			<nominal5902>01</nominal5902>
+			<nominal5902>Balance Sheet</nominal5902>
+			<nominal5902>Both</nominal5902>
+			<nominal5902>A</nominal5902>
+			<nominal5902>***</nominal5902>
+			<nominal5902>Both</nominal5902>
+			<nominal5902>0</nominal5902>
+			
+			<nominal5903>5903</nominal5903>
+			<nominal5903>PPV Suspense</nominal5903>
+			<nominal5903>G</nominal5903>
+			<nominal5903>01</nominal5903>
+			<nominal5903>Balance Sheet</nominal5903>
+			<nominal5903>Both</nominal5903>
+			<nominal5903>A</nominal5903>
+			<nominal5903>***</nominal5903>
+			<nominal5903>Both</nominal5903>
+			<nominal5903>0</nominal5903>
+			
+			<nominalEXP1>EXP1</nominalEXP1>
+			<nominalEXP1>Expense Account 1</nominalEXP1>
+			<nominalEXP1>T</nominalEXP1>
+			<nominalEXP1>04</nominalEXP1>
+			<nominalEXP1>Balance Sheet</nominalEXP1>
+			<nominalEXP1>Both</nominalEXP1>
+			<nominalEXP1>A</nominalEXP1>
+			<nominalEXP1>***</nominalEXP1>
+			<nominalEXP1>Both</nominalEXP1>
+			<nominalEXP1>0</nominalEXP1>
+			
+			<nominalEXP2>EXP2</nominalEXP2>
+			<nominalEXP2>Expense Account 2</nominalEXP2>
+			<nominalEXP2>T</nominalEXP2>
+			<nominalEXP2>04</nominalEXP2>
+			<nominalEXP2>Balance Sheet</nominalEXP2>
+			<nominalEXP2>Both</nominalEXP2>
+			<nominalEXP2>A</nominalEXP2>
+			<nominalEXP2>***</nominalEXP2>
+			<nominalEXP2>Both</nominalEXP2>
+			<nominalEXP2>0</nominalEXP2>
+			
+			<nominalTRAN>TRAN</nominalTRAN>
+			<nominalTRAN>IM Transfer</nominalTRAN>
+			<nominalTRAN>I</nominalTRAN>
+			<nominalTRAN>02</nominalTRAN>
+			<nominalTRAN>Balance Sheet</nominalTRAN>
+			<nominalTRAN>Both</nominalTRAN>
+			<nominalTRAN>A</nominalTRAN>
+			<nominalTRAN>***</nominalTRAN>
+			<nominalTRAN>Both</nominalTRAN>
+			<nominalTRAN>0</nominalTRAN>
+			
+			<nominalSTKR>STKR</nominalSTKR>
+			<nominalSTKR>IM Stock Revaluation</nominalSTKR>
+			<nominalSTKR>I</nominalSTKR>
+			<nominalSTKR>02</nominalSTKR>
+			<nominalSTKR>Balance Sheet</nominalSTKR>
+			<nominalSTKR>Both</nominalSTKR>
+			<nominalSTKR>A</nominalSTKR>
+			<nominalSTKR>***</nominalSTKR>
+			<nominalSTKR>Both</nominalSTKR>
+			<nominalSTKR>0</nominalSTKR>
+						
+			<nominalOCST>OCST</nominalOCST>
+			<nominalOCST>IM On Cost</nominalOCST>
+			<nominalOCST>I</nominalOCST>
+			<nominalOCST>02</nominalOCST>
+			<nominalOCST>Balance Sheet</nominalOCST>
+			<nominalOCST>Both</nominalOCST>
+			<nominalOCST>A</nominalOCST>
+			<nominalOCST>***</nominalOCST>
+			<nominalOCST>Both</nominalOCST>
+			<nominalOCST>0</nominalOCST>
+			
+			<nominalSONY>SONY</nominalSONY>
+			<nominalSONY>Sony Account</nominalSONY>
+			<nominalSONY>T</nominalSONY>
+			<nominalSONY>04</nominalSONY>
+			<nominalSONY>Profit &amp; Loss</nominalSONY>
+			<nominalSONY>Both</nominalSONY>
+			<nominalSONY>A</nominalSONY>
+			<nominalSONY>***</nominalSONY>
+			<nominalSONY>Both</nominalSONY>
+			<nominalSONY>0</nominalSONY>
+			
+			<nominalPION>PION</nominalPION>
+			<nominalPION>Pioneer Account</nominalPION>
+			<nominalPION>T</nominalPION>
+			<nominalPION>04</nominalPION>
+			<nominalPION>Profit &amp; Loss</nominalPION>
+			<nominalPION>Both</nominalPION>
+			<nominalPION>A</nominalPION>
+			<nominalPION>***</nominalPION>
+			<nominalPION>Both</nominalPION>
+			<nominalPION>0</nominalPION>
+				
+			<nominalTOSH>TOSH</nominalTOSH>
+			<nominalTOSH>Toshiba Account</nominalTOSH>
+			<nominalTOSH>T</nominalTOSH>
+			<nominalTOSH>04</nominalTOSH>
+			<nominalTOSH>Profit &amp; Loss</nominalTOSH>
+			<nominalTOSH>Both</nominalTOSH>
+			<nominalTOSH>A</nominalTOSH>
+			<nominalTOSH>***</nominalTOSH>
+			<nominalTOSH>Both</nominalTOSH>
+			<nominalTOSH>0</nominalTOSH>
+		
+			<nominalPANN>PANN</nominalPANN>
+			<nominalPANN>Panasonic Account</nominalPANN>
+			<nominalPANN>T</nominalPANN>
+			<nominalPANN>04</nominalPANN>
+			<nominalPANN>Profit &amp; Loss</nominalPANN>
+			<nominalPANN>Both</nominalPANN>
+			<nominalPANN>A</nominalPANN>
+			<nominalPANN>***</nominalPANN>
+			<nominalPANN>Both</nominalPANN>
+			<nominalPANN>0</nominalPANN>
+						
+			<nominalWHAF>WHAF</nominalWHAF>
+			<nominalWHAF>Wharfedale Account</nominalWHAF>
+			<nominalWHAF>T</nominalWHAF>
+			<nominalWHAF>04</nominalWHAF>
+			<nominalWHAF>Profit &amp; Loss</nominalWHAF>
+			<nominalWHAF>Both</nominalWHAF>
+			<nominalWHAF>A</nominalWHAF>
+			<nominalWHAF>***</nominalWHAF>
+			<nominalWHAF>Both</nominalWHAF>
+			<nominalWHAF>0</nominalWHAF>
+			
+			<nominalSHIN>SHIN</nominalSHIN>
+			<nominalSHIN>Shinco Account</nominalSHIN>
+			<nominalSHIN>T</nominalSHIN>
+			<nominalSHIN>04</nominalSHIN>
+			<nominalSHIN>Profit &amp; Loss</nominalSHIN>
+			<nominalSHIN>Both</nominalSHIN>
+			<nominalSHIN>A</nominalSHIN>
+			<nominalSHIN>***</nominalSHIN>
+			<nominalSHIN>Both</nominalSHIN>
+			<nominalSHIN>0</nominalSHIN>
+			
+			<nominalGRUN>GRUN</nominalGRUN>
+			<nominalGRUN>Grundig Account</nominalGRUN>
+			<nominalGRUN>T</nominalGRUN>
+			<nominalGRUN>04</nominalGRUN>
+			<nominalGRUN>Profit &amp; Loss</nominalGRUN>
+			<nominalGRUN>Both</nominalGRUN>
+			<nominalGRUN>A</nominalGRUN>
+			<nominalGRUN>***</nominalGRUN>
+			<nominalGRUN>Both</nominalGRUN>
+			<nominalGRUN>0</nominalGRUN>
+							
+			<nominalSAMS>SAMS</nominalSAMS>
+			<nominalSAMS>Samsung Account</nominalSAMS>
+			<nominalSAMS>T</nominalSAMS>
+			<nominalSAMS>04</nominalSAMS>
+			<nominalSAMS>Profit &amp; Loss</nominalSAMS>
+			<nominalSAMS>Both</nominalSAMS>
+			<nominalSAMS>A</nominalSAMS>
+			<nominalSAMS>***</nominalSAMS>
+			<nominalSAMS>Both</nominalSAMS>
+			<nominalSAMS>0</nominalSAMS>
+			
+			<nominalHITC>HITC</nominalHITC>
+			<nominalHITC>Hitachi Account</nominalHITC>
+			<nominalHITC>T</nominalHITC>
+			<nominalHITC>04</nominalHITC>
+			<nominalHITC>Profit &amp; Loss</nominalHITC>
+			<nominalHITC>Both</nominalHITC>
+			<nominalHITC>A</nominalHITC>
+			<nominalHITC>***</nominalHITC>
+			<nominalHITC>Both</nominalHITC>
+			<nominalHITC>0</nominalHITC>
+			
+			<nominalAIWA>AIWA</nominalAIWA>
+			<nominalAIWA>Aiwa Account</nominalAIWA>
+			<nominalAIWA>T</nominalAIWA>
+			<nominalAIWA>04</nominalAIWA>
+			<nominalAIWA>Profit &amp; Loss</nominalAIWA>
+			<nominalAIWA>Both</nominalAIWA>
+			<nominalAIWA>A</nominalAIWA>
+			<nominalAIWA>***</nominalAIWA>
+			<nominalAIWA>Both</nominalAIWA>
+			<nominalAIWA>0</nominalAIWA>
+			
+			
+      </Row>
+</Root>

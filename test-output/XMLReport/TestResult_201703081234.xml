@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?><SeleniumTestReport>
+<TestCase>
+<A035_Structure_RebuildOracleTest>
+<Verification1>08/03/2017 12:34:58 | Pass : Login page displayed</Verification1>
+<Verification2>08/03/2017 12:35:02 | Pass : Command line displayed</Verification2>
+<Verification3>08/03/2017 12:35:14 | Pass : Structure Rebuild page displayed</Verification3>
+<Verification4>08/03/2017 12:35:55 | Pass : Process has entered task list</Verification4>
+<Verification5>08/03/2017 12:36:03 | Pass : ProcessEP3 performed on E5H5EP3</Verification5>
+</A035_Structure_RebuildOracleTest>
+</TestCase>
+</SeleniumTestReport>

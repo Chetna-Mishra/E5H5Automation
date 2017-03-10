@@ -1,0 +1,257 @@
+<html>
+<head>
+<title>TestNG:  suite16</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>suite16</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>0/2/0</td>
+</tr><tr>
+<td>Started on:</td><td>Wed Mar 08 18:29:47 IST 2017</td>
+</tr>
+<tr><td>Total time:</td><td>152 seconds (152929 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-failed'>
+<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.adv.qa.selenium.tests.currency.A025_FormulaTest.verify()'><b>verify</b><br>Test class: com.adv.qa.selenium.tests.currency.A025_FormulaTest<br>Parameters: [DataUnit [userName = SYSTEM], DataUnit [passWord = E5], DataUnit [code = EAO], DataUnit [formulaForCal1 = CAL1], DataUnit [formulaForCal1 = CP Actual Balance], DataUnit [formulaForCal1 = CP Act Bal], DataUnit [formulaForCal1 = 1], DataUnit [formulaForCal1 = Sum Columns], DataUnit [formulaForCal1 = M(AB)], DataUnit [formulaForCal2 = CAL2], DataUnit [formulaForCal2 = YTD Actual Balance], DataUnit [formulaForCal2 = YTD Act Bal], DataUnit [formulaForCal2 = 1], DataUnit [formulaForCal2 = Suppress All Totals], DataUnit [formulaForCal2 = B(AB)], DataUnit [formulaForBs1 = BS1], DataUnit [formulaForBs1 = Stat  Balance], DataUnit [formulaForBs1 = STAT BAL], DataUnit [formulaForBs1 = 0], DataUnit [formulaForBs1 = ], DataUnit [formulaForBs1 = B(AB)], DataUnit [formulaForMs1 = MS1], DataUnit [formulaForMs1 = Stat Movement QTY], DataUnit [formulaForMs1 = STAT MOV], DataUnit [formulaForMs1 = 0], DataUnit [formulaForMs1 = Sum Columns], DataUnit [formulaForMs1 = M(S1)]]</td>
+<td><div><pre>org.openqa.selenium.NoSuchElementException: Unable to locate element: //input[starts-with(@name,&apos;CALC_&apos;)]
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;unknown&apos;, revision: &apos;1969d75&apos;, time: &apos;2016-10-18 09:43:45 -0700&apos;
+System info: host: &apos;ChetnaM-PC&apos;, ip: &apos;10.31.16.11&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_112&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{rotatable=false, raisesAccessibilityExceptions=false, marionette=true, firefoxOptions={args=[], prefs={}}, appBuildId=20160421124000, version=, platform=XP, proxy={}, specificationLevel=1, acceptSslCerts=false, browserVersion=46.0, platformVersion=10.0, XULappId={ec8030f7-c20a-464f-9b0e-13a3a9e97384}, browserName=Firefox, takesScreenshot=true, takesElementScreenshot=true, platformName=Windows_NT, device=desktop}]
+Session ID: f7174e0a-2d1f-461c-9e95-598b9993deb6
+*** Element info: {Using=xpath, value=//input[starts-with(@name,&apos;CALC_&apos;)]}
+	at sun.reflect.GeneratedConstructorAccessor25.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:127)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:93)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:42)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:163)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:82)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:601)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:368)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:473)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:360)
+	at sun.reflect.GeneratedMethodAccessor9.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$2.invoke(EventFiringWebDriver.java:103)
+	at com.sun.proxy.$Proxy9.findElement(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.findElement(EventFiringWebDriver.java:187)
+	at com.adv.qa.selenium.framework.pageObjects.currency.CurrencyPage.enterFormulaDetails(CurrencyPage.java:2496)
+	at com.adv.qa.selenium.tests.currency.A025_FormulaTest.createFormula(A025_FormulaTest.java:84)
+	at com.adv.qa.selenium.tests.currency.A025_FormulaTest.verify(A025_FormulaTest.java:63)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:104)
+	at org.testng.internal.InvokeMethodRunnable.runOne(InvokeMethodRunnable.java:54)
+	at org.testng.internal.InvokeMethodRunnable.run(InvokeMethodRunnable.java:44)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+</pre></div><a href='#' onClick='toggleBox("stack-trace980204203", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace980204203'><pre>org.openqa.selenium.NoSuchElementException: Unable to locate element: //input[starts-with(@name,&apos;CALC_&apos;)]
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;unknown&apos;, revision: &apos;1969d75&apos;, time: &apos;2016-10-18 09:43:45 -0700&apos;
+System info: host: &apos;ChetnaM-PC&apos;, ip: &apos;10.31.16.11&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_112&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{rotatable=false, raisesAccessibilityExceptions=false, marionette=true, firefoxOptions={args=[], prefs={}}, appBuildId=20160421124000, version=, platform=XP, proxy={}, specificationLevel=1, acceptSslCerts=false, browserVersion=46.0, platformVersion=10.0, XULappId={ec8030f7-c20a-464f-9b0e-13a3a9e97384}, browserName=Firefox, takesScreenshot=true, takesElementScreenshot=true, platformName=Windows_NT, device=desktop}]
+Session ID: f7174e0a-2d1f-461c-9e95-598b9993deb6
+*** Element info: {Using=xpath, value=//input[starts-with(@name,&apos;CALC_&apos;)]}
+	at sun.reflect.GeneratedConstructorAccessor25.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:127)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:93)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:42)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:163)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:82)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:601)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:368)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:473)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:360)
+	at sun.reflect.GeneratedMethodAccessor9.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$2.invoke(EventFiringWebDriver.java:103)
+	at com.sun.proxy.$Proxy9.findElement(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.findElement(EventFiringWebDriver.java:187)
+	at com.adv.qa.selenium.framework.pageObjects.currency.CurrencyPage.enterFormulaDetails(CurrencyPage.java:2496)
+	at com.adv.qa.selenium.tests.currency.A025_FormulaTest.createFormula(A025_FormulaTest.java:84)
+	at com.adv.qa.selenium.tests.currency.A025_FormulaTest.verify(A025_FormulaTest.java:63)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:104)
+	at org.testng.internal.InvokeMethodRunnable.runOne(InvokeMethodRunnable.java:54)
+	at org.testng.internal.InvokeMethodRunnable.run(InvokeMethodRunnable.java:44)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+</pre></div></td>
+<td>92</td>
+<td>com.adv.qa.selenium.tests.currency.A025_FormulaTest@48fa0f47</td></tr>
+<tr>
+<td title='com.adv.qa.selenium.tests.currency.A024B_Batch_TypesTest.verify()'><b>verify</b><br>Test class: com.adv.qa.selenium.tests.currency.A024B_Batch_TypesTest<br>Parameters: [DataUnit [userName = BM], DataUnit [passWord = E5], DataUnit [batchCode = AKK], DataUnit [imBatchTypeForIMAD = IMAD], DataUnit [imBatchTypeForIMAD = Stock Adjustments In], DataUnit [imBatchTypeForIMAD = IM], DataUnit [imBatchTypeForIMAD = Immediate], DataUnit [imBatchTypeForIMAD = 0], DataUnit [imBatchTypeForIMAD = 1], DataUnit [imBatchTypeForIMAD = 1], DataUnit [imBatchTypeForIMAD = 1], DataUnit [imBatchTypeForIMAD = 1], DataUnit [imBatchTypeForIMAD = NILL], DataUnit [imBatchTypeForIMAD = NILL], DataUnit [imBatchTypeForIMAO = IMAO], DataUnit [imBatchTypeForIMAO = Stock Adjustments Out], DataUnit [imBatchTypeForIMAO = IM], DataUnit [imBatchTypeForIMAO = Immediate], DataUnit [imBatchTypeForIMAO = 0], DataUnit [imBatchTypeForIMAO = 1], DataUnit [imBatchTypeForIMAO = 1], DataUnit [imBatchTypeForIMAO = 1], DataUnit [imBatchTypeForIMAO = 1], DataUnit [imBatchTypeForIMAO = NILL], DataUnit [imBatchTypeForIMAO = NILL], DataUnit [imBatchTypeForIMVA = IMVA], DataUnit [imBatchTypeForIMVA = Value Adjustments], DataUnit [imBatchTypeForIMVA = IM], DataUnit [imBatchTypeForIMVA = Immediate], DataUnit [imBatchTypeForIMVA = 0], DataUnit [imBatchTypeForIMVA = 1], DataUnit [imBatchTypeForIMVA = 1], DataUnit [imBatchTypeForIMVA = 1], DataUnit [imBatchTypeForIMVA = 1], DataUnit [imBatchTypeForIMVA = NILL], DataUnit [imBatchTypeForIMVA = NILL], DataUnit [imBatchTypeForIMDI = IMDI], DataUnit [imBatchTypeForIMDI = Disposals], DataUnit [imBatchTypeForIMDI = IM], DataUnit [imBatchTypeForIMDI = Immediate], DataUnit [imBatchTypeForIMDI = 0], DataUnit [imBatchTypeForIMDI = 1], DataUnit [imBatchTypeForIMDI = 1], DataUnit [imBatchTypeForIMDI = 1], DataUnit [imBatchTypeForIMDI = 1], DataUnit [imBatchTypeForIMDI = NILL], DataUnit [imBatchTypeForIMDI = NILL], DataUnit [imBatchTypeForIMTR = IMTR], DataUnit [imBatchTypeForIMTR = IM Store Transfer], DataUnit [imBatchTypeForIMTR = IM], DataUnit [imBatchTypeForIMTR = Immediate], DataUnit [imBatchTypeForIMTR = 0], DataUnit [imBatchTypeForIMTR = 1], DataUnit [imBatchTypeForIMTR = 1], DataUnit [imBatchTypeForIMTR = 1], DataUnit [imBatchTypeForIMTR = 1], DataUnit [imBatchTypeForIMTR = NILL], DataUnit [imBatchTypeForIMTR = NILL], DataUnit [imBatchTypeForIMRS = IMRS], DataUnit [imBatchTypeForIMRS = Return to Stores], DataUnit [imBatchTypeForIMRS = IM], DataUnit [imBatchTypeForIMRS = Immediate], DataUnit [imBatchTypeForIMRS = 0], DataUnit [imBatchTypeForIMRS = 1], DataUnit [imBatchTypeForIMRS = 1], DataUnit [imBatchTypeForIMRS = 1], DataUnit [imBatchTypeForIMRS = 1], DataUnit [imBatchTypeForIMRS = NILL], DataUnit [imBatchTypeForIMRS = NILL], DataUnit [imBatchTypeForIMRU = IMRU], DataUnit [imBatchTypeForIMRU = Returns to Suppliers], DataUnit [imBatchTypeForIMRU = IM], DataUnit [imBatchTypeForIMRU = Immediate], DataUnit [imBatchTypeForIMRU = 0], DataUnit [imBatchTypeForIMRU = 1], DataUnit [imBatchTypeForIMRU = 1], DataUnit [imBatchTypeForIMRU = 1], DataUnit [imBatchTypeForIMRU = 1], DataUnit [imBatchTypeForIMRU = NILL], DataUnit [imBatchTypeForIMRU = NILL], DataUnit [imBatchTypeForIMRC = IMRC], DataUnit [imBatchTypeForIMRC = Revised Cost Variance], DataUnit [imBatchTypeForIMRC = IM], DataUnit [imBatchTypeForIMRC = Immediate], DataUnit [imBatchTypeForIMRC = 0], DataUnit [imBatchTypeForIMRC = 1], DataUnit [imBatchTypeForIMRC = 1], DataUnit [imBatchTypeForIMRC = 1], DataUnit [imBatchTypeForIMRC = 1], DataUnit [imBatchTypeForIMRC = NILL], DataUnit [imBatchTypeForIMRC = NILL], DataUnit [imBatchTypeForIMSC = IMSC], DataUnit [imBatchTypeForIMSC = Standard Cost Revaluation], DataUnit [imBatchTypeForIMSC = IM], DataUnit [imBatchTypeForIMSC = Immediate], DataUnit [imBatchTypeForIMSC = 0], DataUnit [imBatchTypeForIMSC = 1], DataUnit [imBatchTypeForIMSC = 1], DataUnit [imBatchTypeForIMSC = 1], DataUnit [imBatchTypeForIMSC = 1], DataUnit [imBatchTypeForIMSC = NILL], DataUnit [imBatchTypeForIMSC = NILL]]</td>
+<td><div><pre>org.openqa.selenium.NoSuchElementException: Unable to locate element: //fieldset/legend[text()=&apos;Command&apos;]/..//input[contains(@name,&apos;COMMAND&apos;)]
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;unknown&apos;, revision: &apos;1969d75&apos;, time: &apos;2016-10-18 09:43:45 -0700&apos;
+System info: host: &apos;ChetnaM-PC&apos;, ip: &apos;10.31.16.11&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_112&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{rotatable=false, raisesAccessibilityExceptions=false, marionette=true, firefoxOptions={args=[], prefs={}}, appBuildId=20160421124000, version=, platform=XP, proxy={}, specificationLevel=1, acceptSslCerts=false, browserVersion=46.0, platformVersion=10.0, XULappId={ec8030f7-c20a-464f-9b0e-13a3a9e97384}, browserName=Firefox, takesScreenshot=true, takesElementScreenshot=true, platformName=Windows_NT, device=desktop}]
+Session ID: 4fbcbedd-eadf-4777-a317-3541dd3a60e5
+*** Element info: {Using=xpath, value=//fieldset/legend[text()=&apos;Command&apos;]/..//input[contains(@name,&apos;COMMAND&apos;)]}
+	at sun.reflect.GeneratedConstructorAccessor25.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:127)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:93)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:42)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:163)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:82)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:601)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:368)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:473)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:360)
+	at sun.reflect.GeneratedMethodAccessor9.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$2.invoke(EventFiringWebDriver.java:103)
+	at com.sun.proxy.$Proxy9.findElement(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.findElement(EventFiringWebDriver.java:187)
+	at com.adv.qa.selenium.framework.pageObjects.currency.CurrencyPage.isCommandDisplayed(CurrencyPage.java:141)
+	at com.adv.qa.selenium.tests.currency.A024B_Batch_TypesTest.verify(A024B_Batch_TypesTest.java:61)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:104)
+	at org.testng.internal.InvokeMethodRunnable.runOne(InvokeMethodRunnable.java:54)
+	at org.testng.internal.InvokeMethodRunnable.run(InvokeMethodRunnable.java:44)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+</pre></div><a href='#' onClick='toggleBox("stack-trace701944921", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace701944921'><pre>org.openqa.selenium.NoSuchElementException: Unable to locate element: //fieldset/legend[text()=&apos;Command&apos;]/..//input[contains(@name,&apos;COMMAND&apos;)]
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;unknown&apos;, revision: &apos;1969d75&apos;, time: &apos;2016-10-18 09:43:45 -0700&apos;
+System info: host: &apos;ChetnaM-PC&apos;, ip: &apos;10.31.16.11&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_112&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{rotatable=false, raisesAccessibilityExceptions=false, marionette=true, firefoxOptions={args=[], prefs={}}, appBuildId=20160421124000, version=, platform=XP, proxy={}, specificationLevel=1, acceptSslCerts=false, browserVersion=46.0, platformVersion=10.0, XULappId={ec8030f7-c20a-464f-9b0e-13a3a9e97384}, browserName=Firefox, takesScreenshot=true, takesElementScreenshot=true, platformName=Windows_NT, device=desktop}]
+Session ID: 4fbcbedd-eadf-4777-a317-3541dd3a60e5
+*** Element info: {Using=xpath, value=//fieldset/legend[text()=&apos;Command&apos;]/..//input[contains(@name,&apos;COMMAND&apos;)]}
+	at sun.reflect.GeneratedConstructorAccessor25.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:127)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:93)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:42)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:163)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:82)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:601)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:368)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:473)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:360)
+	at sun.reflect.GeneratedMethodAccessor9.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$2.invoke(EventFiringWebDriver.java:103)
+	at com.sun.proxy.$Proxy9.findElement(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.findElement(EventFiringWebDriver.java:187)
+	at com.adv.qa.selenium.framework.pageObjects.currency.CurrencyPage.isCommandDisplayed(CurrencyPage.java:141)
+	at com.adv.qa.selenium.tests.currency.A024B_Batch_TypesTest.verify(A024B_Batch_TypesTest.java:61)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:104)
+	at org.testng.internal.InvokeMethodRunnable.runOne(InvokeMethodRunnable.java:54)
+	at org.testng.internal.InvokeMethodRunnable.run(InvokeMethodRunnable.java:44)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+</pre></div></td>
+<td>136</td>
+<td>com.adv.qa.selenium.tests.currency.A024B_Batch_TypesTest@1677d1</td></tr>
+</table><p>
+</body>
+</html>

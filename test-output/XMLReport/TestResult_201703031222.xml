@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?><SeleniumTestReport>
+<TestCase>
+<A028_Default_Structure_ControlsTest>
+<Verification1>03/03/2017 12:23:12 | Pass : Login page displayed</Verification1>
+<Verification2>03/03/2017 12:23:16 | Pass : Command line displayed</Verification2>
+<Verification3>03/03/2017 12:23:28 | Pass : Currency search page displayed</Verification3>
+<Verification4>03/03/2017 12:24:45 | Pass : Default control structure 2 displayed in the list</Verification4>
+</A028_Default_Structure_ControlsTest>
+</TestCase>
+</SeleniumTestReport>

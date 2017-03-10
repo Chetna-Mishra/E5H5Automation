@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?><SeleniumTestReport>
+<TestCase>
+<A032A_PathKeyNewParentTest>
+<Verification1>06/03/2017 11:00:11 | Pass : Login page displayed</Verification1>
+<Verification2>06/03/2017 11:00:16 | Pass : Command line displayed</Verification2>
+<Verification3>06/03/2017 11:00:27 | Pass : Currency search page displayed</Verification3>
+<Verification4>06/03/2017 11:01:11 | Pass : Management code SOUTH updated successfully</Verification4>
+<Verification5>06/03/2017 11:02:00 | Pass : Management code EAST updated successfully</Verification5>
+<Verification6>06/03/2017 11:02:47 | Pass : Management code NORTH updated successfully</Verification6>
+<Verification7>06/03/2017 11:03:35 | Pass : Management code SOUTH updated successfully</Verification7>
+<Verification8>06/03/2017 11:04:22 | Pass : Management code EAST updated successfully</Verification8>
+<Verification9>06/03/2017 11:05:09 | Pass : Management code WEST updated successfully</Verification9>
+</A032A_PathKeyNewParentTest>
+</TestCase>
+</SeleniumTestReport>

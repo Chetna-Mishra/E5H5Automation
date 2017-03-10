@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?><SeleniumTestReport>
+<TestCase>
+<A026_Layout_CodesTest>
+<Verification1>03/03/2017 11:25:57 | Pass : Login page displayed</Verification1>
+<Verification2>03/03/2017 11:26:02 | Pass : Command line displayed</Verification2>
+<Verification3>03/03/2017 11:26:13 | Pass : Currency search page displayed</Verification3>
+<Verification4>03/03/2017 11:28:48 | Pass : Layout code LAY1 displayed in the list</Verification4>
+</A026_Layout_CodesTest>
+</TestCase>
+</SeleniumTestReport>

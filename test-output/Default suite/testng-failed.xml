@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default suite]">
+  <test name="Default test(failed)" preserve-order="true">
+    <classes>
+      <class name="com.adv.qa.selenium.tests.currency.A002_Currency_DescriptionTest">
+        <methods>
+          <include name="beforeClass"/>
+          <include name="tearDown"/>
+          <include name="verify" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- com.adv.qa.selenium.tests.currency.A002_Currency_DescriptionTest -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

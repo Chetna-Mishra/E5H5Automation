@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?><SeleniumTestReport>
+<TestCase>
+<A001A_On_line_AuditingTest>
+<Verification1>09/03/2017 04:36:42 | Pass : Login page displayed</Verification1>
+<Verification2>09/03/2017 04:36:47 | Pass : Command line displayed</Verification2>
+<Verification3>09/03/2017 04:36:58 | Pass : Search page displayed</Verification3>
+<Verification4>09/03/2017 04:37:11 | Pass : Currency TPBSUPP displayed in the list</Verification4>
+<Verification5>09/03/2017 04:37:21 | Pass : Column definition displayed</Verification5>
+<Verification6>09/03/2017 04:37:22 | Pass : Column definition def displayed</Verification6>
+</A001A_On_line_AuditingTest>
+<A001_Switch_Intra_Company_Accounting_OnTest>
+<Verification1>09/03/2017 04:38:51 | Pass : Login page displayed</Verification1>
+<Verification2>09/03/2017 04:38:56 | Pass : Command line displayed</Verification2>
+<Verification3>09/03/2017 04:39:08 | Pass : Financial module fields checked by default</Verification3>
+<Verification4>09/03/2017 04:39:12 | Pass : Purchasing module fields checked by default</Verification4>
+</A001_Switch_Intra_Company_Accounting_OnTest>
+<A002_Currency_DescriptionTest>
+<Verification1>09/03/2017 04:39:58 | Pass : Login page displayed</Verification1>
+<Verification2>09/03/2017 04:40:03 | Pass : Command line displayed</Verification2>
+<Verification3>09/03/2017 04:40:14 | Pass : Search page displayed</Verification3>
+</A002_Currency_DescriptionTest>
+<A003_Currency_Base_NonBase_RelationshipsTest/>
+<A004A_Rate_Type_Currency_ExchangeTest/>
+<A004_Currency_Exchange_Rate_TypesTest/>
+<A005_Currency_Exchange_RatesTest/>
+<A006_Company_DefinitionTest>
+<Verification1>09/03/2017 04:41:09 | Pass : Login page displayed</Verification1>
+<Verification2>09/03/2017 04:41:14 | Pass : Command line displayed</Verification2>
+<Verification3>09/03/2017 04:41:25 | Pass : Search page displayed</Verification3>
+</A006_Company_DefinitionTest>
+<A007_DevicesTest/>
+</TestCase>
+</SeleniumTestReport>

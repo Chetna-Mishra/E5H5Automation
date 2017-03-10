@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?><SeleniumTestReport>
+<TestCase>
+<A032A_PathKeyNewParentTest>
+<Verification1>06/03/2017 10:56:45 | Pass : Login page displayed</Verification1>
+<Verification2>06/03/2017 10:56:49 | Pass : Command line displayed</Verification2>
+<Verification3>06/03/2017 10:57:01 | Pass : Currency search page displayed</Verification3>
+</A032A_PathKeyNewParentTest>
+</TestCase>
+</SeleniumTestReport>

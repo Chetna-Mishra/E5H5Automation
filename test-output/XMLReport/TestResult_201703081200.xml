@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?><SeleniumTestReport>
+<TestCase>
+<A035_Structure_RebuildOracleTest>
+<Verification1>08/03/2017 12:00:41 | Pass : Login page displayed</Verification1>
+<Verification2>08/03/2017 12:00:45 | Pass : Command line displayed</Verification2>
+<Verification3>08/03/2017 12:00:57 | Pass : Structure Rebuild page displayed</Verification3>
+</A035_Structure_RebuildOracleTest>
+</TestCase>
+</SeleniumTestReport>

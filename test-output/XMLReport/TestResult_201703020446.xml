@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?><SeleniumTestReport>
+<TestCase>
+<A018E_Ledger_Control_Nominals>
+<Verification1>02/03/2017 04:46:48 | Pass : Login page displayed</Verification1>
+<Verification2>02/03/2017 04:46:53 | Pass : Command line displayed</Verification2>
+<Verification3>02/03/2017 04:47:04 | Pass : Currency search page displayed</Verification3>
+<Verification4>02/03/2017 04:47:25 | Pass : New ledger control GLICA1 displayed in the list</Verification4>
+<Verification5>02/03/2017 04:47:31 | Pass : New ledger control 4000 displayed in the list</Verification5>
+<Verification6>02/03/2017 04:47:38 | Pass : New ledger control 4100 displayed in the list</Verification6>
+<Verification7>02/03/2017 04:47:44 | Pass : New ledger control 4200 displayed in the list</Verification7>
+<Verification8>02/03/2017 04:47:54 | Pass : New ledger control 6000 displayed in the list</Verification8>
+<Verification9>02/03/2017 04:48:00 | Pass : New ledger control 6100 displayed in the list</Verification9>
+<Verification10>02/03/2017 04:48:07 | Pass : New ledger control 1560 displayed in the list</Verification10>
+<Verification11>02/03/2017 04:48:14 | Pass : New ledger control 1661 displayed in the list</Verification11>
+<Verification12>02/03/2017 04:48:20 | Pass : New ledger control 2001 displayed in the list</Verification12>
+<Verification13>02/03/2017 04:48:27 | Pass : New ledger control 2100 displayed in the list</Verification13>
+</A018E_Ledger_Control_Nominals>
+<A018D_Ledger_Control_Nominals>
+<Verification1>02/03/2017 04:46:48 | Pass : Login page displayed</Verification1>
+<Verification2>02/03/2017 04:46:53 | Pass : Command line displayed</Verification2>
+<Verification3>02/03/2017 04:47:04 | Pass : Currency search page displayed</Verification3>
+<Verification4>02/03/2017 04:48:56 | Fail : New ledger control STKE not displayed in the list</Verification4>
+<Verification5>02/03/2017 04:50:34 | Fail : New ledger control STKS not displayed in the list</Verification5>
+<Verification6>02/03/2017 04:52:11 | Fail : New ledger control STKW not displayed in the list</Verification6>
+<Verification7>02/03/2017 04:53:49 | Fail : New ledger control STKN not displayed in the list</Verification7>
+<Verification8>02/03/2017 04:55:27 | Fail : New ledger control INTE not displayed in the list</Verification8>
+<Verification9>02/03/2017 04:57:05 | Fail : New ledger control INTW not displayed in the list</Verification9>
+<Verification10>02/03/2017 04:58:43 | Fail : New ledger control INTS not displayed in the list</Verification10>
+<Verification11>02/03/2017 05:00:20 | Fail : New ledger control INTN not displayed in the list</Verification11>
+<Verification12>02/03/2017 05:01:58 | Fail : New ledger control DEN not displayed in the list</Verification12>
+<Verification13>02/03/2017 05:03:35 | Fail : New ledger control ARCM not displayed in the list</Verification13>
+</A018D_Ledger_Control_Nominals>
+<A018F_Ledger_Control_Nominals>
+<Verification1>02/03/2017 05:04:42 | Pass : Login page displayed</Verification1>
+<Verification2>02/03/2017 05:04:46 | Pass : Command line displayed</Verification2>
+<Verification3>02/03/2017 05:04:58 | Pass : Currency search page displayed</Verification3>
+<Verification4>02/03/2017 05:06:50 | Fail : New ledger control 5500 not displayed in the list</Verification4>
+<Verification5>02/03/2017 05:08:27 | Fail : New ledger control VATA not displayed in the list</Verification5>
+<Verification6>02/03/2017 05:10:05 | Fail : New ledger control 5901 not displayed in the list</Verification6>
+<Verification7>02/03/2017 05:11:43 | Fail : New ledger control 5902 not displayed in the list</Verification7>
+<Verification8>02/03/2017 05:13:21 | Fail : New ledger control 5903 not displayed in the list</Verification8>
+<Verification9>02/03/2017 05:13:58 | Fail : New ledger control EXP1 not displayed in the list</Verification9>
+<Verification10>02/03/2017 05:14:36 | Fail : New ledger control EXP2 not displayed in the list</Verification10>
+<Verification11>02/03/2017 05:16:14 | Fail : New ledger control TRAN not displayed in the list</Verification11>
+<Verification12>02/03/2017 05:16:20 | Pass : New ledger control STKR displayed in the list</Verification12>
+<Verification13>02/03/2017 05:17:58 | Fail : New ledger control OCST not displayed in the list</Verification13>
+</A018F_Ledger_Control_Nominals>
+<A018G_Ledger_Control_Nominals>
+<Verification1>02/03/2017 05:04:43 | Pass : Login page displayed</Verification1>
+<Verification2>02/03/2017 05:04:48 | Pass : Command line displayed</Verification2>
+<Verification3>02/03/2017 05:04:59 | Pass : Currency search page displayed</Verification3>
+<Verification4>02/03/2017 05:06:51 | Fail : New ledger control SONY not displayed in the list</Verification4>
+<Verification5>02/03/2017 05:08:28 | Fail : New ledger control PION not displayed in the list</Verification5>
+<Verification6>02/03/2017 05:10:06 | Fail : New ledger control TOSH not displayed in the list</Verification6>
+<Verification7>02/03/2017 05:11:44 | Fail : New ledger control PANN not displayed in the list</Verification7>
+<Verification8>02/03/2017 05:13:21 | Fail : New ledger control WHAF not displayed in the list</Verification8>
+<Verification9>02/03/2017 05:14:59 | Fail : New ledger control SHIN not displayed in the list</Verification9>
+<Verification10>02/03/2017 05:16:37 | Fail : New ledger control GRUN not displayed in the list</Verification10>
+<Verification11>02/03/2017 05:18:14 | Fail : New ledger control SAMS not displayed in the list</Verification11>
+<Verification12>02/03/2017 05:19:52 | Fail : New ledger control HITC not displayed in the list</Verification12>
+<Verification13>02/03/2017 05:21:30 | Fail : New ledger control AIWA not displayed in the list</Verification13>
+</A018G_Ledger_Control_Nominals>
+</TestCase>
+</SeleniumTestReport>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?><SeleniumTestReport>
+<TestCase>
+<A032A_Management_CodesTest>
+<Verification1>03/03/2017 06:10:07 | Pass : Login page displayed</Verification1>
+<Verification2>03/03/2017 06:10:11 | Pass : Command line displayed</Verification2>
+<Verification3>03/03/2017 06:10:22 | Pass : Currency search page displayed</Verification3>
+<Verification4>03/03/2017 06:11:04 | Pass : Management code NORTH updated successfully</Verification4>
+</A032A_Management_CodesTest>
+</TestCase>
+</SeleniumTestReport>

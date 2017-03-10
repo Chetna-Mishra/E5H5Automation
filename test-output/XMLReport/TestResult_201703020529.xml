@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?><SeleniumTestReport>
+<TestCase>
+<A019_Ledger_Control_Management_CodeTest>
+<Verification1>02/03/2017 05:30:08 | Pass : Login page displayed</Verification1>
+<Verification2>02/03/2017 05:30:08 | Pass : Login page displayed</Verification2>
+<Verification3>02/03/2017 05:30:12 | Pass : Command line displayed</Verification3>
+<Verification4>02/03/2017 05:30:24 | Pass : Currency search page displayed</Verification4>
+<Verification5>02/03/2017 05:31:23 | Pass : management code DUM displayed in the list</Verification5>
+</A019_Ledger_Control_Management_CodeTest>
+<A020_Ledger_Control_AccountsTest>
+<Verification1>02/03/2017 05:32:09 | Pass : Login page displayed</Verification1>
+<Verification2>02/03/2017 05:32:13 | Pass : Command line displayed</Verification2>
+<Verification3>02/03/2017 05:32:24 | Pass : Currency search page displayed</Verification3>
+<Verification4>02/03/2017 05:33:24 | Pass : Ledger control account IM displayed in the list</Verification4>
+</A020_Ledger_Control_AccountsTest>
+<A021_Batch_TypesTest>
+<Verification1>02/03/2017 05:34:09 | Pass : Login page displayed</Verification1>
+<Verification2>02/03/2017 05:34:14 | Pass : Command line displayed</Verification2>
+<Verification3>02/03/2017 05:34:25 | Pass : Currency search page displayed</Verification3>
+<Verification4>02/03/2017 05:36:08 | Pass : New batch type Revaluation displayed in the list</Verification4>
+<Verification5>02/03/2017 05:36:10 | Pass : New batch type Transfer displayed in the list</Verification5>
+<Verification6>02/03/2017 05:36:12 | Pass : New batch type Summarisation displayed in the list</Verification6>
+</A021_Batch_TypesTest>
+<A022_Balance_ClassesTest>
+<Verification1>02/03/2017 05:36:57 | Pass : Login page displayed</Verification1>
+<Verification2>02/03/2017 05:37:01 | Pass : Command line displayed</Verification2>
+<Verification3>02/03/2017 05:37:13 | Pass : Currency search page displayed</Verification3>
+<Verification4>02/03/2017 05:41:04 | Pass : New balance class S,1 displayed in the list</Verification4>
+<Verification5>02/03/2017 05:41:07 | Pass : New balance class I,C displayed in the list</Verification5>
+<Verification6>02/03/2017 05:41:10 | Pass : New balance class B,1 displayed in the list</Verification6>
+<Verification7>02/03/2017 05:41:13 | Pass : New balance class V,1 displayed in the list</Verification7>
+<Verification8>02/03/2017 05:41:17 | Pass : New balance class R,S displayed in the list</Verification8>
+<Verification9>02/03/2017 05:41:21 | Pass : New balance class B,S displayed in the list</Verification9>
+</A022_Balance_ClassesTest>
+<A023_Company_ControlsTest>
+<Verification1>02/03/2017 05:42:06 | Pass : Login page displayed</Verification1>
+<Verification2>02/03/2017 05:42:10 | Pass : Command line displayed</Verification2>
+<Verification3>02/03/2017 05:42:21 | Pass : Currency search page displayed</Verification3>
+<Verification4>02/03/2017 05:44:10 | Pass : Company controls for new company IM completed</Verification4>
+</A023_Company_ControlsTest>
+<A024_Batch_TypesTest>
+<Verification1>02/03/2017 05:44:59 | Pass : Login page displayed</Verification1>
+<Verification2>02/03/2017 05:45:04 | Pass : Command line displayed</Verification2>
+<Verification3>02/03/2017 05:45:15 | Pass : Currency search page displayed</Verification3>
+<Verification4>02/03/2017 05:46:59 | Fail : New batch type  TRN not displayed in the list</Verification4>
+<Verification5>02/03/2017 05:48:28 | Fail : New batch type  REVV not displayed in the list</Verification5>
+<Verification6>02/03/2017 05:49:58 | Fail : New batch type  BASE not displayed in the list</Verification6>
+<Verification7>02/03/2017 05:51:27 | Fail : New batch type  ACCR not displayed in the list</Verification7>
+<Verification8>02/03/2017 05:52:57 | Fail : New batch type  FORN not displayed in the list</Verification8>
+<Verification9>02/03/2017 05:54:26 | Fail : New batch type  FRNB not displayed in the list</Verification9>
+<Verification10>02/03/2017 05:55:56 | Fail : New batch type  PLAN not displayed in the list</Verification10>
+<Verification11>02/03/2017 05:57:25 | Fail : New batch type  RECC not displayed in the list</Verification11>
+</A024_Batch_TypesTest>
+<A024A_Batch_TypesTest>
+<Verification1>02/03/2017 05:44:55 | Pass : Login page displayed</Verification1>
+<Verification2>02/03/2017 05:45:00 | Pass : Command line displayed</Verification2>
+<Verification3>02/03/2017 05:45:11 | Pass : Currency search page displayed</Verification3>
+<Verification4>02/03/2017 05:46:55 | Fail : New batch type  BR1 not displayed in the list</Verification4>
+<Verification5>02/03/2017 05:48:25 | Fail : New batch type  BR2 not displayed in the list</Verification5>
+<Verification6>02/03/2017 05:49:55 | Fail : New batch type  BR3 not displayed in the list</Verification6>
+<Verification7>02/03/2017 05:51:25 | Fail : New batch type  ACC not displayed in the list</Verification7>
+<Verification8>02/03/2017 05:52:55 | Fail : New batch type  IMGL not displayed in the list</Verification8>
+<Verification9>02/03/2017 05:54:25 | Fail : New batch type  IMG1 not displayed in the list</Verification9>
+<Verification10>02/03/2017 05:55:55 | Fail : New batch type  IMG2 not displayed in the list</Verification10>
+<Verification11>02/03/2017 05:57:24 | Fail : New batch type  IMRT not displayed in the list</Verification11>
+<Verification12>02/03/2017 05:58:54 | Fail : New batch type  IMMI not displayed in the list</Verification12>
+</A024A_Batch_TypesTest>
+</TestCase>
+</SeleniumTestReport>
