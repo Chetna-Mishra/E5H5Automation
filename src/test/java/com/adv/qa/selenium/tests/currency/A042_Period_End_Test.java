@@ -60,6 +60,7 @@ public class A042_Period_End_Test extends BaseTest{
 //				currencyPage.enterPeriodAndYearDetails(companyId);
 				currencyPage.clickOnGLPeriod();
 				currencyPage.clickOnUpdate();
+				
 				period = Integer.parseInt(currencyPage.periodOfTheYear());
 			}while(period != 13);
 		}

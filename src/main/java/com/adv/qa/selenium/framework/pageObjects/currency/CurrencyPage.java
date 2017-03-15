@@ -147,20 +147,50 @@ public class CurrencyPage extends Page{
 	}
 	
 	/**
+	 * Verify presence of Change Company/Role pop up
+	 * @return
+	 */
+	 
+	 	private boolean isChangeCMPYPopUpDisplayed(){
+		WaitHelper.waitAdditional(2);
+		return getDriver().findElement(By.xpath(pObject.A039_LKP_OK)).isDisplayed();
+		
+	}
+	
+	
+	/**
 	 * Change company from default company
 	 * @param company
 	 */
 	public void clickOnChangeCompany(String company){
 		log.info("Inside chamgeCompany method");
-		WaitHelper.waitAdditional(3);
-		getDriver().findElement(By.id(pObject.ZERO_+pObject.FOUR+pObject.LABEL)).click();
-		getDriver().findElement(By.id(pObject.ONE+pObject._+pObject.FOUR)).clear();
-		WaitHelper.waitAdditional(1);
-		getDriver().findElement(By.id(pObject.ONE+pObject._+pObject.FOUR)).sendKeys(company);//Company
 		WaitHelper.waitAdditional(2);
-		getDriver().findElement(By.id(pObject.ONE+pObject._FIRST+pObject.LABEL)).click();
+		
+		getDriver().findElement(By.xpath(pObject.A039_CHANGE_CMPY)).click();//ChangeCompany/Role button
+		WaitHelper.waitAdditional(2);
+		
+		if(!isChangeCMPYPopUpDisplayed()){
+			WaitHelper.waitAdditional(3);
+		}
+		
+		getDriver().findElement(By.xpath(pObject.A039_LKP_CMPY)).clear(); //Company
+		WaitHelper.waitAdditional(1);
+		getDriver().findElement(By.xpath(pObject.A039_LKP_CMPY)).sendKeys(company);//Company
+		WaitHelper.waitAdditional(2);
+		getDriver().findElement(By.xpath(pObject.A039_LKP_OK)).click(); //Ok Button
 		WaitHelper.waitAdditional(4);
+		
+//		getDriver().findElement(By.id(pObject.ZERO_+pObject.FOUR+pObject.LABEL)).click();
+		
+//		getDriver().findElement(By.id(pObject.ONE+pObject._+pObject.FOUR)).clear();
+//		WaitHelper.waitAdditional(1);
+//		getDriver().findElement(By.id(pObject.ONE+pObject._+pObject.FOUR)).sendKeys(company);//Company
+//		WaitHelper.waitAdditional(2);
+//		getDriver().findElement(By.id(pObject.ONE+pObject._FIRST+pObject.LABEL)).click();
+//		WaitHelper.waitAdditional(4);
 	}
+	
+	
 	
 	/**
 	 * Modified by Chetna, Dt: 17-01-2017
@@ -3229,13 +3259,13 @@ if(entityname.get(1).equals("1"))
 	
 		WaitHelper.waitAdditional(1);
 		
-		ClickOnSubmit();//Submit button
+		ClickOnSubmitFooter();//Submit button
 		WaitHelper.waitAdditional(1);
 		
 	}
 	
 	
-	public void ClickOnSubmit(){
+	public void ClickOnSubmitFooter(){
 		log.info("Click on Submit Button");
 		WaitHelper.waitAdditional(3);
 		List<WebElement> wbs = getAllFooterButton();
@@ -4495,19 +4525,25 @@ if(entityname.get(1).equals("1"))
 	public void enterEP2ProcessDetails(List<String> processDetails,String companyName){
 		log.info("Enter EP2 process details");
 		WaitHelper.waitAdditional(2);
-		getDriver().findElement(By.id(pObject.ZERO_+pObject.ONE+pObject.SEVEN)).clear();
+		
+		getDriver().findElement(By.xpath(pObject.A035_REQ)).clear();//Request
 		WaitHelper.waitAdditional(1);
-		getDriver().findElement(By.id(pObject.ZERO_+pObject.ONE+pObject.SEVEN)).sendKeys(processDetails.get(1));//Request
-		getDriver().findElement(By.id(pObject.ZERO_+pObject.ZERO)).clear();
+		getDriver().findElement(By.xpath(pObject.A035_REQ)).sendKeys(processDetails.get(1));//Request
+		
+		getDriver().findElement(By.xpath(pObject.A035_CMPY)).clear();
 		WaitHelper.waitAdditional(1);
-		getDriver().findElement(By.id(pObject.ZERO_+pObject.ZERO)).sendKeys(companyName);//Company ID
+		getDriver().findElement(By.xpath(pObject.A035_CMPY)).sendKeys(companyName);//Company ID
 		WaitHelper.waitAdditional(1);
-		getDriver().findElement(By.id(pObject.ZERO_+pObject.ZERO)).sendKeys(Keys.ENTER);
+		
+		getDriver().findElement(By.xpath(pObject.A035_CMPY)).sendKeys(Keys.ENTER);
 		WaitHelper.waitAdditional(3);
-		getDriver().findElement(By.id(pObject.CHECK+pObject.ZERO_+pObject.ONE)).click();//Update all
+		
+		getDriver().findElement(By.xpath(pObject.A038_CHK_UPDT_All)).click();//Update all
 		WaitHelper.waitAdditional(2);
-		getDriver().findElement(By.id(pObject.CHECK+pObject.ZERO_+pObject.TWO)).click();//Net balance
+		
+		getDriver().findElement(By.xpath(pObject.A038_CHK_NET_BAL)).click();//Net balance
 		WaitHelper.waitAdditional(2);
+		
 		
 		getDriver().findElement(By.xpath("//div[1]/table/tbody/tr/td[5]")).click();//Balance class field
 		getDriver().findElement(By.xpath("//div[1]/table/tbody/tr/td[5]")).click();
@@ -4519,16 +4555,12 @@ if(entityname.get(1).equals("1"))
 //		builder.moveToElement(driver.findElement(By.xpath("//div[2]/div[2]/div/div/div/div[1]/table/tbody/tr/td[5]"))).click().sendKeys(processDetails.get(2)).build().perform();
 
 		WaitHelper.waitAdditional(3);
-		ClickOnSubmit();//Submit button
+		ClickOnSubmitFooter();//Submit button
 		
 		WaitHelper.waitAdditional(5);
-		ClickOnSubmit();//Submit button
+		ClickOnSubmitFooter();//Submit button
 		WaitHelper.waitAdditional(3);
 		
-//		getDriver().findElement(By.id(pObject.ZERO_+21+pObject.LABEL)).click();//Submit button
-//		WaitHelper.waitAdditional(5);
-//		getDriver().findElement(By.id(pObject.ZERO_+21+pObject.LABEL)).click();//Submit button
-//		WaitHelper.waitAdditional(2);
 		
 	}
 	
@@ -4536,19 +4568,35 @@ if(entityname.get(1).equals("1"))
 	 * Enter Process EP4 details - A041
 	 * @param processDetails
 	 */
-	public void enterEP4ProcessDetails(String processDetails){
-		getDriver().findElement(By.id(pObject.ZERO_+pObject.EIGHT)).clear();
-		getDriver().findElement(By.id(pObject.ZERO_+pObject.EIGHT)).sendKeys(processDetails);
-		getDriver().findElement(By.id(pObject.ZERO_+pObject.EIGHT)).sendKeys(Keys.ENTER);
-		WaitHelper.waitAdditional(3);
-		clickOnSubmit();
+	
+	public void enterEP4ProcessDetails(List<String> processDetails,String companyName){
+		
+		getDriver().findElement(By.xpath(pObject.A035_REQ)).clear();
+		WaitHelper.waitAdditional(1);
+		getDriver().findElement(By.xpath(pObject.A035_REQ)).sendKeys(processDetails.get(3));//Request
+		WaitHelper.waitAdditional(1);
+		getDriver().findElement(By.xpath(pObject.A035_CMPY)).clear();
+		WaitHelper.waitAdditional(1);
+		getDriver().findElement(By.xpath(pObject.A035_CMPY)).sendKeys(companyName);//Company ID
+		WaitHelper.waitAdditional(1);
+		
+		ClickOnSubmitFooter();	
+		
 	}
+	
+//	public void enterEP4ProcessDetails(String processDetails){
+//		getDriver().findElement(By.id(pObject.ZERO_+pObject.EIGHT)).clear();
+//		getDriver().findElement(By.id(pObject.ZERO_+pObject.EIGHT)).sendKeys(processDetails);
+//		getDriver().findElement(By.id(pObject.ZERO_+pObject.EIGHT)).sendKeys(Keys.ENTER);
+//		WaitHelper.waitAdditional(3);
+//		ClickOnSubmitFooter();
+//	}
 	
 	/**
 	 * Click on submit button
 	 */
 	public void clickOnSubmit(){
-		log.info("Clicking on Years button");
+		log.info("Clicking on Submit button");
 		WaitHelper.waitAdditional(2);		
 		List<WebElement> wbs = getDriver().findElements(By.className(pObject.HEADER_TAB_BTN));
 		for(WebElement wb : wbs){
@@ -4566,20 +4614,39 @@ if(entityname.get(1).equals("1"))
 	public void enterEP5ProcessDetails(List<String> processDetails,String companyName){
 		log.info("Enter EP5 process details");
 		WaitHelper.waitAdditional(2);
-		getDriver().findElement(By.id(pObject.ZERO_+pObject.ONE+pObject.SEVEN)).clear();
+		
+		getDriver().findElement(By.xpath(pObject.A035_REQ)).clear();//Request
 		WaitHelper.waitAdditional(1);
-		getDriver().findElement(By.id(pObject.ZERO_+pObject.ONE+pObject.SEVEN)).sendKeys(processDetails.get(3));//Request
+		getDriver().findElement(By.xpath(pObject.A035_REQ)).sendKeys(processDetails.get(3));//Request
+		
+		getDriver().findElement(By.xpath(pObject.A035_CMPY)).clear();
 		WaitHelper.waitAdditional(1);
-		getDriver().findElement(By.id(pObject.ZERO_+pObject.ZERO)).clear();
+		getDriver().findElement(By.xpath(pObject.A035_CMPY)).sendKeys(companyName);//Company ID
 		WaitHelper.waitAdditional(1);
-		getDriver().findElement(By.id(pObject.ZERO_+pObject.ZERO)).sendKeys(companyName);//Company ID
-		WaitHelper.waitAdditional(1);
-		getDriver().findElement(By.id(pObject.CHECK+pObject.ZERO_+pObject.ONE)).click();//Update all
-		WaitHelper.waitAdditional(1);
-		getDriver().findElement(By.id(pObject.ZERO_+pObject.ZERO)).sendKeys(Keys.ENTER);
+		
+		getDriver().findElement(By.xpath(pObject.A035_CMPY)).sendKeys(Keys.ENTER);
 		WaitHelper.waitAdditional(3);
-		clickOnSubmit();
+		
+		getDriver().findElement(By.xpath(pObject.A038_CHK_UPDT_All)).click();//Update all
 		WaitHelper.waitAdditional(2);
+		
+		ClickOnSubmitFooter();	
+		WaitHelper.waitAdditional(2);
+		
+//		getDriver().findElement(By.id(pObject.ZERO_+pObject.ONE+pObject.SEVEN)).clear();
+//		WaitHelper.waitAdditional(1);
+//		getDriver().findElement(By.id(pObject.ZERO_+pObject.ONE+pObject.SEVEN)).sendKeys(processDetails.get(3));//Request
+//		WaitHelper.waitAdditional(1);
+//		getDriver().findElement(By.id(pObject.ZERO_+pObject.ZERO)).clear();
+//		WaitHelper.waitAdditional(1);
+//		getDriver().findElement(By.id(pObject.ZERO_+pObject.ZERO)).sendKeys(companyName);//Company ID
+//		WaitHelper.waitAdditional(1);
+//		getDriver().findElement(By.id(pObject.CHECK+pObject.ZERO_+pObject.ONE)).click();//Update all
+//		WaitHelper.waitAdditional(1);
+//		getDriver().findElement(By.id(pObject.ZERO_+pObject.ZERO)).sendKeys(Keys.ENTER);
+//		WaitHelper.waitAdditional(3);
+//		clickOnSubmit();
+//		WaitHelper.waitAdditional(2);
 	}
 	
 	/**
@@ -4589,18 +4656,21 @@ if(entityname.get(1).equals("1"))
 	public void balanceSheetDetails(List<String> group){
 		log.info("Enter balance sheet details");
 		WaitHelper.waitAdditional(2);
-		getDriver().findElement(By.id(pObject.ZERO_+pObject.ZERO)).clear();
-		getDriver().findElement(By.id(pObject.ZERO_+pObject.ZERO)).sendKeys(group.get(0));//Enter Label
+		getDriver().findElement(By.xpath(pObject.A026_LAYT)).clear();
+		getDriver().findElement(By.xpath(pObject.A026_LAYT)).sendKeys(group.get(0));//Enter Layout
 		
-		clickOnSections(1);		
+//		clickOnSections(1);	
+		
+		getDriver().findElement(By.xpath(pObject.A039_EXT_SEL)).click();
+		
 		WaitHelper.waitAdditional(1);
-		getDriver().findElement(By.id(pObject.ZERO_+pObject.TWO+pObject.ZERO)).clear();
-		getDriver().findElement(By.id(pObject.ZERO_+pObject.TWO+pObject.ZERO)).sendKeys(group.get(1));//Enter Group
+		getDriver().findElement(By.xpath(pObject.A016_GRP)).clear();
+		getDriver().findElement(By.xpath(pObject.A016_GRP)).sendKeys(group.get(1));//Enter Group
 		WaitHelper.waitAdditional(1);
 //		getDriver().findElement(By.id(pObject.ZERO_+pObject.TWO+pObject.TWO)).clear();
 //		getDriver().findElement(By.id(pObject.ZERO_+pObject.TWO+pObject.TWO)).sendKeys(group.get(1));//Enter catg
 		WaitHelper.waitAdditional(1);
-		getDriver().findElement(By.id(pObject.ZERO_+pObject.FOUR+pObject.FOUR+pObject.LABEL)).click();//Ok button
+		getDriver().findElement(By.xpath(pObject.A039_EXT_OK)).click();//Ok button
 		WaitHelper.waitAdditional(2);
 	}
 
@@ -4936,6 +5006,7 @@ if(entityname.get(1).equals("1"))
 	
 	/**
 	 * Click on lock calendar
+	 * Created By Chetna
 	 */
 			
 	private void lockCalendar(List<String> years,int i)
@@ -4981,10 +5052,7 @@ if(entityname.get(1).equals("1"))
 	
 	
 	
-	
-	
-	
-	
+		
 	public void enterPeriodAndYearDetails(String element){
 		if(!isOkButtonDisplayed(5)){
 			clickOnSections(0);
@@ -5021,7 +5089,7 @@ if(entityname.get(1).equals("1"))
 		log.info("Get period of the year");
 		String period = null;
 		WaitHelper.waitAdditional(2);
-		period = driver.findElement(By.xpath("//div[2]/div[2]/div/div/div/div[1]/table/tbody/tr/td[5]")).getText();//Period	
+		period = driver.findElement(By.xpath("//div[1]/table/tbody/tr/td[5]")).getText();//Period
 		return period;
 	}
 	
@@ -8380,7 +8448,8 @@ WaitHelper.waitAdditional(3);
 		}
 	}
 	
-	/*--------------------------------PHASE I ADDITIONAL METHODS----------------------------------------------------------------*/
+	
+/*--------------------------------PHASE I ADDITIONAL METHODS BY CHETNA----------------------------------------------------------------*/
 	
 	/**
 	 * List of Tabs based on ClassName
@@ -8464,11 +8533,9 @@ public boolean IsMessageToolBarDisplayed(){
 
 /**
  * Amend Fiscal Calender
+ * 
  */
 
-/**
- * Amend Fiscal Calender
- */
 
 
 
@@ -8506,6 +8573,7 @@ public void zoomIn(){
 	  }
 	 }
 
+	 
 //For A035 Oracle Database Related Process
 	 
 		public int getProcessorCountOracle(){

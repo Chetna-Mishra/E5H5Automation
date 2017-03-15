@@ -67,7 +67,9 @@ public class A039_EnquiryTest extends BaseTest{
 		currencyPage.balanceSheetDetails(values);	
 		
 		for(String value : values){
-			if(currencyPage.verifyValues(value)){
+			if(currencyPage.verifyValues(value))
+			
+			{
 				isValuePresent = true;
 			}		
 		}

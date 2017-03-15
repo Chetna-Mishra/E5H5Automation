@@ -580,16 +580,20 @@ public class PageObjects {
 //	Page Objects for "A037_ICA_Default_Trading_RelationshipsTest"
 	public final String A037_FRM_BTZ="//input[starts-with(@name,'FROM-BTZ-ENTY_')]";
 	public final String A037_TO_BTZ= "//input[starts-with(@name,'TO-BTZ-ENTY_')]";
-	
 	public final String A037_GEN_ACC= "//input[@id='0_5_0']";
-	
 	public final String A037_GEN_COST="//input[@id='0_5_1']";
 	
+// Page Objects for "A038_Process_EP2Test"
+	public final String A038_CHK_UPDT_All="//label[text()='Update All']/../input[1]";
+	public final String A038_CHK_NET_BAL="//label[text()='Net Balances']/../input[1]";
 	
+//	Page Objects for "A039_EnquiryTest"
+	public final String A039_EXT_SEL="//a[contains(text(),'Extended Selection')]";
+	public final String A039_CHANGE_CMPY="//button[@value='Change Company / Role']";	
+	public final String A039_LKP_CMPY= "//input[starts-with(@name,'HDR-CMPY_')]";
+	public final String A039_LKP_OK= "//div[contains(@class,'roundedbutton')]/button[@id='1_1']";
 	
-	
-	
-	
+	public final String A039_EXT_OK="//button[contains(@class,'roundedbutton')][@id='0_44']";
 	
 	
 }

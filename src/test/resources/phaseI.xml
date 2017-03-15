@@ -5,12 +5,12 @@
 	 @author : Chetna Mishra
 	 Purpose : Batch execution of testcases from A001A - A042
 	 
-	 <class name="com.adv.qa.selenium.tests.currency.A001A_On_line_AuditingTest"/>
-	 <class name="com.adv.qa.selenium.tests.currency.A001_Switch_Intra_Company_Accounting_OnTest"/>
+	
   -->   
     <test name="suite1" preserve-order="true" time-out="8000000" enabled="true" >
     	<classes>
-    		
+    		 <class name="com.adv.qa.selenium.tests.currency.A001A_On_line_AuditingTest"/>
+			 <class name="com.adv.qa.selenium.tests.currency.A001_Switch_Intra_Company_Accounting_OnTest"/>
        		 <class name="com.adv.qa.selenium.tests.currency.A002_Currency_DescriptionTest"/>
     	</classes>
   	 </test> 
@@ -18,7 +18,7 @@
       <test name="suite2" preserve-order="true" time-out="8000000" enabled="true">
     	<classes>      		
        		 <class name="com.adv.qa.selenium.tests.currency.A003_Currency_Base_NonBase_RelationshipsTest"/>
-       		 <class name="com.adv.qa.selenium.tests.currency.A006_Company_DefinitionTest"/>	
+       		 <class name="com.adv.qa.selenium.tests.currency.A006_Company_DefinitionTest"/>
      	</classes>
   	 </test>
   	    	   
@@ -173,10 +173,10 @@
    	  
   	 <test name="suite16" preserve-order="true" time-out="8000000" enabled="true">
     	<classes>
-    	    <class name="com.adv.qa.selenium.tests.currency.A038_Process_EP2Test"/> 
+    	    <class name="com.adv.qa.selenium.tests.currency.A038_Process_EP2OracleTest"/> 
     	    <class name="com.adv.qa.selenium.tests.currency.A039_EnquiryTest"/> 
     	    
-       		<class name="com.adv.qa.selenium.tests.currency.A041_Group_Category_And_Structure_PostingsTest"/>
+       		<class name="com.adv.qa.selenium.tests.currency.A041_Group_Category_And_Structure_PostingsOracleTest"/>
        		<class name="com.adv.qa.selenium.tests.currency.A042_Period_End_Test"/>      		    	    
     	</classes>
   	 </test>

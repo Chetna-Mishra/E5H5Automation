@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?><SeleniumTestReport>
+<TestCase>
+<A004A_Rate_Type_Currency_ExchangeTest>
+<Verification1>15/03/2017 04:47:32 | Pass : Login page displayed</Verification1>
+<Verification2>15/03/2017 04:47:37 | Pass : Command line displayed</Verification2>
+<Verification3>15/03/2017 04:47:49 | Pass : Rate Type search page displayed</Verification3>
+<Verification4>15/03/2017 04:48:34 | Pass : Currency CO BOBS BISCUIT FACTORY displayed in the list</Verification4>
+</A004A_Rate_Type_Currency_ExchangeTest>
+</TestCase>
+</SeleniumTestReport>

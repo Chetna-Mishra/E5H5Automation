@@ -33,7 +33,7 @@ public class A040_ICA_Data_EntryTest extends BaseTest{
 		String userName = dataRow.get("userName");
 		String passWord = dataRow.get("passWord");
 		List<String> firstICAData = dataRow.findNamesReturnValues("firstICAData");
-		List<String> secondICAData = dataRow.findNamesReturnValues("secondICAData");		
+		List<String> secondICAData = dataRow.findNamesReturnValues("secondICAData");	
 		List<String> fAccount1500 = dataRow.findNamesReturnValues("fAccount1500");
 		List<String> sAccount1500 = dataRow.findNamesReturnValues("sAccount1500");
 		List<String> account6300 = dataRow.findNamesReturnValues("account6300");
@@ -45,8 +45,6 @@ public class A040_ICA_Data_EntryTest extends BaseTest{
 		List<String> structureEnq2ForN1 = dataRow.findNamesReturnValues("structureEnq2ForN1");
 		List<String> structureEnqForS1 = dataRow.findNamesReturnValues("structureEnqForS1");
 		
-
-
 		/*Log in to application*/
 		LoginPage loginPage = new LoginPage(driver);
 		
@@ -85,7 +83,8 @@ public class A040_ICA_Data_EntryTest extends BaseTest{
 	}
 	
 	private void enterJournalDetails(CurrencyPage currencyPage,DataRow dataRow,List<String> icaData) throws InterruptedException{
-		String code = "EDTEBTCH ACT=INSERT,CMPY="+companyId;		
+		
+		String code = "EDTEBTCH ACT=INSERT,CMPY="+companyId;	
 
 		List<String> currencyCode = dataRow.findNamesReturnValues("currencyCode");
 		
@@ -131,6 +130,7 @@ public class A040_ICA_Data_EntryTest extends BaseTest{
 
 	
 	private void verifyBalanceEnquiry(CurrencyPage currencyPage,DataRow dataRow,List<String> structureEnqForCategory,List<String> structureEnqForCost1,List<String> structureEnqForCost2) throws InterruptedException{
+		
 		List<String> currencyCode = dataRow.findNamesReturnValues("currencyCode");
 		
 		Assert.assertTrue(testcases,currencyPage.isCommandDisplayed(),"Command line","displayed");

@@ -10,10 +10,10 @@ import com.adv.qa.selenium.framework.pageObjects.LoginPage;
 import com.adv.qa.selenium.framework.pageObjects.currency.CurrencyPage;
 
 /**
- * @author              :   Draxayani
+ * @author              :   Chetna
  * Test Reference No	: 	Start dispatcher
  * Purpose              :   Switch on online auditing
- * Date					:   06-06-2014
+ * Date					:   
  * ACCESS               :   AQD
  */
 
@@ -47,12 +47,7 @@ public class A035A_StartDispatcher extends BaseTest{
 		/*Verify currency search page displayed*/
 		Assert.assertEquals(testcases,currencyPage.getTableHeader(), "M"+currencyCode+" - Region List","Structure Rebuild page","displayed");	
 		
-//		currencyPage.startAndStopDispatcher("P53QDES0");
-//		currencyPage.startAndStopDispatcher("P53QEX01");
-//		currencyPage.startAndStopDispatcher("P53QEX02");
-//		currencyPage.startAndStopDispatcher("P53QEX03");
-//		currencyPage.startAndStopDispatcher("P53QEX04");
-		
+
 		currencyPage.startAndStopDispatcher("QAH5DES0");
 		currencyPage.startAndStopDispatcher("QAH5EX01");		
 		currencyPage.startAndStopDispatcher("QAH5EX02");

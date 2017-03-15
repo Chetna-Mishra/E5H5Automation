@@ -193,11 +193,11 @@ public class BaseTest {
 			
 			else if(browser.equals("firefox".trim())) {
 //				System.setProperty("webdriver.gecko.driver","D://E5H5TestAutomation//Automation Setup//geckodriver-v0.13.0-win64//geckodriver.exe");
-//				System.setProperty("webdriver.gecko.driver","D://E5H5TestAutomation//Automation Setup//geckodriver-v0.14.0-win64//geckodriver.exe");
 //				System.setProperty("webdriver.chrome.driver", "src/test/resources/drivers/geckodriver.exe");
+				System.setProperty("webdriver.gecko.driver","D://E5H5TestAutomation//Automation Setup//geckodriver-v0.14.0-win64//geckodriver.exe");
+
 				
 				browerDriver = new FirefoxDriver();
-			
 				driver = new EventFiringWebDriver(browerDriver);
 			
 			}

@@ -13,14 +13,13 @@ import com.adv.qa.selenium.helpers.DataResource;
 import com.adv.qa.selenium.helpers.DataRow;
 
 /**
- * @author              :   Draxayani
- * Test Reference No	: 	A041 Group Category & Structure Postings
- * Purpose              :   Run Group Category and Structure Postings Update
- * Date					:   26-05-2014
- * ACCESS               :   Submit EP4 and Submit EP5
+ * @author              :   Chetna
+ * Test Reference No	: 	A041_Group_Category_And_Structure_PostingsOracleTest
+ * Purpose              :   Run Group Cate15-03-2017
+ * ACCESS               :   Submit EP4 and Submit EP5 for Oracle DB
  */
 
-public class A041_Group_Category_And_Structure_PostingsTest extends BaseTest{
+public class A041_Group_Category_And_Structure_PostingsOracleTest extends BaseTest{
 	/*Launch the browser*/
 	@BeforeClass
 	public void beforeClass() throws Exception {
@@ -79,14 +78,16 @@ public class A041_Group_Category_And_Structure_PostingsTest extends BaseTest{
 
 	public void processVerification(CurrencyPage currencyPage,String process,String Request){
 		boolean value = false;
-		String statBeforeEp5 = currencyPage.getProcessDetails(process, Request);
+		
+		String statBeforeEp5 = currencyPage.getProcessDetailsOracle(process, Request);
 		
 		Assert.assertEquals(testcases,statBeforeEp5, "2","Precess has","entered task list");
+		
 		if(statBeforeEp5.equals("2")){
-			currencyPage.updateProcess(process, Request);
+			currencyPage.updateProcessOracle(process, Request);
 		}
 		
-		String statAfterEp5 = currencyPage.getProcessDetails(process, Request);
+		String statAfterEp5 = currencyPage.getProcessDetailsOracle(process, Request);
 		
 		if(statAfterEp5 == null)
 		{
