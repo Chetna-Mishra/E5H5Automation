@@ -58,7 +58,7 @@ public class A038_Process_EP2OracleTest extends BaseTest{
 		currencyPage.enterAboutsubmitDetails();
 		
 		String statBefore = currencyPage.getProcessDetailsOracle(process,processList.get(1));
-		Assert.assertEquals(testcases,statBefore, "2","Precess has","entered task list");
+		Assert.assertEquals(testcases,statBefore, "2","Process has","entered task list");
 		
 		if(statBefore.equals("2")){
 			currencyPage.updateProcessOracle(process,processList.get(1));
@@ -70,7 +70,7 @@ public class A038_Process_EP2OracleTest extends BaseTest{
 		{
 			value = true;			
 		}
-		Assert.assertTrue(testcases,value,"Precess "+process,"performed on "+processList.get(1));
+		Assert.assertTrue(testcases,value,"Process "+process,"performed on "+processList.get(1));
 		
 		currencyPage.clickOnCancel();
 		

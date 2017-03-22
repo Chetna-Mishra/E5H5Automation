@@ -182,16 +182,8 @@ public class PageObjects {
 	public final String A002_UNITS = "//input[contains(@name,'UNITS_')]";
 	public final String A002_SUN_UNIT = "//input[contains(@name,'SUB-UNIT_')]";
 	public final String A002_SUN_UNITS = "//input[contains(@name,'SUB-UNITS_')]";
-	
-//	public final String A002_EMU_IND ="//select[contains(@name, 'EMU-IND_')]";
 	public final String A002_EMU_IND ="//select[contains(@name, 'EMU-IND_')]";
 	
-	
-	
-//	public final String A002_EMU_IND_NOT ="//select[contains(@name, 'EMU-IND_')]/option[1]";
-	
-//	public final String A002_EMU_IND_EUR = "//select[contains(@name, 'EMU-IND_')]/option[2]";
-//	public final String A002_EMU_IND_PAR = "//select[contains(@name, 'EMU-IND_')]/option[3]";
 	
 	
 	public final String A002_FIXED_RATE ="//input[contains(@name,'FIXED-XRATE_')]";
@@ -587,13 +579,40 @@ public class PageObjects {
 	public final String A038_CHK_UPDT_All="//label[text()='Update All']/../input[1]";
 	public final String A038_CHK_NET_BAL="//label[text()='Net Balances']/../input[1]";
 	
+	public final String A038_CHK_INCLD="//div[1]/table/tbody/tr/td[5]/input";
+	
 //	Page Objects for "A039_EnquiryTest"
 	public final String A039_EXT_SEL="//a[contains(text(),'Extended Selection')]";
 	public final String A039_CHANGE_CMPY="//button[@value='Change Company / Role']";	
 	public final String A039_LKP_CMPY= "//input[starts-with(@name,'HDR-CMPY_')]";
-	public final String A039_LKP_OK= "//div[contains(@class,'roundedbutton')]/button[@id='1_1']";
-	
+	public final String A039_LKP_OK= "//div[contains(@class,'roundedCorners')]/button[@id='1_1']";
 	public final String A039_EXT_OK="//button[contains(@class,'roundedbutton')][@id='0_44']";
+	
+	
+//	Page Objects for "A040_ICA_Data_EntryTest"
+	public final String A040_JOUR_TYPE= "//input[starts-with(@name,'BTCH-TYPE_')]";
+	public final String A040_JOUR_REF= "//input[starts-with(@name,'BTCH-REF_')]";
+	public final String A040_PERI ="//input[starts-with(@name,'BTCH-PER_')]";
+	public final String A040_YEAR ="//select[starts-with(@name,'YY-IND_')]";
+	public final String A040_BTZ_ELE ="//input[starts-with(@name,'ELEM_')]";
+	public final String A040_DESC ="//input[starts-with(@name,'HDR-DESCR_')]";
+	public final String A040_NUM_OF_TRANC ="//input[starts-with(@name,'NUM-OF-TRANS-HEAD_')]";
+	public final String A040_SELE_OK = "//button[contains(@class,'roundedbutton')][@id='0_21']";
+	public final String A040_SELE1_OK = "//button[contains(@class,'roundedbutton')][@id='0_11']";
+	public final String A040_SELE_ACCO = "//input[@id='0_1_0']";
+	public final String A040_SELE_COST = "//input[@id='0_1_1']";
+	public final String A040_SELE_SEC = "//div[@class='html_TitlePaneTitle']/a[contains(text(),'Selection')]";
+	
+	
+//	Page Objects for "A042_Period_End_Test"
+	public final String A042_CMPY= "//input[starts-with(@name,'PARAM-CMPY_')]";
+	
+	
+	
+	
+	
+	
+	
 	
 	
 }

@@ -33,7 +33,6 @@
 	<classpathentry kind="con" path="org.testng.TESTNG_CONTAINER"/>
 	<classpathentry kind="lib" path="D:/E5H5TestAutomation/Automation Setup/httpcore-4.4.6.jar"/>
 	<classpathentry kind="lib" path="D:/E5H5TestAutomation/Automation Setup/stax-api-1.0.1.jar"/>
-	<classpathentry kind="lib" path="D:/E5H5TestAutomation/Automation Setup/sqljdbc4.jar"/>
 	<classpathentry kind="lib" path="D:/E5H5TestAutomation/Automation Setup/Selenium3.0.1/selenium-server-standalone-3.0.1.jar"/>
 	<classpathentry kind="lib" path="D:/E5H5TestAutomation/Automation Setup/Selenium3.0.1/selenium-java-3.0.1/client-combined-3.0.1-nodeps.jar"/>
 	<classpathentry kind="lib" path="D:/E5H5TestAutomation/Automation Setup/Selenium3.0.1/selenium-java-3.0.1/lib/cglib-nodep-3.2.4.jar"/>

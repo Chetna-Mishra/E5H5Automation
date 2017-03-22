@@ -62,14 +62,16 @@ public class A037_ICA_Default_Trading_RelationshipsTest extends BaseTest{
 		/*Create new ICA trading relationship*/
 		currencyPage.enterICARelationShip(elements);
 		
-		currencyPage.clickOnAcceptWarnings();	
+		currencyPage.clickOnUpdate();
+		
+		currencyPage.clickOnAcceptWarnings();
 		
 		currencyPage.clickOnUpdate();
 		
 		/*Exit from the ICA details page*/
 		currencyPage.clickOnCancel();
 		
-		/*Verify new ICA in the list*/
+		
 		Assert.assertTrue(testcases,currencyPage.verifyValues(elements.get(0)), "New relationship between BTZ element for ICA structure "+elements.get(0),"created");
 		
 		currencyPage.logOut(2);

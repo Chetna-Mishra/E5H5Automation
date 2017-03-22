@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?><SeleniumTestReport>
+<TestCase>
+<A042_Period_End_Test>
+<Verification1>21/03/2017 03:36:55 | Pass : Login page displayed</Verification1>
+<Verification2>21/03/2017 03:37:02 | Pass : Command line displayed</Verification2>
+<Verification3>21/03/2017 03:37:14 | Pass : Structure Rebuild page displayed</Verification3>
+<Verification4>21/03/2017 03:42:38 | Fail : Error message Cannot roll GL period across Year End, Use process EY1 not displayed.</Verification4>
+</A042_Period_End_Test>
+</TestCase>
+</SeleniumTestReport>

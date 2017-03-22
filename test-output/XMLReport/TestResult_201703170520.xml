@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?><SeleniumTestReport>
+<TestCase>
+<A037_ICA_Default_Trading_RelationshipsTest>
+<Verification1>17/03/2017 05:21:06 | Pass : Login page displayed</Verification1>
+<Verification2>17/03/2017 05:21:14 | Pass : Command line displayed</Verification2>
+<Verification3>17/03/2017 05:21:27 | Pass : Search page displayed</Verification3>
+<Verification4>17/03/2017 05:25:17 | Fail : New relationship between BTZ element for ICA structure ******************** not created</Verification4>
+</A037_ICA_Default_Trading_RelationshipsTest>
+</TestCase>
+</SeleniumTestReport>

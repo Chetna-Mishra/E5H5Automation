@@ -33,7 +33,7 @@ public class A040_ICA_Data_EntryTest extends BaseTest{
 		String userName = dataRow.get("userName");
 		String passWord = dataRow.get("passWord");
 		List<String> firstICAData = dataRow.findNamesReturnValues("firstICAData");
-		List<String> secondICAData = dataRow.findNamesReturnValues("secondICAData");	
+		List<String> secondICAData = dataRow.findNamesReturnValues("secondICAData");
 		List<String> fAccount1500 = dataRow.findNamesReturnValues("fAccount1500");
 		List<String> sAccount1500 = dataRow.findNamesReturnValues("sAccount1500");
 		List<String> account6300 = dataRow.findNamesReturnValues("account6300");
@@ -57,7 +57,7 @@ public class A040_ICA_Data_EntryTest extends BaseTest{
 		/*Verify command line*/
 		Assert.assertTrue(testcases,currencyPage.isCommandDisplayed(),"Command line","displayed");
 		
-		enterJournalDetails(currencyPage,dataRow,firstICAData);
+ 		enterJournalDetails(currencyPage,dataRow,firstICAData);
 		
 		accountDetailEnquiry(currencyPage,dataRow,aGroup,fAccount1500,account6300);
 
@@ -84,7 +84,7 @@ public class A040_ICA_Data_EntryTest extends BaseTest{
 	
 	private void enterJournalDetails(CurrencyPage currencyPage,DataRow dataRow,List<String> icaData) throws InterruptedException{
 		
-		String code = "EDTEBTCH ACT=INSERT,CMPY="+companyId;	
+		String code = "EDTEBTCH ACT=INSERT,CMPY="+companyId;
 
 		List<String> currencyCode = dataRow.findNamesReturnValues("currencyCode");
 		
@@ -96,8 +96,7 @@ public class A040_ICA_Data_EntryTest extends BaseTest{
 		/*Enter Journal details*/
 		currencyPage.enterJournalDetails(icaData);
 		
-		currencyPage.clickOnUpdtWarnings();
-
+		
 	}
 
 	private void accountDetailEnquiry(CurrencyPage currencyPage,DataRow dataRow,List<String> group,List<String> account1,List<String> account2) throws InterruptedException{
@@ -127,7 +126,6 @@ public class A040_ICA_Data_EntryTest extends BaseTest{
 
 	}
 	
-
 	
 	private void verifyBalanceEnquiry(CurrencyPage currencyPage,DataRow dataRow,List<String> structureEnqForCategory,List<String> structureEnqForCost1,List<String> structureEnqForCost2) throws InterruptedException{
 		
@@ -141,7 +139,7 @@ public class A040_ICA_Data_EntryTest extends BaseTest{
 		
 		currencyPage.structureEnquiry(structureEnqForCategory);
 		
-		currencyPage.navigateToAccountDetailPage();
+		currencyPage.navigateToCostDetailPage();
 		
 		currencyPage.getCostDetailValues(structureEnqForCost1.get(0));
 		

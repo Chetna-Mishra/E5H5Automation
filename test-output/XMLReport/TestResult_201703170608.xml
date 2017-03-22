@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?><SeleniumTestReport>
+<TestCase>
+<A039_EnquiryTest>
+<Verification1>17/03/2017 06:08:35 | Pass : Login page displayed</Verification1>
+<Verification2>17/03/2017 06:08:41 | Pass : Command line displayed</Verification2>
+</A039_EnquiryTest>
+</TestCase>
+</SeleniumTestReport>

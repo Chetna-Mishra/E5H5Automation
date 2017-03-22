@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <Root xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
 	  <Row>
- 			<userName>BM1</userName>
+ 			<userName>EMPLOYEE</userName>
           	<passWord>E5</passWord>
             <code>EBA</code> 
               				
@@ -45,7 +45,7 @@
 			<nominal4200>Profit &amp; Loss</nominal4200>
 			<nominal4200>Both</nominal4200>
 			<nominal4200>A</nominal4200>
-			<nominal4200>UKP</nominal4200>
+			<nominal4200>GBP</nominal4200>
 			<nominal4200>Base</nominal4200>
 			<nominal4200>0</nominal4200>
 			
@@ -56,7 +56,7 @@
 			<nominal6000>Profit &amp; Loss</nominal6000>
 			<nominal6000>Both</nominal6000>
 			<nominal6000>A</nominal6000>
-			<nominal6000>UKP</nominal6000>
+			<nominal6000>GBP</nominal6000>
 			<nominal6000>Base</nominal6000>
 			<nominal6000>0</nominal6000>
 			
@@ -67,7 +67,7 @@
 			<nominal6100>Profit &amp; Loss</nominal6100>
 			<nominal6100>Both</nominal6100>
 			<nominal6100>A</nominal6100>
-			<nominal6100>UKP</nominal6100>
+			<nominal6100>GBP</nominal6100>
 			<nominal6100>Base</nominal6100>
 			<nominal6100>0</nominal6100>
 			

@@ -33,15 +33,16 @@ public class A003_Currency_Base_NonBase_RelationshipsTest extends BaseTest{
 		String userName = dataRow.get("userName");
 		String passWord = dataRow.get("passWord");
 		String currencyCode = dataRow.get("code");
-		List<String> ukpusdCurrency = dataRow.findNamesReturnValues("ukpusdCurrency");
-		List<String> ukpeurCurrency = dataRow.findNamesReturnValues("ukpeurCurrency");
-		List<String> eurukpCurrency = dataRow.findNamesReturnValues("eurukpCurrency");
-		List<String> usdukpCurrency = dataRow.findNamesReturnValues("usdukpCurrency");
-		List<String> frfukpCuurency = dataRow.findNamesReturnValues("frfukpCuurency");
-		List<String> demukpCurrency = dataRow.findNamesReturnValues("demukpCurrency");
-		List<String> ukpfrfCurrency = dataRow.findNamesReturnValues("ukpfrfCurrency");
-		List<String> ukpdemCurrency = dataRow.findNamesReturnValues("ukpdemCurrency");
-
+		
+		List<String> gbpfrfCurrency = dataRow.findNamesReturnValues("gbpfrfCurrency");
+		List<String> gbpeurCurrency = dataRow.findNamesReturnValues("gbpeurCurrency");
+		List<String> gbpdemCurrency = dataRow.findNamesReturnValues("gbpdemCurrency");
+		List<String> gbpusdCurrency = dataRow.findNamesReturnValues("gbpusdCurrency");
+		List<String> eurgbpCurrency = dataRow.findNamesReturnValues("eurgbpCurrency");
+		List<String> frfgbpCuurency = dataRow.findNamesReturnValues("frfgbpCuurency");
+		List<String> usdgbpCurrency = dataRow.findNamesReturnValues("usdgbpCurrency");
+		List<String> demgbpCurrency = dataRow.findNamesReturnValues("demgbpCurrency");
+	
 		/*Log in to application*/
 		LoginPage loginPage = new LoginPage(driver);
 		
@@ -62,25 +63,28 @@ public class A003_Currency_Base_NonBase_RelationshipsTest extends BaseTest{
 		currencyPage.clickOnInsert();
 				
 		/*Create Base and Non Base currency*/
-		createBaseNonBaseRelation(currencyPage,ukpusdCurrency);
-		createBaseNonBaseRelation(currencyPage,eurukpCurrency);
-		createBaseNonBaseRelation(currencyPage,ukpeurCurrency);
-		createBaseNonBaseRelation(currencyPage,usdukpCurrency);
-		createBaseNonBaseRelation(currencyPage,frfukpCuurency);
-		createBaseNonBaseRelation(currencyPage,demukpCurrency);
-		createBaseNonBaseRelation(currencyPage,ukpfrfCurrency);
-		createBaseNonBaseRelation(currencyPage,ukpdemCurrency);
+		createBaseNonBaseRelation(currencyPage,gbpfrfCurrency);
+		createBaseNonBaseRelation(currencyPage,gbpeurCurrency);
+		createBaseNonBaseRelation(currencyPage,gbpdemCurrency);
+		createBaseNonBaseRelation(currencyPage,gbpusdCurrency);
+		createBaseNonBaseRelation(currencyPage,eurgbpCurrency);
+		createBaseNonBaseRelation(currencyPage,frfgbpCuurency);
+		createBaseNonBaseRelation(currencyPage,usdgbpCurrency);
+		createBaseNonBaseRelation(currencyPage,demgbpCurrency);
+			
 		
 		/*Exit from the currency edit page*/
 		currencyPage.clickOnCancel();
-		verifyValues(currencyPage,ukpusdCurrency);
-		verifyValues(currencyPage,eurukpCurrency);
-		verifyValues(currencyPage,ukpeurCurrency);
-		verifyValues(currencyPage,usdukpCurrency);
-		verifyValues(currencyPage,frfukpCuurency);
-		verifyValues(currencyPage,demukpCurrency);
-		verifyValues(currencyPage,ukpfrfCurrency);
-		verifyValues(currencyPage,ukpdemCurrency);
+		
+		verifyValues(currencyPage,gbpfrfCurrency);
+		verifyValues(currencyPage,gbpeurCurrency);
+		verifyValues(currencyPage,gbpdemCurrency);
+		verifyValues(currencyPage,gbpusdCurrency);
+		verifyValues(currencyPage,eurgbpCurrency);
+		verifyValues(currencyPage,frfgbpCuurency);
+		verifyValues(currencyPage,usdgbpCurrency);
+		verifyValues(currencyPage,demgbpCurrency);
+		
 		
 		/*Logout from the application*/
 		currencyPage.logOut(2);
@@ -124,8 +128,7 @@ public class A003_Currency_Base_NonBase_RelationshipsTest extends BaseTest{
 		String folder = "src/test/resources/";
 		String xmlFilePath = folder  + "E5H5.xml";
 		String[] nodeID = { "A003" };
-		String [] selectedNames = {"userName","passWord","code","ukpusdCurrency","ukpeurCurrency","eurukpCurrency","usdukpCurrency","frfukpCuurency",
-				"demukpCurrency","ukpfrfCurrency","ukpdemCurrency"};
+		String [] selectedNames = {"userName","passWord","code","gbpfrfCurrency","gbpeurCurrency","gbpdemCurrency","gbpusdCurrency","eurgbpCurrency","frfgbpCuurency","usdgbpCurrency","demgbpCurrency"};
 		DataResource dataResourceSelected = new DataResource (xmlFilePath, selectedNames, true,nodeID);
 		DataRow [] [] rows = dataResourceSelected.getDataRows4DataProvider();
 		return rows;	

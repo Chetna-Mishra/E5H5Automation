@@ -27,9 +27,7 @@ public class JDBCDriverInformation_Oracle{
 
 		try {
 		
-//			Class.forName("oracle.jdbc.OracleDriver");
-			
-			
+		
 			Class.forName("oracle.jdbc.driver.OracleDriver");
 //		 	Class.forName("com.mysql.jdbc.Driver");
 			

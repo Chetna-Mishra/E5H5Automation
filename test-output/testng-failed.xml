@@ -3,13 +3,13 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="com.adv.qa.selenium.tests.currency.A002_Currency_DescriptionTest">
+      <class name="com.adv.qa.selenium.tests.currency.A042_Period_End_Test">
         <methods>
-          <include name="beforeClass"/>
           <include name="tearDown"/>
           <include name="verify" invocation-numbers="0"/>
+          <include name="beforeClass"/>
         </methods>
-      </class> <!-- com.adv.qa.selenium.tests.currency.A002_Currency_DescriptionTest -->
+      </class> <!-- com.adv.qa.selenium.tests.currency.A042_Period_End_Test -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

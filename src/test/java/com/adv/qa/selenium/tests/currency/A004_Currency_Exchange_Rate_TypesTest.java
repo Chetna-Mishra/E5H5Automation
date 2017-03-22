@@ -33,13 +33,13 @@ public class A004_Currency_Exchange_Rate_TypesTest extends BaseTest{
 		String userName = dataRow.get("userName");
 		String passWord = dataRow.get("passWord");
 		String currencyCode = dataRow.get("code");
-		List<String> ukpusdCurrency = dataRow.findNamesReturnValues("ukpusdCurrency");
-		List<String> ukpfrfCurrency = dataRow.findNamesReturnValues("ukpfrfCurrency");
-		List<String> ukpdemCurrency = dataRow.findNamesReturnValues("ukpdemCurrency");
-		List<String> ukpeurCurrency = dataRow.findNamesReturnValues("ukpeurCurrency");
-		List<String> eurukpCurrency = dataRow.findNamesReturnValues("eurukpCurrency");
-		List<String> demukpCurrency = dataRow.findNamesReturnValues("demukpCurrency");
-		List<String> frfukpCurrency = dataRow.findNamesReturnValues("frfukpCurrency");
+		List<String> gbpusdCurrency = dataRow.findNamesReturnValues("gbpusdCurrency");
+		List<String> gbpfrfCurrency = dataRow.findNamesReturnValues("gbpfrfCurrency");
+		List<String> gbpdemCurrency = dataRow.findNamesReturnValues("gbpdemCurrency");
+		List<String> gbpeurCurrency = dataRow.findNamesReturnValues("gbpeurCurrency");
+		List<String> eurgbpCurrency = dataRow.findNamesReturnValues("eurgbpCurrency");
+		List<String> demgbpCurrency = dataRow.findNamesReturnValues("demgbpCurrency");
+		List<String> frfgbpCurrency = dataRow.findNamesReturnValues("frfgbpCurrency");
 				
 		/*Log in to application*/
 		LoginPage loginPage = new LoginPage(driver);
@@ -61,24 +61,24 @@ public class A004_Currency_Exchange_Rate_TypesTest extends BaseTest{
 		currencyPage.clickOnInsert();
 		
 		/*Create currency exchange rate*/
-		createCurrencyExchangeRate(currencyPage,ukpusdCurrency);
-		createCurrencyExchangeRate(currencyPage,ukpfrfCurrency);
-		createCurrencyExchangeRate(currencyPage,ukpdemCurrency);
-		createCurrencyExchangeRate(currencyPage,ukpeurCurrency);
-		createCurrencyExchangeRate(currencyPage,eurukpCurrency);
-		createCurrencyExchangeRate(currencyPage,demukpCurrency);
-		createCurrencyExchangeRate(currencyPage,frfukpCurrency);
+		createCurrencyExchangeRate(currencyPage,gbpusdCurrency);
+		createCurrencyExchangeRate(currencyPage,gbpfrfCurrency);
+		createCurrencyExchangeRate(currencyPage,gbpdemCurrency);
+		createCurrencyExchangeRate(currencyPage,gbpeurCurrency);
+		createCurrencyExchangeRate(currencyPage,eurgbpCurrency);
+		createCurrencyExchangeRate(currencyPage,demgbpCurrency);
+		createCurrencyExchangeRate(currencyPage,frfgbpCurrency);
 				
 		/*Exit from the currency exchange details page*/
 		currencyPage.clickOnCancel();
 		
-		verifyValues(currencyPage,ukpusdCurrency);
-		verifyValues(currencyPage,ukpfrfCurrency);
-		verifyValues(currencyPage,ukpdemCurrency);
-		verifyValues(currencyPage,ukpeurCurrency);
-		verifyValues(currencyPage,eurukpCurrency);
-		verifyValues(currencyPage,demukpCurrency);
-		verifyValues(currencyPage,frfukpCurrency);
+		verifyValues(currencyPage,gbpusdCurrency);
+		verifyValues(currencyPage,gbpfrfCurrency);
+		verifyValues(currencyPage,gbpdemCurrency);
+		verifyValues(currencyPage,gbpeurCurrency);
+		verifyValues(currencyPage,eurgbpCurrency);
+		verifyValues(currencyPage,demgbpCurrency);
+		verifyValues(currencyPage,frfgbpCurrency);
 
 		/*Logout from the application*/
 		currencyPage.logOut(2);
@@ -126,8 +126,7 @@ public class A004_Currency_Exchange_Rate_TypesTest extends BaseTest{
 		String folder = "src/test/resources/";
 		String xmlFilePath = folder  + "E5H5.xml";
 		String[] nodeID = { "A004" };
-		String [] selectedNames = {"userName","passWord","code","ukpusdCurrency","ukpfrfCurrency","ukpdemCurrency","ukpeurCurrency",
-				"eurukpCurrency","demukpCurrency","frfukpCurrency"};
+		String [] selectedNames = {"userName","passWord","code","gbpusdCurrency","gbpfrfCurrency","gbpdemCurrency","gbpeurCurrency","eurgbpCurrency","demgbpCurrency","frfgbpCurrency"};
 		DataResource dataResourceSelected = new DataResource (xmlFilePath, selectedNames, true,nodeID);
 		DataRow [] [] rows = dataResourceSelected.getDataRows4DataProvider();
 		return rows;	

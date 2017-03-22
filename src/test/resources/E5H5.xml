@@ -37,7 +37,7 @@
 	    <userName>SYSTEM</userName>
         <passWord>E5</passWord>
 		<code>AGA</code> 
-			
+<!-- 			
 		<ukpCurrency>UKP</ukpCurrency>
 		<ukpCurrency>UK PONDS</ukpCurrency>
 		<ukpCurrency>2</ukpCurrency>
@@ -49,7 +49,7 @@
 		<ukpCurrency></ukpCurrency>
 		<ukpCurrency></ukpCurrency>
 		<ukpCurrency>Hundredth</ukpCurrency>
-			
+  --> 			
 		<eurCurrency>EUR</eurCurrency>
 		<eurCurrency>Euro</eurCurrency>
 		<eurCurrency>2</eurCurrency>
@@ -99,18 +99,46 @@
 		<frfCurrency>Hundredth</frfCurrency>						
     </Row>
     
-    <Row id="A003">	
+   		 <Row id="A003">	
 	    <userName>SYSTEM</userName>
         <passWord>E5</passWord>
-        <code>AGC</code>         
-				
+        <code>AGC</code>
+   <!--      
+        <ukpfrfCurrency>UKP</ukpfrfCurrency>
+		<ukpfrfCurrency>FRF</ukpfrfCurrency>
+		<ukpfrfCurrency>Base to Non-Base</ukpfrfCurrency>
+		<ukpfrfCurrency>1</ukpfrfCurrency>
+		<ukpfrfCurrency>1.00</ukpfrfCurrency>
+		<ukpfrfCurrency>1.00</ukpfrfCurrency>          
+  				
+		<ukpeurCurrency>UKP</ukpeurCurrency>
+		<ukpeurCurrency>EUR</ukpeurCurrency>
+		<ukpeurCurrency>Base to Non-Base</ukpeurCurrency>
+		<ukpeurCurrency>1</ukpeurCurrency>
+		<ukpeurCurrency>1.00</ukpeurCurrency>
+		<ukpeurCurrency>1.00</ukpeurCurrency>
+					    
+		<ukpdemCurrency>UKP</ukpdemCurrency>
+		<ukpdemCurrency>DEM</ukpdemCurrency>
+		<ukpdemCurrency>Base to Non-Base</ukpdemCurrency>
+		<ukpdemCurrency>1</ukpdemCurrency>
+		<ukpdemCurrency>1.0</ukpdemCurrency>
+		<ukpdemCurrency>1.0</ukpdemCurrency> 
+		
 		<ukpusdCurrency>UKP</ukpusdCurrency>
 		<ukpusdCurrency>USD</ukpusdCurrency>
 		<ukpusdCurrency>Base to Non-Base</ukpusdCurrency>
 		<ukpusdCurrency>1</ukpusdCurrency>
 		<ukpusdCurrency>1.0</ukpusdCurrency>
 		<ukpusdCurrency>1.0</ukpusdCurrency>
-				
+
+		<eurukpCurrency>EUR</eurukpCurrency>
+		<eurukpCurrency>UKP</eurukpCurrency>
+		<eurukpCurrency>Base to Non-Base</eurukpCurrency>
+		<eurukpCurrency>1</eurukpCurrency>
+		<eurukpCurrency>1.0</eurukpCurrency>
+		<eurukpCurrency>1.0</eurukpCurrency> 
+		
 		<frfukpCuurency>FRF</frfukpCuurency>
 		<frfukpCuurency>UKP</frfukpCuurency>
 		<frfukpCuurency>Non-base to Base</frfukpCuurency>
@@ -118,48 +146,79 @@
 		<frfukpCuurency>1.0</frfukpCuurency>
 		<frfukpCuurency>1.0</frfukpCuurency>
 		
+		<usdukpCurrency>USD</usdukpCurrency>
+		<usdukpCurrency>UKP</usdukpCurrency>
+		<usdukpCurrency>Base to Non-Base</usdukpCurrency>
+		<usdukpCurrency>1</usdukpCurrency>
+		<usdukpCurrency>1.0</usdukpCurrency>
+		<usdukpCurrency>1.0</usdukpCurrency>	
+		
 		<demukpCurrency>DEM</demukpCurrency>
 		<demukpCurrency>UKP</demukpCurrency>
 		<demukpCurrency>Non-base to Base</demukpCurrency>
 		<demukpCurrency>1</demukpCurrency>
 		<demukpCurrency>1.0</demukpCurrency>
 		<demukpCurrency>1.0</demukpCurrency>
+-->		
+		<gbpfrfCurrency>GBP</gbpfrfCurrency>
+		<gbpfrfCurrency>FRF</gbpfrfCurrency>
+		<gbpfrfCurrency>Base to Non-Base</gbpfrfCurrency>
+		<gbpfrfCurrency>1</gbpfrfCurrency>
+		<gbpfrfCurrency>1.00</gbpfrfCurrency>
+		<gbpfrfCurrency>1.00</gbpfrfCurrency>          
+  				
+		<gbpeurCurrency>GBP</gbpeurCurrency>
+		<gbpeurCurrency>EUR</gbpeurCurrency>
+		<gbpeurCurrency>Base to Non-Base</gbpeurCurrency>
+		<gbpeurCurrency>1</gbpeurCurrency>
+		<gbpeurCurrency>1.00</gbpeurCurrency>
+		<gbpeurCurrency>1.00</gbpeurCurrency>
+					    
+		<gbpdemCurrency>GBP</gbpdemCurrency>
+		<gbpdemCurrency>DEM</gbpdemCurrency>
+		<gbpdemCurrency>Base to Non-Base</gbpdemCurrency>
+		<gbpdemCurrency>1</gbpdemCurrency>
+		<gbpdemCurrency>1.0</gbpdemCurrency>
+		<gbpdemCurrency>1.0</gbpdemCurrency> 
+		
+		<gbpusdCurrency>GBP</gbpusdCurrency>
+		<gbpusdCurrency>USD</gbpusdCurrency>
+		<gbpusdCurrency>Base to Non-Base</gbpusdCurrency>
+		<gbpusdCurrency>1</gbpusdCurrency>
+		<gbpusdCurrency>1.0</gbpusdCurrency>
+		<gbpusdCurrency>1.0</gbpusdCurrency>
+
+		<eurgbpCurrency>EUR</eurgbpCurrency>
+		<eurgbpCurrency>GBP</eurgbpCurrency>
+		<eurgbpCurrency>Base to Non-Base</eurgbpCurrency>
+		<eurgbpCurrency>1</eurgbpCurrency>
+		<eurgbpCurrency>1.0</eurgbpCurrency>
+		<eurgbpCurrency>1.0</eurgbpCurrency> 
+		
+		<frfgbpCuurency>FRF</frfgbpCuurency>
+		<frfgbpCuurency>GBP</frfgbpCuurency>
+		<frfgbpCuurency>Non-base to Base</frfgbpCuurency>
+		<frfgbpCuurency>1</frfgbpCuurency>
+		<frfgbpCuurency>1.0</frfgbpCuurency>
+		<frfgbpCuurency>1.0</frfgbpCuurency>
+		
+		<usdgbpCurrency>USD</usdgbpCurrency>
+		<usdgbpCurrency>GBP</usdgbpCurrency>
+		<usdgbpCurrency>Base to Non-Base</usdgbpCurrency>
+		<usdgbpCurrency>1</usdgbpCurrency>
+		<usdgbpCurrency>1.0</usdgbpCurrency>
+		<usdgbpCurrency>1.0</usdgbpCurrency>	
+		
+		<demgbpCurrency>DEM</demgbpCurrency>
+		<demgbpCurrency>GBP</demgbpCurrency>
+		<demgbpCurrency>Non-base to Base</demgbpCurrency>
+		<demgbpCurrency>1</demgbpCurrency>
+		<demgbpCurrency>1.0</demgbpCurrency>
+		<demgbpCurrency>1.0</demgbpCurrency>
+		
+		
 		    
-		<ukpfrfCurrency>UKP</ukpfrfCurrency>
-		<ukpfrfCurrency>FRF</ukpfrfCurrency>
-		<ukpfrfCurrency>Base to Non-Base</ukpfrfCurrency>
-		<ukpfrfCurrency>1</ukpfrfCurrency>
-		<ukpfrfCurrency>1.00</ukpfrfCurrency>
-		<ukpfrfCurrency>1.00</ukpfrfCurrency> 
-			    
-		<ukpdemCurrency>UKP</ukpdemCurrency>
-		<ukpdemCurrency>DEM</ukpdemCurrency>
-		<ukpdemCurrency>Base to Non-Base</ukpdemCurrency>
-		<ukpdemCurrency>1</ukpdemCurrency>
-		<ukpdemCurrency>1.0</ukpdemCurrency>
-		<ukpdemCurrency>1.0</ukpdemCurrency> 
-			    
-		<ukpeurCurrency>UKP</ukpeurCurrency>
-		<ukpeurCurrency>EUR</ukpeurCurrency>
-		<ukpeurCurrency>Base to Non-Base</ukpeurCurrency>
-		<ukpeurCurrency>1</ukpeurCurrency>
-		<ukpeurCurrency>1.00</ukpeurCurrency>
-		<ukpeurCurrency>1.00</ukpeurCurrency>
-						
-		<eurukpCurrency>EUR</eurukpCurrency>
-		<eurukpCurrency>UKP</eurukpCurrency>
-		<eurukpCurrency>Base to Non-Base</eurukpCurrency>
-		<eurukpCurrency>1</eurukpCurrency>
-		<eurukpCurrency>1.0</eurukpCurrency>
-		<eurukpCurrency>1.0</eurukpCurrency> 
-				
-		<usdukpCurrency>USD</usdukpCurrency>
-		<usdukpCurrency>UKP</usdukpCurrency>
-		<usdukpCurrency>Base to Non-Base</usdukpCurrency>
-		<usdukpCurrency>1</usdukpCurrency>
-		<usdukpCurrency>1.0</usdukpCurrency>
-		<usdukpCurrency>1.0</usdukpCurrency>		
-    </Row>
+   </Row>
    
      	<Row id="A004A">
 	    <userName>SYSTEM</userName>
@@ -174,8 +233,8 @@
    	<Row id="A004">
 	    <userName>SYSTEM</userName>
         <passWord>E5</passWord>
-        <code>AGG</code>         
-			
+        <code>AGG</code>       
+<!--			
  		<ukpfrfCurrency>UKP</ukpfrfCurrency>
 		<ukpfrfCurrency>FRF</ukpfrfCurrency>
 		<ukpfrfCurrency>IM</ukpfrfCurrency>
@@ -207,14 +266,47 @@
 		<frfukpCurrency>FRF</frfukpCurrency>
 		<frfukpCurrency>UKP</frfukpCurrency>
 		<frfukpCurrency>IM</frfukpCurrency>
+-->		
+		<gbpfrfCurrency>GBP</gbpfrfCurrency>
+		<gbpfrfCurrency>FRF</gbpfrfCurrency>
+		<gbpfrfCurrency>IM</gbpfrfCurrency>
+			
+		<gbpdemCurrency>GBP</gbpdemCurrency>
+		<gbpdemCurrency>DEM</gbpdemCurrency>
+		<gbpdemCurrency>IM</gbpdemCurrency>
+			
+		<gbpeurCurrency>GBP</gbpeurCurrency>
+		<gbpeurCurrency>EUR</gbpeurCurrency>
+		<gbpeurCurrency>IM</gbpeurCurrency>
+			
+		<eurgbpCurrency>EUR</eurgbpCurrency>
+		<eurgbpCurrency>GBP</eurgbpCurrency>
+		<eurgbpCurrency>IM</eurgbpCurrency>			
+						
+		<demgbpCurrency>DEM</demgbpCurrency>
+		<demgbpCurrency>GBP</demgbpCurrency>
+		<demgbpCurrency>IM</demgbpCurrency>
+			
+		<usdgbpCurrency>USD</usdgbpCurrency>
+		<usdgbpCurrency>GBP</usdgbpCurrency>
+		<usdgbpCurrency>IM</usdgbpCurrency>
+			
+		<gbpusdCurrency>GBP</gbpusdCurrency>
+		<gbpusdCurrency>USD</gbpusdCurrency>
+		<gbpusdCurrency>IM</gbpusdCurrency>
+			 
+		<frfgbpCurrency>FRF</frfgbpCurrency>
+		<frfgbpCurrency>GBP</frfgbpCurrency>
+		<frfgbpCurrency>IM</frfgbpCurrency>	
+		
      </Row>
     
 	 <Row id="A005">
 	    <userName>SYSTEM</userName>
         <passWord>E5</passWord>
         <code>AGI</code>      
-        <value>UKP</value>   
-        
+        <value>GBP</value>   
+ <!--      
    		<ukpusdCurrency>UKP</ukpusdCurrency>
 		<ukpusdCurrency>FRF</ukpusdCurrency>
 		<ukpusdCurrency>IM</ukpusdCurrency>
@@ -254,7 +346,47 @@
 		<eurukpCurrency>0.793103</eurukpCurrency>
 		<eurukpCurrency>1.0</eurukpCurrency>
 		<eurukpCurrency>1.0</eurukpCurrency>
+	-->
+   		<gbpusdCurrency>GBP</gbpusdCurrency>
+		<gbpusdCurrency>FRF</gbpusdCurrency>
+		<gbpusdCurrency>IM</gbpusdCurrency>
+		<gbpusdCurrency>01 Dec 1997</gbpusdCurrency>
+		<gbpusdCurrency>1.54</gbpusdCurrency>
+		<gbpusdCurrency>1.0</gbpusdCurrency>
+		<gbpusdCurrency>1.0</gbpusdCurrency>
 
+        <gbpfrfCurrency>GBP</gbpfrfCurrency>
+		<gbpfrfCurrency>FRF</gbpfrfCurrency>
+		<gbpfrfCurrency>IM</gbpfrfCurrency>
+		<gbpfrfCurrency>01 Dec 1997</gbpfrfCurrency>
+		<gbpfrfCurrency>8.280000</gbpfrfCurrency>
+		<gbpfrfCurrency>1.00</gbpfrfCurrency>
+		<gbpfrfCurrency>1.00</gbpfrfCurrency>
+			
+		<gbpdemCurrency>GBP</gbpdemCurrency>
+		<gbpdemCurrency>DEM</gbpdemCurrency>
+		<gbpdemCurrency>IM</gbpdemCurrency>
+		<gbpdemCurrency>01 Dec 1997</gbpdemCurrency>
+		<gbpdemCurrency>2.45</gbpdemCurrency>
+		<gbpdemCurrency>1.0</gbpdemCurrency>
+		<gbpdemCurrency>1.0</gbpdemCurrency>
+			
+		<gbpeurCurrency>GBP</gbpeurCurrency>
+		<gbpeurCurrency>EUR</gbpeurCurrency>
+		<gbpeurCurrency>IM</gbpeurCurrency>
+		<gbpeurCurrency>01 Jan 1998</gbpeurCurrency>
+		<gbpeurCurrency>1.26087</gbpeurCurrency>
+		<gbpeurCurrency>1.0</gbpeurCurrency>
+		<gbpeurCurrency>1.0</gbpeurCurrency>
+			
+		<eurgbpCurrency>EUR</eurgbpCurrency>
+		<eurgbpCurrency>GBP</eurgbpCurrency>
+		<eurgbpCurrency>IM</eurgbpCurrency>
+		<eurgbpCurrency>01 Jan 1998</eurgbpCurrency>
+		<eurgbpCurrency>0.793103</eurgbpCurrency>
+		<eurgbpCurrency>1.0</eurgbpCurrency>
+		<eurgbpCurrency>1.0</eurgbpCurrency>		
+	
     </Row>
     
 	<Row id="A006">
@@ -274,7 +406,7 @@
         <companyDetails>0191 444XXX</companyDetails>
         <companyDetails>0191 402XXX</companyDetails>   
         <companyDetails>UK</companyDetails>
-        <companyDetails>UKP</companyDetails>
+        <companyDetails>GBP</companyDetails>
      </Row>
       
 	 <Row id="A007">
@@ -488,11 +620,9 @@
 	<Row id="A013">
 	    <userName>SYSTEM</userName>
         <passWord>E5</passWord>
-    <code>API</code>  
+   		<code>API</code>  
   
-  <!--<userName>S</userName>
-    <passWord>BA</passWord>-->
-             
+         
        <calendar>IMFISCAL</calendar>
        <calendar>AC FISCAL CALENDAR</calendar>
        <calendar>IM</calendar>
@@ -809,8 +939,8 @@
         <passWord>E5</passWord>
         <code>EAA</code>
         
-     	<companyControl>01</companyControl>
-     	<companyControl>2017</companyControl>
+     	<companyControl>12</companyControl>
+     	<companyControl>2016</companyControl>
      	<companyControl>IM</companyControl>
      	<companyControl>IMFISCAL</companyControl>
      	<companyControl>2</companyControl>
@@ -879,7 +1009,7 @@
     </Row>
       
 	<Row id="A027">
-	    <userName>BM</userName>
+	    <userName>SYSTEM</userName>
         <passWord>E5</passWord>
         <code>ECA</code> 
         
@@ -889,7 +1019,7 @@
     </Row>
       
 	<Row id="A028">
-	    <userName>BM</userName>
+	    <userName>SYSTEM</userName>
         <passWord>E5</passWord>
         <code>ECC</code> 
        
@@ -998,7 +1128,6 @@
 	    <userName>SYSTEM</userName>
         <passWord>E5</passWord>
    		<code>EYB</code>
-   		
    		<errorMessage>Cannot roll GL period across Year End, Use process EY1</errorMessage>
     </Row>
 	  	  	  	  
@@ -1273,7 +1402,7 @@
         <bankCodeBP>BP</bankCodeBP>
         <bankCodeBP>1234</bankCodeBP>
         <bankCodeBP>BANK ACCOUNT</bankCodeBP>
-        <bankCodeBP>UKP</bankCodeBP>
+        <bankCodeBP>GBP</bankCodeBP>
         <bankCodeBP>05-02-86</bankCodeBP>
         <bankCodeBP>BANKR</bankCodeBP>
         <bankCodeBP>DUM</bankCodeBP>
@@ -1281,7 +1410,7 @@
         <bankCodeB1>B1</bankCodeB1>
         <bankCodeB1>1234</bankCodeB1>
         <bankCodeB1>BANK ACCOUNT</bankCodeB1>
-        <bankCodeB1>UKP</bankCodeB1>
+        <bankCodeB1>GBP</bankCodeB1>
         <bankCodeB1>05-02-86</bankCodeB1>
         <bankCodeB1>BANKR</bankCodeB1>
         <bankCodeB1>DUM</bankCodeB1>
@@ -1289,7 +1418,7 @@
         <bankCodeH1>H1</bankCodeH1>
         <bankCodeH1>1234</bankCodeH1>
         <bankCodeH1>BANK ACCOUNT</bankCodeH1>
-        <bankCodeH1>UKP</bankCodeH1>
+        <bankCodeH1>GBP</bankCodeH1>
         <bankCodeH1>05-02-86</bankCodeH1>
         <bankCodeH1>BANKR</bankCodeH1>
         <bankCodeH1>DUM</bankCodeH1>        
@@ -1460,8 +1589,8 @@
         <currencyCode>GAI</currencyCode>
 	    
         <payment01>01</payment01>
-        <payment01>UKP Cheques</payment01>
-        <payment01>UKP</payment01>
+        <payment01>GBP Cheques</payment01>
+        <payment01>GBP</payment01>
         <payment01>Cheque</payment01>
         <payment01>NILL</payment01>
         <payment01>Invoice</payment01>
@@ -1469,7 +1598,7 @@
         
         <payment02>02</payment02>
         <payment02>Funds Transfer</payment02>
-        <payment02>UKP</payment02>
+        <payment02>GBP</payment02>
         <payment02>Cheque</payment02>
         <payment02>NILL</payment02>
         <payment02>Invoice</payment02>
@@ -1498,7 +1627,7 @@
         <payment01>01</payment01>
         <payment01>Cheque</payment01>
         <payment01>1</payment01>
-        <payment01>UKP</payment01>
+        <payment01>GBP</payment01>
         <payment01>01</payment01>
         <payment01>BP</payment01>
         <payment01>0</payment01>
@@ -1508,7 +1637,7 @@
         <payment02>02</payment02>
         <payment02>Funds Transfer</payment02>
         <payment02>1</payment02>
-        <payment02>UKP</payment02>
+        <payment02>GBP</payment02>
         <payment02>02</payment02>
         <payment02>BP</payment02>
         <payment02>0</payment02>
@@ -1518,7 +1647,7 @@
         <payment03>03</payment03>
         <payment03>Automatic Cheque</payment03>
         <payment03>1</payment03>
-        <payment03>UKP</payment03>
+        <payment03>GBP</payment03>
         <payment03>01</payment03>
         <payment03>BP</payment03>
         <payment03>Y</payment03>
@@ -1528,7 +1657,7 @@
         <payment04>04</payment04>
         <payment04>Manual Cheque</payment04>
         <payment04>1</payment04>
-        <payment04>UKP</payment04>
+        <payment04>GBP</payment04>
         <payment04>01</payment04>
         <payment04>BP</payment04>
         <payment04>0</payment04>
@@ -2218,7 +2347,7 @@
         <sonySupplier>SONY</sonySupplier>
         <sonySupplier>Sony</sonySupplier>
         <sonySupplier>Sony</sonySupplier>
-        <sonySupplier>UKP</sonySupplier>
+        <sonySupplier>GBP</sonySupplier>
                
         <sonySupplier>0</sonySupplier>
         <sonySupplier>Any Street</sonySupplier>

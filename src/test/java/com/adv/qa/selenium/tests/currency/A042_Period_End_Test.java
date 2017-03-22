@@ -51,14 +51,14 @@ public class A042_Period_End_Test extends BaseTest{
 		/*Verify currency search page displayed*/
 		Assert.assertEquals(testcases,currencyPage.getTableHeader(), "M"+currencyCode+" - Period and Year End List","Structure Rebuild page","displayed");
 
-		currencyPage.enterPeriodAndYearDetails(companyId);
+		currencyPage.searchPeriodAndYearDetails(companyId);
 		
 		period = Integer.parseInt(currencyPage.periodOfTheYear());
 		
 		if(period<12){
 			do{
 //				currencyPage.enterPeriodAndYearDetails(companyId);
-				currencyPage.clickOnGLPeriod();
+				currencyPage.clickOnCloseGLPeriod();
 				currencyPage.clickOnUpdate();
 				
 				period = Integer.parseInt(currencyPage.periodOfTheYear());
@@ -66,7 +66,7 @@ public class A042_Period_End_Test extends BaseTest{
 		}
 
 		if(period==13){
-			currencyPage.clickOnGLPeriod();
+			currencyPage.clickOnCloseGLPeriod();
 		}
 		
 		Assert.assertTrue(testcases,currencyPage.getToolContentText().contains(errorMessage), "Error message "+errorMessage,"displayed.");

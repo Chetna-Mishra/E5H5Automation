@@ -1,6 +1,9 @@
 package com.adv.qa.selenium.tests.currency;
 
 import java.util.List;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebElement;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.DataProvider;
@@ -11,6 +14,7 @@ import com.adv.qa.selenium.framework.pageObjects.LoginPage;
 import com.adv.qa.selenium.framework.pageObjects.currency.CurrencyPage;
 import com.adv.qa.selenium.helpers.DataResource;
 import com.adv.qa.selenium.helpers.DataRow;
+import com.adv.qa.selenium.helpers.WaitHelper;
 
 /**
  * @author              :   Chetna
@@ -46,20 +50,17 @@ public class A041_Group_Category_And_Structure_PostingsOracleTest extends BaseTe
 		Assert.assertTrue(testcases,currencyPage.isCommandDisplayed(),"Command line","displayed");
 		
 		currencyPage.fillCurrenceyCode(ep4ProcessList.get(0));
+		
 		/*Verify currency search page displayed*/
 		Assert.assertEquals(testcases,currencyPage.getTableHeader(), "M"+ep4ProcessList.get(1)+" - Company Parameter Edit","Structure Rebuild page","displayed");
 		
 		/*Create layout code*/	
 		
-//		currencyPage.enterEP4ProcessDetails(ep4ProcessList.get(4));
-		
-		currencyPage.enterEP4ProcessDetails(ep5ProcessList,companyId);	
+		currencyPage.enterEP4ProcessDetails(ep4ProcessList,companyId);	
 		
 		currencyPage.enterAboutsubmitDetails();
 		
-		currencyPage.clickOnCancel();
-		
-		currencyPage.isConfirmPopUpDisplayed();
+		processVerificationep4(currencyPage,ep4ProcessList.get(2), ep4ProcessList.get(3));
 		
 		Assert.assertTrue(testcases,currencyPage.isCommandDisplayed(),"Command line","displayed");
 		
@@ -67,21 +68,47 @@ public class A041_Group_Category_And_Structure_PostingsOracleTest extends BaseTe
 		
 		Assert.assertEquals(testcases,currencyPage.getTableHeader(), "M"+ep5ProcessList.get(1)+" - Postings Rebuild Parameters","Structure Rebuild page","displayed");
 		
-		currencyPage.enterEP5ProcessDetails(ep5ProcessList,companyId);	
-		
+		currencyPage.enterEP5ProcessDetails(ep5ProcessList,companyId);
+
 		currencyPage.enterAboutsubmitDetails();
 				
-		processVerification(currencyPage,ep5ProcessList.get(2), ep5ProcessList.get(3));
+		processVerificationep5(currencyPage,ep5ProcessList.get(2), ep5ProcessList.get(3));
 		
 		currencyPage.logOut(1);
 	}
 
-	public void processVerification(CurrencyPage currencyPage,String process,String Request){
+	
+	
+	public void processVerificationep4(CurrencyPage currencyPage,String process,String Request){
+		boolean value = false;
+		
+		String statBeforeEp4 = currencyPage.getProcessDetailsOracle(process, Request);
+		
+		Assert.assertEquals(testcases,statBeforeEp4, "2","Process has","entered task list");
+		
+		if(statBeforeEp4.equals("2")){
+			currencyPage.updateProcessOracle(process, Request);
+		}
+		
+		String statAfterEp4 = currencyPage.getProcessDetailsOracle(process, Request);
+		
+		if(statAfterEp4 == null)
+		{
+			value = true;			
+		}
+		Assert.assertTrue(testcases,value,"Process "+process,"performed on "+Request);
+		
+		currencyPage.clickOnCancel();
+		
+		currencyPage.isConfirmPopUpDisplayed();
+	}
+	
+	public void processVerificationep5(CurrencyPage currencyPage,String process,String Request){
 		boolean value = false;
 		
 		String statBeforeEp5 = currencyPage.getProcessDetailsOracle(process, Request);
 		
-		Assert.assertEquals(testcases,statBeforeEp5, "2","Precess has","entered task list");
+		Assert.assertEquals(testcases,statBeforeEp5, "2","Process has","entered task list");
 		
 		if(statBeforeEp5.equals("2")){
 			currencyPage.updateProcessOracle(process, Request);
@@ -89,16 +116,19 @@ public class A041_Group_Category_And_Structure_PostingsOracleTest extends BaseTe
 		
 		String statAfterEp5 = currencyPage.getProcessDetailsOracle(process, Request);
 		
-		if(statAfterEp5 == null)
+		if(statAfterEp5 == null || statAfterEp5.equals("3"))
 		{
 			value = true;			
 		}
-		Assert.assertTrue(testcases,value,"Precess "+process,"performed on "+Request);
+		Assert.assertTrue(testcases,value,"Process "+process,"performed on "+Request);
 		
 		currencyPage.clickOnCancel();
 		
 		currencyPage.isConfirmPopUpDisplayed();
 	}
+
+	
+	
 	
 	@AfterClass (alwaysRun = true)
 	public void tearDown(){

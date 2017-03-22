@@ -35,11 +35,11 @@ public class A005_Currency_Exchange_RatesTest extends BaseTest
 		String passWord = dataRow.get("passWord");
 		String currencyCode = dataRow.get("code");
 		String value = dataRow.get("value");
-		List<String> ukpusdCurrency = dataRow.findNamesReturnValues("ukpusdCurrency");
-		List<String> ukpfrfCurrency = dataRow.findNamesReturnValues("ukpfrfCurrency");
-		List<String> ukpdemCurrency = dataRow.findNamesReturnValues("ukpdemCurrency");
-		List<String> ukpeurCurrency = dataRow.findNamesReturnValues("ukpeurCurrency");
-		List<String> eurukpCurrency = dataRow.findNamesReturnValues("eurukpCurrency");
+		List<String> gbpusdCurrency = dataRow.findNamesReturnValues("gbpusdCurrency");
+		List<String> gbpfrfCurrency = dataRow.findNamesReturnValues("gbpfrfCurrency");
+		List<String> gbpdemCurrency = dataRow.findNamesReturnValues("gbpdemCurrency");
+		List<String> gbpeurCurrency = dataRow.findNamesReturnValues("gbpeurCurrency");
+		List<String> eurgbpCurrency = dataRow.findNamesReturnValues("eurgbpCurrency");
 				
 		/*Log in to application*/
 		LoginPage loginPage = new LoginPage(driver);
@@ -63,22 +63,23 @@ public class A005_Currency_Exchange_RatesTest extends BaseTest
 		currencyPage.clickOnInsert();
 		
 		/*Create currency exchange rate*/
-		createCurrencyExchange(currencyPage,ukpusdCurrency);
-		createCurrencyExchange(currencyPage,ukpfrfCurrency);
-		createCurrencyExchange(currencyPage,ukpdemCurrency);
-		createCurrencyExchange(currencyPage,ukpeurCurrency);
-		createCurrencyExchange(currencyPage,eurukpCurrency);
+		createCurrencyExchange(currencyPage,gbpusdCurrency);
+		createCurrencyExchange(currencyPage,gbpfrfCurrency);
+		createCurrencyExchange(currencyPage,gbpdemCurrency);
+		createCurrencyExchange(currencyPage,gbpeurCurrency);
+		createCurrencyExchange(currencyPage,eurgbpCurrency);
 		
 		/*Exit from the currency exchange edit page*/
 		currencyPage.clickOnCancel();
 		
 		currencyPage.isConfirmPopUpDisplayed();
-
-		verifyValues(currencyPage,ukpusdCurrency);
-		verifyValues(currencyPage,ukpfrfCurrency);
-		verifyValues(currencyPage,ukpdemCurrency);
-		verifyValues(currencyPage,ukpeurCurrency);
-		verifyValues(currencyPage,eurukpCurrency);
+		
+		
+		verifyValues(currencyPage,gbpusdCurrency);
+		verifyValues(currencyPage,gbpfrfCurrency);
+		verifyValues(currencyPage,gbpdemCurrency);
+		verifyValues(currencyPage,gbpeurCurrency);
+		verifyValues(currencyPage,eurgbpCurrency);
 		
 		currencyPage.logOut(2);
 	}
@@ -120,8 +121,7 @@ public class A005_Currency_Exchange_RatesTest extends BaseTest
 		String folder = "src/test/resources/";
 		String xmlFilePath = folder  + "E5H5.xml";
 		String[] nodeID = { "A005" };
-		String [] selectedNames = {"userName","passWord","code","value","ukpusdCurrency","ukpfrfCurrency","ukpdemCurrency",
-				"ukpeurCurrency","eurukpCurrency"};
+		String [] selectedNames = {"userName","passWord","code","value","gbpusdCurrency","gbpfrfCurrency","gbpdemCurrency", "gbpeurCurrency","eurgbpCurrency"};
 		DataResource dataResourceSelected = new DataResource (xmlFilePath, selectedNames, true,nodeID);
 		DataRow [] [] rows = dataResourceSelected.getDataRows4DataProvider();
 		return rows;	

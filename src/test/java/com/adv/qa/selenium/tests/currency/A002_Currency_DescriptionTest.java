@@ -41,7 +41,6 @@ public class A002_Currency_DescriptionTest extends BaseTest{
 		String passWord = dataRow.get("passWord");
 		String currencyCode = dataRow.get("code");
 				
-		List<String> ukpCurrency = dataRow.findNamesReturnValues("ukpCurrency");
 		List<String> eurCurrency = dataRow.findNamesReturnValues("eurCurrency");
 		List<String> demCurrency = dataRow.findNamesReturnValues("demCurrency");
 		List<String> usdCurrency = dataRow.findNamesReturnValues("usdCurrency");
@@ -70,7 +69,7 @@ public class A002_Currency_DescriptionTest extends BaseTest{
 		
 		/*Create currency*/
 		
-		createCurrency(currencyPage,ukpCurrency);
+	
 		createCurrency(currencyPage,eurCurrency);
 		createCurrency(currencyPage,demCurrency);
 		createCurrency(currencyPage,usdCurrency);
@@ -81,7 +80,6 @@ public class A002_Currency_DescriptionTest extends BaseTest{
 		currencyPage.clickOnYesButton();
 		
 		
-		verifyValues(currencyPage,ukpCurrency);
 		verifyValues(currencyPage,eurCurrency);
 		verifyValues(currencyPage,demCurrency);
 		verifyValues(currencyPage,usdCurrency);
@@ -130,7 +128,7 @@ public class A002_Currency_DescriptionTest extends BaseTest{
 		String folder = "src/test/resources/";
 		String xmlFilePath = folder  + "E5H5.xml";
 		String[] nodeID = { "A002" };
-		String [] selectedNames = {"userName","passWord","code","ukpCurrency","eurCurrency","demCurrency","usdCurrency","frfCurrency"};
+		String [] selectedNames = {"userName","passWord","code","eurCurrency","demCurrency","usdCurrency","frfCurrency"};
 				
 		DataResource dataResourceSelected = new DataResource (xmlFilePath, selectedNames, true,nodeID);
 		DataRow [] [] rows = dataResourceSelected.getDataRows4DataProvider();

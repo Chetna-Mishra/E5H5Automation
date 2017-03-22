@@ -89,9 +89,7 @@ public class A013_Fiscal_CalendarTest extends BaseTest{
 		
 		if(!currencyPage.verifyValues(calendar.get(0))){
 			
-			currencyPage.zoomOut();
-			
-			/*Insert new balance sheet details*/
+		/*Insert new balance sheet details*/
 			currencyPage.clickOnInsert();
 			
 			currencyPage.enterFiscalCalendarDetails(calendar,year96,year97,year98,year99,year2000,year2001,year2002,year2003,year2004,year2005,year2006,

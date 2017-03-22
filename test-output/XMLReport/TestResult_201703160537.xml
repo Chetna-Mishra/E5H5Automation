@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?><SeleniumTestReport>
+<TestCase>
+<A014_Account_Code_DefinitionTest>
+<Verification1>16/03/2017 05:37:53 | Pass : Login page displayed</Verification1>
+<Verification2>16/03/2017 05:37:59 | Pass : Command line displayed</Verification2>
+<Verification3>16/03/2017 05:38:11 | Pass : Currency search page displayed</Verification3>
+<Verification4>16/03/2017 05:43:14 | Pass : New account A displayed in the list</Verification4>
+</A014_Account_Code_DefinitionTest>
+<A015_BalanceSheetTest>
+<Verification1>16/03/2017 05:43:59 | Pass : Login page displayed</Verification1>
+<Verification2>16/03/2017 05:44:05 | Pass : Command line displayed</Verification2>
+<Verification3>16/03/2017 05:44:17 | Pass : Currency search page displayed</Verification3>
+<Verification4>16/03/2017 05:45:04 | Pass : New balance activity N displayed in the list</Verification4>
+</A015_BalanceSheetTest>
+</TestCase>
+</SeleniumTestReport>

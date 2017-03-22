@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?><SeleniumTestReport>
+<TestCase>
+<A038_Process_EP2OracleTest>
+<Verification1>17/03/2017 06:03:29 | Pass : Login page displayed</Verification1>
+<Verification2>17/03/2017 06:03:36 | Pass : Command line displayed</Verification2>
+<Verification3>17/03/2017 06:03:49 | Pass : Structure Rebuild page displayed</Verification3>
+<Verification4>17/03/2017 06:04:47 | Pass : Precess has entered task list</Verification4>
+<Verification5>17/03/2017 06:04:54 | Pass : Precess EP2 performed on E5H5EP2</Verification5>
+</A038_Process_EP2OracleTest>
+</TestCase>
+</SeleniumTestReport>

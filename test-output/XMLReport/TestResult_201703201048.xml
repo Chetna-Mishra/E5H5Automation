@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?><SeleniumTestReport>
+<TestCase>
+<A039_EnquiryTest>
+<Verification1>20/03/2017 10:48:52 | Pass : Login page displayed</Verification1>
+<Verification2>20/03/2017 10:48:58 | Pass : Command line displayed</Verification2>
+<Verification3>20/03/2017 10:49:27 | Pass : Structure Rebuild page displayed</Verification3>
+<Verification4>20/03/2017 10:52:07 | Pass : New group displayedA  in the grid</Verification4>
+<Verification5>20/03/2017 10:57:47 | Pass : New group displayedB  in the grid</Verification5>
+</A039_EnquiryTest>
+</TestCase>
+</SeleniumTestReport>

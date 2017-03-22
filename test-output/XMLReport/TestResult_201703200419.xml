@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?><SeleniumTestReport>
+<TestCase>
+<A040_ICA_Data_EntryTest>
+<Verification1>20/03/2017 04:20:26 | Pass : Login page displayed</Verification1>
+<Verification2>20/03/2017 04:20:33 | Pass : Command line displayed</Verification2>
+<Verification3>20/03/2017 04:20:57 | Pass : Command line displayed</Verification3>
+</A040_ICA_Data_EntryTest>
+</TestCase>
+</SeleniumTestReport>

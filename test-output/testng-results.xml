@@ -1,32 +1,74 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+<testng-results skipped="0" failed="1" ignored="0" total="1" passed="0">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="382326" started-at="2017-03-15T12:00:26Z" finished-at="2017-03-15T12:06:48Z">
+  <suite name="Default suite" duration-ms="196369" started-at="2017-03-21T10:43:18Z" finished-at="2017-03-21T10:46:34Z">
     <groups>
+      <group name="a">
+        <method signature="A042_Period_End_Test.verify(com.adv.qa.selenium.helpers.DataRow)[pri:0, instance:com.adv.qa.selenium.tests.currency.A042_Period_End_Test@6f01b95f]" name="verify" class="com.adv.qa.selenium.tests.currency.A042_Period_End_Test"/>
+      </group> <!-- a -->
     </groups>
-    <test name="Default test" duration-ms="382326" started-at="2017-03-15T12:00:26Z" finished-at="2017-03-15T12:06:48Z">
-      <class name="com.adv.qa.selenium.tests.currency.A003_Currency_Base_NonBase_RelationshipsTest">
-        <test-method status="PASS" signature="beforeClass()[pri:0, instance:com.adv.qa.selenium.tests.currency.A003_Currency_Base_NonBase_RelationshipsTest@50a7bc6e]" name="beforeClass" is-config="true" duration-ms="19893" started-at="2017-03-15T17:30:26Z" finished-at="2017-03-15T17:30:46Z">
+    <test name="Default test" duration-ms="196369" started-at="2017-03-21T10:43:18Z" finished-at="2017-03-21T10:46:34Z">
+      <class name="com.adv.qa.selenium.tests.currency.A042_Period_End_Test">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:com.adv.qa.selenium.tests.currency.A042_Period_End_Test@6f01b95f]" name="beforeClass" is-config="true" duration-ms="36169" started-at="2017-03-21T16:13:18Z" finished-at="2017-03-21T16:13:54Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeClass -->
-        <test-method status="PASS" signature="verify(com.adv.qa.selenium.helpers.DataRow)[pri:0, instance:com.adv.qa.selenium.tests.currency.A003_Currency_Base_NonBase_RelationshipsTest@50a7bc6e]" name="verify" duration-ms="361417" started-at="2017-03-15T17:30:46Z" data-provider="dp" finished-at="2017-03-15T17:36:47Z">
+        <test-method status="FAIL" signature="verify(com.adv.qa.selenium.helpers.DataRow)[pri:0, instance:com.adv.qa.selenium.tests.currency.A042_Period_End_Test@6f01b95f]" name="verify" duration-ms="135883" started-at="2017-03-21T16:13:56Z" data-provider="dp" finished-at="2017-03-21T16:16:12Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[DataUnit [userName = SYSTEM], DataUnit [passWord = E5], DataUnit [code = AGC], DataUnit [ukpusdCurrency = UKP], DataUnit [ukpusdCurrency = USD], DataUnit [ukpusdCurrency = Base to Non-Base], DataUnit [ukpusdCurrency = 1], DataUnit [ukpusdCurrency = 1.0], DataUnit [ukpusdCurrency = 1.0], DataUnit [ukpeurCurrency = UKP], DataUnit [ukpeurCurrency = EUR], DataUnit [ukpeurCurrency = Base to Non-Base], DataUnit [ukpeurCurrency = 1], DataUnit [ukpeurCurrency = 1.00], DataUnit [ukpeurCurrency = 1.00], DataUnit [eurukpCurrency = EUR], DataUnit [eurukpCurrency = UKP], DataUnit [eurukpCurrency = Base to Non-Base], DataUnit [eurukpCurrency = 1], DataUnit [eurukpCurrency = 1.0], DataUnit [eurukpCurrency = 1.0], DataUnit [usdukpCurrency = USD], DataUnit [usdukpCurrency = UKP], DataUnit [usdukpCurrency = Base to Non-Base], DataUnit [usdukpCurrency = 1], DataUnit [usdukpCurrency = 1.0], DataUnit [usdukpCurrency = 1.0], DataUnit [frfukpCuurency = FRF], DataUnit [frfukpCuurency = UKP], DataUnit [frfukpCuurency = Non-base to Base], DataUnit [frfukpCuurency = 1], DataUnit [frfukpCuurency = 1.0], DataUnit [frfukpCuurency = 1.0], DataUnit [demukpCurrency = DEM], DataUnit [demukpCurrency = UKP], DataUnit [demukpCurrency = Non-base to Base], DataUnit [demukpCurrency = 1], DataUnit [demukpCurrency = 1.0], DataUnit [demukpCurrency = 1.0], DataUnit [ukpfrfCurrency = UKP], DataUnit [ukpfrfCurrency = FRF], DataUnit [ukpfrfCurrency = Base to Non-Base], DataUnit [ukpfrfCurrency = 1], DataUnit [ukpfrfCurrency = 1.00], DataUnit [ukpfrfCurrency = 1.00], DataUnit [ukpdemCurrency = UKP], DataUnit [ukpdemCurrency = DEM], DataUnit [ukpdemCurrency = Base to Non-Base], DataUnit [ukpdemCurrency = 1], DataUnit [ukpdemCurrency = 1.0], DataUnit [ukpdemCurrency = 1.0]]]]>
+                <![CDATA[[DataUnit [userName = SYSTEM], DataUnit [passWord = E5], DataUnit [code = EYB], DataUnit [errorMessage = Cannot roll GL period across Year End, Use process EY1]]]]>
               </value>
             </param>
           </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Error message Cannot roll GL period across Year End, Use process EY1 not displayed. expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Error message Cannot roll GL period across Year End, Use process EY1 not displayed. expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:513)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at com.adv.qa.selenium.framework.Assert.assertTrue(Assert.java:43)
+	at com.adv.qa.selenium.tests.currency.A042_Period_End_Test.verify(A042_Period_End_Test.java:72)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:104)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:645)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:851)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1177)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:756)
+	at org.testng.TestRunner.run(TestRunner.java:610)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:387)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:382)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1293)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1218)
+	at org.testng.TestNG.runSuites(TestNG.java:1133)
+	at org.testng.TestNG.run(TestNG.java:1104)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:236)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:81)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verify -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.adv.qa.selenium.tests.currency.A003_Currency_Base_NonBase_RelationshipsTest@50a7bc6e]" name="tearDown" is-config="true" duration-ms="865" started-at="2017-03-15T17:36:47Z" finished-at="2017-03-15T17:36:48Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.adv.qa.selenium.tests.currency.A042_Period_End_Test@6f01b95f]" name="tearDown" is-config="true" duration-ms="8181" started-at="2017-03-21T16:16:26Z" finished-at="2017-03-21T16:16:34Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- com.adv.qa.selenium.tests.currency.A003_Currency_Base_NonBase_RelationshipsTest -->
+      </class> <!-- com.adv.qa.selenium.tests.currency.A042_Period_End_Test -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

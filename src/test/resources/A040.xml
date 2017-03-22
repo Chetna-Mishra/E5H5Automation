@@ -9,7 +9,7 @@
             <company>03</company>
             
             <firstICAData>BASE</firstICAData>
-            <firstICAData>B001</firstICAData>
+            <firstICAData>B002</firstICAData>
             <firstICAData>NORTH</firstICAData>
             <firstICAData>Posting within BTZ element B001</firstICAData>
             <firstICAData>2</firstICAData>
@@ -19,9 +19,10 @@
             <firstICAData>6300</firstICAData>
             <firstICAData>N2</firstICAData>
             <firstICAData>-400.00</firstICAData>
+            <firstICAData>Next</firstICAData>
             
             <secondICAData>BASE</secondICAData>
-            <secondICAData>B002</secondICAData>
+            <secondICAData>B003</secondICAData>
             <secondICAData>NORTH</secondICAData>
             <secondICAData>Posting within BTZ element B002</secondICAData>
             <secondICAData>2</secondICAData>
@@ -31,6 +32,7 @@
             <secondICAData>6400</secondICAData>
             <secondICAData>S1</secondICAData>
             <secondICAData>-200.00</secondICAData>
+            <secondICAData>Next</secondICAData>
             
             <aGroup>LAY1</aGroup>
             <aGroup>A</aGroup>
@@ -40,19 +42,19 @@
             <fAccount1500>400.00</fAccount1500>
             <fAccount1500>400.00</fAccount1500>
 
-            <sAccount1500>1500</sAccount1500>
-            <sAccount1500>600.00</sAccount1500>
-            <sAccount1500>600.00</sAccount1500>
-            
-            
             <account6300>6300</account6300>
             <account6300>-400.00</account6300>
             <account6300>-400.00</account6300>
+            
+            <sAccount1500>1500</sAccount1500>
+            <sAccount1500>600.00</sAccount1500>
+            <sAccount1500>600.00</sAccount1500>
             
             <account6400>6400</account6400>
             <account6400>-200.00</account6400>
             <account6400>-200.00</account6400>
             
+
             
             <structureEnqForA02>LAY1</structureEnqForA02>
             <structureEnqForA02>00</structureEnqForA02>
