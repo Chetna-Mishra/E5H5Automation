@@ -55,11 +55,11 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>suite20</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>3/0/0</td>
+<td>Tests passed/Failed/Skipped:</td><td>2/1/0</td>
 </tr><tr>
-<td>Started on:</td><td>Fri Mar 17 14:38:14 IST 2017</td>
+<td>Started on:</td><td>Thu Mar 23 13:43:07 IST 2017</td>
 </tr>
-<tr><td>Total time:</td><td>1856 seconds (1856111 ms)</td>
+<tr><td>Total time:</td><td>889 seconds (889424 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -67,6 +67,102 @@ function toggleAllBoxes() {
 </tr>
 </table><p/>
 <small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-failed'>
+<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.adv.qa.selenium.tests.currency.A040_ICA_Data_EntryTest.verify()'><b>verify</b><br>Test class: com.adv.qa.selenium.tests.currency.A040_ICA_Data_EntryTest<br>Parameters: [DataUnit [userName = SYSTEM], DataUnit [passWord = E5], DataUnit [currencyCode = EDB], DataUnit [currencyCode = EJI], DataUnit [currencyCode = EJJ], DataUnit [company = 03], DataUnit [firstICAData = BASE], DataUnit [firstICAData = B002], DataUnit [firstICAData = NORTH], DataUnit [firstICAData = Posting within BTZ element B001], DataUnit [firstICAData = 12], DataUnit [firstICAData = 1500], DataUnit [firstICAData = N1], DataUnit [firstICAData = 400.00], DataUnit [firstICAData = 6300], DataUnit [firstICAData = N2], DataUnit [firstICAData = -400.00], DataUnit [firstICAData = This], DataUnit [secondICAData = BASE], DataUnit [secondICAData = B003], DataUnit [secondICAData = NORTH], DataUnit [secondICAData = Posting within BTZ element B002], DataUnit [secondICAData = 12], DataUnit [secondICAData = 1500], DataUnit [secondICAData = N1], DataUnit [secondICAData = 200.00], DataUnit [secondICAData = 6400], DataUnit [secondICAData = S1], DataUnit [secondICAData = -200.00], DataUnit [secondICAData = This], DataUnit [aGroup = LAY1], DataUnit [aGroup = A], DataUnit [aGroup = 02], DataUnit [fAccount1500 = 1500], DataUnit [fAccount1500 = 400.00], DataUnit [fAccount1500 = 400.00], DataUnit [account6300 = 6300], DataUnit [account6300 = -400.00], DataUnit [account6300 = -400.00], DataUnit [sAccount1500 = 1500], DataUnit [sAccount1500 = 600.00], DataUnit [sAccount1500 = 600.00], DataUnit [account6400 = 6400], DataUnit [account6400 = -200.00], DataUnit [account6400 = -200.00], DataUnit [structureEnqForA02 = LAY1], DataUnit [structureEnqForA02 = 00], DataUnit [structureEnqForA02 = NORTH], DataUnit [structureEnqForA02 = N], DataUnit [structureEnqForA02 = A], DataUnit [structureEnqForA02 = 02], DataUnit [structureEnqForN1 = N1], DataUnit [structureEnqForN1 = 400.00], DataUnit [structureEnqForN1 = 400.00], DataUnit [structureEnqForN2 = N2], DataUnit [structureEnqForN2 = 400.00], DataUnit [structureEnqForN2 = 400.00], DataUnit [structureEnq2ForN1 = N1], DataUnit [structureEnq2ForN1 = 600.00], DataUnit [structureEnq2ForN1 = 600.00], DataUnit [structureEnqForS1 = S1], DataUnit [structureEnqForS1 = 600.00], DataUnit [structureEnqForS1 = 600.00], DataUnit [balance = NBTZ], DataUnit [balance = 000.00], DataUnit [balance = 000.00], DataUnit [balance = N1], DataUnit [balance = 400.00], DataUnit [balance = 400.00], DataUnit [balance = N2], DataUnit [balance = -400.00], DataUnit [balance = -400.00]]</td>
+<td><div><pre>org.openqa.selenium.NoSuchElementException: Unable to find element with xpath == //fieldset/legend[text()=&apos;Command&apos;]/..//input[contains(@name,&apos;COMMAND&apos;)] (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 60.19 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.0.1&apos;, revision: &apos;1969d75&apos;, time: &apos;2016-10-18 09:48:19 -0700&apos;
+System info: host: &apos;ChetnaM-PC&apos;, ip: &apos;10.31.16.11&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_112&apos;
+Driver info: org.openqa.selenium.ie.InternetExplorerDriver
+Capabilities [{browserAttachTimeout=0, ie.enableFullPageScreenshot=true, enablePersistentHover=true, ie.forceCreateProcessApi=false, ie.forceShellWindowsApi=false, pageLoadStrategy=normal, ignoreZoomSetting=false, ie.fileUploadDialogTimeout=3000, version=11, platform=WINDOWS, nativeEvents=true, ie.ensureCleanSession=false, elementScrollBehavior=0, ie.browserCommandLineSwitches=, requireWindowFocus=false, browserName=internet explorer, initialBrowserUrl=http://localhost:37650/, javascriptEnabled=true, ignoreProtectedModeSettings=false, enableElementCacheCleanup=true, unexpectedAlertBehaviour=dismiss}]
+Session ID: 1a680f01-58c3-4189-9898-48644c30e11f
+*** Element info: {Using=xpath, value=//fieldset/legend[text()=&apos;Command&apos;]/..//input[contains(@name,&apos;COMMAND&apos;)]}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:216)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:168)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:635)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:368)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:473)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:360)
+	at sun.reflect.GeneratedMethodAccessor8.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$2.invoke(EventFiringWebDriver.java:103)
+	at com.sun.proxy.$Proxy9.findElement(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.findElement(EventFiringWebDriver.java:187)
+	at com.adv.qa.selenium.framework.pageObjects.currency.CurrencyPage.isCommandDisplayed(CurrencyPage.java:142)
+	at com.adv.qa.selenium.tests.currency.A040_ICA_Data_EntryTest.accountDetailEnquiry(A040_ICA_Data_EntryTest.java:107)
+	at com.adv.qa.selenium.tests.currency.A040_ICA_Data_EntryTest.verify(A040_ICA_Data_EntryTest.java:62)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:104)
+	at org.testng.internal.InvokeMethodRunnable.runOne(InvokeMethodRunnable.java:54)
+	at org.testng.internal.InvokeMethodRunnable.run(InvokeMethodRunnable.java:44)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+</pre></div><a href='#' onClick='toggleBox("stack-trace413218476", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace413218476'><pre>org.openqa.selenium.NoSuchElementException: Unable to find element with xpath == //fieldset/legend[text()=&apos;Command&apos;]/..//input[contains(@name,&apos;COMMAND&apos;)] (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 60.19 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.0.1&apos;, revision: &apos;1969d75&apos;, time: &apos;2016-10-18 09:48:19 -0700&apos;
+System info: host: &apos;ChetnaM-PC&apos;, ip: &apos;10.31.16.11&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_112&apos;
+Driver info: org.openqa.selenium.ie.InternetExplorerDriver
+Capabilities [{browserAttachTimeout=0, ie.enableFullPageScreenshot=true, enablePersistentHover=true, ie.forceCreateProcessApi=false, ie.forceShellWindowsApi=false, pageLoadStrategy=normal, ignoreZoomSetting=false, ie.fileUploadDialogTimeout=3000, version=11, platform=WINDOWS, nativeEvents=true, ie.ensureCleanSession=false, elementScrollBehavior=0, ie.browserCommandLineSwitches=, requireWindowFocus=false, browserName=internet explorer, initialBrowserUrl=http://localhost:37650/, javascriptEnabled=true, ignoreProtectedModeSettings=false, enableElementCacheCleanup=true, unexpectedAlertBehaviour=dismiss}]
+Session ID: 1a680f01-58c3-4189-9898-48644c30e11f
+*** Element info: {Using=xpath, value=//fieldset/legend[text()=&apos;Command&apos;]/..//input[contains(@name,&apos;COMMAND&apos;)]}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:216)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:168)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:635)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:368)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:473)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:360)
+	at sun.reflect.GeneratedMethodAccessor8.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$2.invoke(EventFiringWebDriver.java:103)
+	at com.sun.proxy.$Proxy9.findElement(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.findElement(EventFiringWebDriver.java:187)
+	at com.adv.qa.selenium.framework.pageObjects.currency.CurrencyPage.isCommandDisplayed(CurrencyPage.java:142)
+	at com.adv.qa.selenium.tests.currency.A040_ICA_Data_EntryTest.accountDetailEnquiry(A040_ICA_Data_EntryTest.java:107)
+	at com.adv.qa.selenium.tests.currency.A040_ICA_Data_EntryTest.verify(A040_ICA_Data_EntryTest.java:62)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:104)
+	at org.testng.internal.InvokeMethodRunnable.runOne(InvokeMethodRunnable.java:54)
+	at org.testng.internal.InvokeMethodRunnable.run(InvokeMethodRunnable.java:44)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+</pre></div></td>
+<td>240</td>
+<td>com.adv.qa.selenium.tests.currency.A040_ICA_Data_EntryTest@7ea37dbf</td></tr>
+</table><p>
 <table width='100%' border='1' class='invocation-passed'>
 <tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
 <tr><td><b>Test method</b></td>
@@ -75,20 +171,15 @@ function toggleAllBoxes() {
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='com.adv.qa.selenium.tests.currency.A032_Management_CodesTest.verify()'><b>verify</b><br>Test class: com.adv.qa.selenium.tests.currency.A032_Management_CodesTest<br>Parameters: [DataUnit [userName = BM], DataUnit [passWord = E5], DataUnit [code = EBD], DataUnit [values = B], DataUnit [n1ManagementCode = N1], DataUnit [n1ManagementCode = Newcastle], DataUnit [n1ManagementCode = N1], DataUnit [n1ManagementCode = 00], DataUnit [n1ManagementCode = NORTH], DataUnit [n2ManagementCode = N2], DataUnit [n2ManagementCode = Sunderland], DataUnit [n2ManagementCode = N2], DataUnit [n2ManagementCode = 00], DataUnit [n2ManagementCode = NORTH], DataUnit [s1ManagementCode = S1], DataUnit [s1ManagementCode = London], DataUnit [s1ManagementCode = S1], DataUnit [s1ManagementCode = 00], DataUnit [s1ManagementCode = SOUTH], DataUnit [e1ManagementCode = E1], DataUnit [e1ManagementCode = Norwich], DataUnit [e1ManagementCode = E1], DataUnit [e1ManagementCode = 00], DataUnit [e1ManagementCode = EAST], DataUnit [w1ManagementCode = W1], DataUnit [w1ManagementCode = Devon], DataUnit [w1ManagementCode = W1], DataUnit [w1ManagementCode = 00], DataUnit [w1ManagementCode = WEST], DataUnit [nbtzManagementCode = NBTZ], DataUnit [nbtzManagementCode = NBTZ], DataUnit [nbtzManagementCode = NBTZ], DataUnit [nbtzManagementCode = 00], DataUnit [nbtzManagementCode = NORTH], DataUnit [sbtzManagementCode = SBTZ], DataUnit [sbtzManagementCode = SBTZ], DataUnit [sbtzManagementCode = SBTZ], DataUnit [sbtzManagementCode = 00], DataUnit [sbtzManagementCode = SOUTH], DataUnit [ebtzManagementCode = EBTZ], DataUnit [ebtzManagementCode = EBTZ], DataUnit [ebtzManagementCode = EBTZ], DataUnit [ebtzManagementCode = 00], DataUnit [ebtzManagementCode = EAST], DataUnit [wbtzManagementCode = WBTZ], DataUnit [wbtzManagementCode = WBTZ], DataUnit [wbtzManagementCode = WBTZ], DataUnit [wbtzManagementCode = 00], DataUnit [wbtzManagementCode = WEST]]</td>
+<td title='com.adv.qa.selenium.tests.currency.A038_Process_EP2OracleTest.verify()'><b>verify</b><br>Test class: com.adv.qa.selenium.tests.currency.A038_Process_EP2OracleTest<br>Parameters: [DataUnit [userName = SYSTEM], DataUnit [passWord = E5], DataUnit [code = Submit EP2], DataUnit [process = EP2], DataUnit [processList = EPA], DataUnit [processList = E5H5EP2], DataUnit [processList = Y]]</td>
 <td></td>
-<td>954</td>
-<td>com.adv.qa.selenium.tests.currency.A032_Management_CodesTest@37e547da</td></tr>
+<td>118</td>
+<td>com.adv.qa.selenium.tests.currency.A038_Process_EP2OracleTest@add0edd</td></tr>
 <tr>
-<td title='com.adv.qa.selenium.tests.currency.A032A_PathKeyNewParentTest.verify()'><b>verify</b><br>Test class: com.adv.qa.selenium.tests.currency.A032A_PathKeyNewParentTest<br>Parameters: [DataUnit [userName = BM1], DataUnit [passWord = E5], DataUnit [currencyCode = ECG], DataUnit [pathKeyN1 = 00], DataUnit [pathKeyN1 = 2], DataUnit [pathKeyN1 = N1], DataUnit [pathKeyN1 = NORTH], DataUnit [pathKeyN2 = 00], DataUnit [pathKeyN2 = 2], DataUnit [pathKeyN2 = N2], DataUnit [pathKeyN2 = NORTH], DataUnit [pathKeyS1 = 00], DataUnit [pathKeyS1 = 2], DataUnit [pathKeyS1 = S1], DataUnit [pathKeyS1 = SOUTH], DataUnit [pathKeyE1 = 00], DataUnit [pathKeyE1 = 2], DataUnit [pathKeyE1 = E1], DataUnit [pathKeyE1 = EAST], DataUnit [pathKeyW1 = 00], DataUnit [pathKeyW1 = 2], DataUnit [pathKeyW1 = W1], DataUnit [pathKeyW1 = WEST], DataUnit [pathKeyNBTZ = 00], DataUnit [pathKeyNBTZ = 2], DataUnit [pathKeyNBTZ = NBTZ], DataUnit [pathKeyNBTZ = NORTH], DataUnit [pathKeySBTZ = 00], DataUnit [pathKeySBTZ = 2], DataUnit [pathKeySBTZ = SBTZ], DataUnit [pathKeySBTZ = SOUTH], DataUnit [pathKeyEBTZ = 00], DataUnit [pathKeyEBTZ = 2], DataUnit [pathKeyEBTZ = EBTZ], DataUnit [pathKeyEBTZ = EAST], DataUnit [pathKeyWBTZ = 00], DataUnit [pathKeyWBTZ = 2], DataUnit [pathKeyWBTZ = WBTZ], DataUnit [pathKeyWBTZ = WEST]]</td>
+<td title='com.adv.qa.selenium.tests.currency.A039_EnquiryTest.verify()'><b>verify</b><br>Test class: com.adv.qa.selenium.tests.currency.A039_EnquiryTest<br>Parameters: [DataUnit [userName = SYSTEM], DataUnit [passWord = E5], DataUnit [code = EJI], DataUnit [company = IM], DataUnit [aGroup = LAY1], DataUnit [aGroup = A], DataUnit [aGroup = B/S Group A], DataUnit [aGroup = 02 Category A02], DataUnit [aGroup = B/S Group A Expenses     Total], DataUnit [aGroup = Running Total], DataUnit [aGroup = 0.00], DataUnit [aGroup = 0.00], DataUnit [aGroup = 0.00], DataUnit [aGroup = 0.00], DataUnit [aGroup = 0.00], DataUnit [aGroup = 0.00], DataUnit [bGroup = LAY1], DataUnit [bGroup = B], DataUnit [bGroup = B/S Group B Purchasing], DataUnit [bGroup = 01 Purchasing Assets], DataUnit [bGroup = 02 PL Creditors], DataUnit [bGroup = 03 Purchasing CTLS], DataUnit [bGroup = 04 POP Accruals], DataUnit [bGroup = 08 Category B08], DataUnit [bGroup = B/S Group B Purchasing   Total], DataUnit [bGroup = Running Total], DataUnit [bGroup = 0.00], DataUnit [bGroup = 0.00], DataUnit [bGroup = 0.00], DataUnit [bGroup = 0.00], DataUnit [bGroup = 0.00], DataUnit [bGroup = 0.00]]</td>
 <td></td>
-<td>557</td>
-<td>com.adv.qa.selenium.tests.currency.A032A_PathKeyNewParentTest@2b6856dd</td></tr>
-<tr>
-<td title='com.adv.qa.selenium.tests.currency.A033_Analysis_CodeTest.verify()'><b>verify</b><br>Test class: com.adv.qa.selenium.tests.currency.A033_Analysis_CodeTest<br>Parameters: [DataUnit [userName = SYSTEM], DataUnit [passWord = E5], DataUnit [code = EBD], DataUnit [values = 0], DataUnit [avManagementCode = AV], DataUnit [avManagementCode = Home Cinema], DataUnit [avManagementCode = AV], DataUnit [avManagementCode = 0.0], DataUnit [avManagementCode = NORTH], DataUnit [avManagementCode = Warning], DataUnit [avManagementCode = Warning], DataUnit [hiFIManagementCode = HiFi], DataUnit [hiFIManagementCode = HiFi], DataUnit [hiFIManagementCode = HiFi], DataUnit [hiFIManagementCode = 0.0], DataUnit [hiFIManagementCode = NORTH], DataUnit [hiFIManagementCode = Warning], DataUnit [hiFIManagementCode = Warning]]</td>
-<td></td>
-<td>302</td>
-<td>com.adv.qa.selenium.tests.currency.A033_Analysis_CodeTest@5db45159</td></tr>
+<td>489</td>
+<td>com.adv.qa.selenium.tests.currency.A039_EnquiryTest@2aa3cd93</td></tr>
 </table><p>
 </body>
 </html>

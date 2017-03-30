@@ -48,7 +48,7 @@ public class A050_Accounts_Payable_Control_AccountsTest extends BaseTest{
 		
 		currencyPage.fillCurrenceyCode(currencyCode);
 		/*Verify currency search page displayed*/
-		Assert.assertEquals(testcases,currencyPage.getTableHeader(), "M"+currencyCode+" - Accounts Payable Control Acc.","Currency search page","displayed");
+		Assert.assertEquals(testcases,currencyPage.getTableHeader(), "M"+currencyCode+" - AP Control Accounts List","Currency search page","displayed");
 		
 		currencyPage.searchValue(companyId,control,2,1);
 	
@@ -57,7 +57,9 @@ public class A050_Accounts_Payable_Control_AccountsTest extends BaseTest{
 		/*Create batch type code*/
 		currencyPage.enterAccountPayableControlDetails(control);
 		
-		currencyPage.clickOnUpdtWarnings();
+		currencyPage.clickOnUpdate();
+		currencyPage.clickOnAccptWarnings();
+		currencyPage.clickOnUpdate();
 		
 		/*Exit from the batch details page*/
 		currencyPage.clickOnCancel();

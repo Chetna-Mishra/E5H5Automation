@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?><SeleniumTestReport>
+<TestCase>
+<A051_Purchase_Ledger_Bank_CodesTest>
+<Verification1>30/03/2017 03:40:17 | Pass : Login page displayed</Verification1>
+<Verification2>30/03/2017 03:40:23 | Pass : Command line displayed</Verification2>
+<Verification3>30/03/2017 03:40:37 | Pass : Currency search page displayed</Verification3>
+<Verification4>30/03/2017 03:41:50 | Pass : New bank code  B1 created</Verification4>
+<Verification5>30/03/2017 03:42:00 | Pass : New bank code  H1 created</Verification5>
+<Verification6>30/03/2017 03:42:13 | Pass : New bank code BP displayed in the list</Verification6>
+<Verification7>30/03/2017 03:42:15 | Pass : New bank code B1 displayed in the list</Verification7>
+<Verification8>30/03/2017 03:42:18 | Pass : New bank code H1 displayed in the list</Verification8>
+</A051_Purchase_Ledger_Bank_CodesTest>
+</TestCase>
+</SeleniumTestReport>

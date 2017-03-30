@@ -63,6 +63,7 @@ public class A047_Accounts_Payable_Batch_TypesTest extends BaseTest{
 	
 	private void createBatchType(CurrencyPage currencyPage, DataRow dataRow,List<String> batchList) throws InterruptedException{
 		String code = "EDTBTCH ACT=INSERT,COMPANY="+companyId;
+		
 		List<String> currencyCodeForBatchType = dataRow.findNamesReturnValues("currencyCode");
 		
 		/*Verify command line*/

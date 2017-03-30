@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?><SeleniumTestReport>
+<TestCase>
+<A044_TAX_Rates_by_Tax_CodesTest>
+<Verification1>24/03/2017 05:33:26 | Pass : Login page displayed</Verification1>
+<Verification2>24/03/2017 05:33:33 | Pass : Command line displayed</Verification2>
+<Verification3>24/03/2017 05:33:47 | Pass : Currency search page displayed</Verification3>
+</A044_TAX_Rates_by_Tax_CodesTest>
+</TestCase>
+</SeleniumTestReport>

@@ -1,21 +1,99 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite thread-count="1" guice-stage="DEVELOPMENT" verbose="2" name="Failed suite [suite]">
-  <test name="suite21(failed)">
+  <test name="suite20(failed)">
     <classes>
+      <class name="com.adv.qa.selenium.tests.currency.A028_Default_Structure_ControlsTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="beforeClass"/>
+        </methods>
+      </class> <!-- com.adv.qa.selenium.tests.currency.A028_Default_Structure_ControlsTest -->
+      <class name="com.adv.qa.selenium.tests.currency.A029_Default_Structure_ElementsTest">
+        <methods>
+          <include name="beforeClass"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.adv.qa.selenium.tests.currency.A029_Default_Structure_ElementsTest -->
+      <class name="com.adv.qa.selenium.tests.currency.A031_Company_ControlsTest">
+        <methods>
+          <include name="beforeClass"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.adv.qa.selenium.tests.currency.A031_Company_ControlsTest -->
+      <class name="com.adv.qa.selenium.tests.currency.A026_Layout_CodesTest">
+        <methods>
+          <include name="beforeClass"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.adv.qa.selenium.tests.currency.A026_Layout_CodesTest -->
       <class name="com.adv.qa.selenium.tests.currency.A036_BTZ_Elements_For_ICA_StructureTest">
         <methods>
           <include name="tearDown"/>
           <include name="beforeClass"/>
         </methods>
       </class> <!-- com.adv.qa.selenium.tests.currency.A036_BTZ_Elements_For_ICA_StructureTest -->
+      <class name="com.adv.qa.selenium.tests.currency.A035_Structure_RebuildOracleTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="beforeClass"/>
+        </methods>
+      </class> <!-- com.adv.qa.selenium.tests.currency.A035_Structure_RebuildOracleTest -->
+      <class name="com.adv.qa.selenium.tests.currency.A033_Analysis_CodeTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="beforeClass"/>
+        </methods>
+      </class> <!-- com.adv.qa.selenium.tests.currency.A033_Analysis_CodeTest -->
       <class name="com.adv.qa.selenium.tests.currency.A037_ICA_Default_Trading_RelationshipsTest">
         <methods>
-          <include name="verify" invocation-numbers="0"/>
           <include name="beforeClass"/>
           <include name="tearDown"/>
         </methods>
       </class> <!-- com.adv.qa.selenium.tests.currency.A037_ICA_Default_Trading_RelationshipsTest -->
+      <class name="com.adv.qa.selenium.tests.currency.A039_EnquiryTest">
+        <methods>
+          <include name="beforeClass"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.adv.qa.selenium.tests.currency.A039_EnquiryTest -->
+      <class name="com.adv.qa.selenium.tests.currency.A032A_PathKeyNewParentTest">
+        <methods>
+          <include name="beforeClass"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.adv.qa.selenium.tests.currency.A032A_PathKeyNewParentTest -->
+      <class name="com.adv.qa.selenium.tests.currency.A030_Security_ElementsTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="beforeClass"/>
+        </methods>
+      </class> <!-- com.adv.qa.selenium.tests.currency.A030_Security_ElementsTest -->
+      <class name="com.adv.qa.selenium.tests.currency.A038_Process_EP2OracleTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="beforeClass"/>
+        </methods>
+      </class> <!-- com.adv.qa.selenium.tests.currency.A038_Process_EP2OracleTest -->
+      <class name="com.adv.qa.selenium.tests.currency.A040_ICA_Data_EntryTest">
+        <methods>
+          <include name="beforeClass"/>
+          <include name="verify" invocation-numbers="0"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.adv.qa.selenium.tests.currency.A040_ICA_Data_EntryTest -->
+      <class name="com.adv.qa.selenium.tests.currency.A032_Management_CodesTest">
+        <methods>
+          <include name="beforeClass"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.adv.qa.selenium.tests.currency.A032_Management_CodesTest -->
+      <class name="com.adv.qa.selenium.tests.currency.A027_Default_StructureTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="beforeClass"/>
+        </methods>
+      </class> <!-- com.adv.qa.selenium.tests.currency.A027_Default_StructureTest -->
     </classes>
-  </test> <!-- suite21(failed) -->
+  </test> <!-- suite20(failed) -->
 </suite> <!-- Failed suite [suite] -->

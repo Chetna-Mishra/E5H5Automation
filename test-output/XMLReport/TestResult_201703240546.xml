@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?><SeleniumTestReport>
+<TestCase>
+<A044_TAX_Rates_by_Tax_CodesTest>
+<Verification1>24/03/2017 05:46:59 | Pass : Login page displayed</Verification1>
+<Verification2>24/03/2017 05:47:05 | Pass : Command line displayed</Verification2>
+<Verification3>24/03/2017 05:47:19 | Pass : Currency search page displayed</Verification3>
+<Verification4>24/03/2017 05:49:45 | Fail : Tax rate UKS not displayed in the list</Verification4>
+<Verification5>24/03/2017 05:49:45 | Pass : Command line displayed</Verification5>
+<Verification6>24/03/2017 05:50:00 | Pass : Currency search page displayed</Verification6>
+<Verification7>24/03/2017 05:52:25 | Fail : Tax rate UKV not displayed in the list</Verification7>
+<Verification8>24/03/2017 05:52:25 | Pass : Command line displayed</Verification8>
+<Verification9>24/03/2017 05:52:40 | Pass : Currency search page displayed</Verification9>
+<Verification10>24/03/2017 05:55:05 | Fail : Tax rate UKZ not displayed in the list</Verification10>
+</A044_TAX_Rates_by_Tax_CodesTest>
+</TestCase>
+</SeleniumTestReport>

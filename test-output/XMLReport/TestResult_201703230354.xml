@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?><SeleniumTestReport>
+<TestCase>
+<A040_ICA_Data_EntryTest>
+<Verification1>23/03/2017 03:54:49 | Pass : Login page displayed</Verification1>
+<Verification2>23/03/2017 03:54:55 | Pass : Command line displayed</Verification2>
+<Verification3>23/03/2017 03:55:15 | Pass : Command line displayed</Verification3>
+<Verification4>23/03/2017 03:57:50 | Pass : New group displayed displayed in the grid</Verification4>
+<Verification5>23/03/2017 04:03:03 | Fail : New group displayed not displayed in the grid</Verification5>
+</A040_ICA_Data_EntryTest>
+</TestCase>
+</SeleniumTestReport>

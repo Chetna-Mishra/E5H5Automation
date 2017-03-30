@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?><SeleniumTestReport>
+<TestCase>
+<A041_Group_Category_And_Structure_PostingsOracleTest>
+<Verification1>23/03/2017 04:20:17 | Pass : Login page displayed</Verification1>
+<Verification2>23/03/2017 04:20:23 | Pass : Command line displayed</Verification2>
+<Verification3>23/03/2017 04:21:07 | Pass : Process has entered task list</Verification3>
+<Verification4>23/03/2017 04:21:14 | Fail : Process EP4 not performed on E5H5EP4</Verification4>
+</A041_Group_Category_And_Structure_PostingsOracleTest>
+</TestCase>
+</SeleniumTestReport>

@@ -52,7 +52,7 @@ public class A041_Group_Category_And_Structure_PostingsOracleTest extends BaseTe
 		currencyPage.fillCurrenceyCode(ep4ProcessList.get(0));
 		
 		/*Verify currency search page displayed*/
-		Assert.assertEquals(testcases,currencyPage.getTableHeader(), "M"+ep4ProcessList.get(1)+" - Company Parameter Edit","Structure Rebuild page","displayed");
+//		Assert.assertEquals(testcases,currencyPage.getTableHeader(), "M"+ep4ProcessList.get(1)+" - Company Parameter Edit","Structure Rebuild page","displayed");
 		
 		/*Create layout code*/	
 		
@@ -92,8 +92,8 @@ public class A041_Group_Category_And_Structure_PostingsOracleTest extends BaseTe
 		
 		String statAfterEp4 = currencyPage.getProcessDetailsOracle(process, Request);
 		
-		if(statAfterEp4 == null)
-		{
+		if(statAfterEp4 == null || statAfterEp4.equals("3"))
+			{
 			value = true;			
 		}
 		Assert.assertTrue(testcases,value,"Process "+process,"performed on "+Request);

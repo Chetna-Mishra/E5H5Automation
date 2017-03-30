@@ -22,6 +22,7 @@ import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.ie.InternetExplorerDriver;
 import org.openqa.selenium.remote.Augmenter;
@@ -178,7 +179,6 @@ public class BaseTest {
 				
 				if(browser.equalsIgnoreCase("firefox")){
 					capability = DesiredCapabilities.firefox();
-
 			
 				}
 				
@@ -195,7 +195,6 @@ public class BaseTest {
 //				System.setProperty("webdriver.gecko.driver","D://E5H5TestAutomation//Automation Setup//geckodriver-v0.13.0-win64//geckodriver.exe");
 //				System.setProperty("webdriver.chrome.driver", "src/test/resources/drivers/geckodriver.exe");
 				System.setProperty("webdriver.gecko.driver","D://E5H5TestAutomation//Automation Setup//geckodriver-v0.14.0-win64//geckodriver.exe");
-
 				
 				browerDriver = new FirefoxDriver();
 				driver = new EventFiringWebDriver(browerDriver);
@@ -214,6 +213,16 @@ public class BaseTest {
 				browerDriver = new InternetExplorerDriver();
 				driver = new EventFiringWebDriver(browerDriver);
 			}
+			
+			else if(browser.equalsIgnoreCase("Edge")){
+//				System.setProperty("webdriver.edge.driver","src/test/resources/drivers/MicrosoftWebDriver.exe");
+				System.setProperty("webdriver.edge.driver","D://E5H5TestAutomation//Automation Setup//MicrosoftWebDriver.exe");
+							
+				browerDriver = new EdgeDriver();
+				driver = new EventFiringWebDriver(browerDriver);
+			}
+			
+			
 		}
 
 			

@@ -32,7 +32,8 @@ public class A045_BACS_CalendarTest extends BaseTest{
 		String userName = dataRow.get("userName");
 		String passWord = dataRow.get("passWord");
 		String currencyCode = dataRow.get("currencyCode");
-		List<String> calendar = dataRow.findNamesReturnValues("calendar");
+		List<String> calendarBACS = dataRow.findNamesReturnValues("calendarBACS");
+		List<String> calendarOther = dataRow.findNamesReturnValues("calendarOther");
 		
 		/*Log in to application*/
 		LoginPage loginPage = new LoginPage(driver);
@@ -50,37 +51,49 @@ public class A045_BACS_CalendarTest extends BaseTest{
 		/*Verify currency search page displayed*/
 		Assert.assertEquals(testcases,currencyPage.getTableHeader(), "M"+currencyCode+" - Calendar List","Currency search page","displayed");
 		
-		currencyPage.searchCalendar(calendar, 2);
+		verifyValues(currencyPage, calendarBACS);
+		verifyValues(currencyPage, calendarOther);
 		
-		if(!currencyPage.verifyValues(calendar.get(0))){
+		currencyPage.logOut(2);
+	
+	}	
+		
+		private void verifyValues(CurrencyPage currencyPage,List<String> calendarList)
+		{
+			currencyPage.searchCalendar(calendarList, 2);
+					
+			/*Verify new currency in the currency list*/
+					
+			if(!currencyPage.verifyValues(calendarList.get(0))){	
+				
+			currencyPage.clickOnInsert();
 			
 			currencyPage.clickOnInsert();	
 				
 			/*Create batch type code*/
-			currencyPage.enterBASCCalendarDetails(calendar);	
-			
+			currencyPage.enterCalendarDetails(calendarList);
+						
 			currencyPage.clickOnUpdate();
 	
 			currencyPage.clickOnCancel();
 			
 			currencyPage.isConfirmPopUpDisplayed();
 			
-			currencyPage.searchCalendar(calendar,2);
+			currencyPage.searchCalendar(calendarList,2);
 			
 			currencyPage.clickOnRunActivity();
-			
-			currencyPage.runActivityForCalendar(calendar);	
-			
+		
+			currencyPage.runActivityForCalendar(calendarList);
+					
+			currencyPage.clickOnUpdate();
 			currencyPage.clickOnUpdateWarnings();
 	
 			/*Verify new batch type in the list*/
-			Assert.assertTrue(testcases,currencyPage.verifyValues(calendar.get(0)), "New calendar  "+calendar.get(0),"displayed in the list");
+			Assert.assertTrue(testcases,currencyPage.verifyValues(calendarList.get(0)), "New calendar  "+calendarList.get(0),"displayed in the list");
 		}
 		else{
-			testcases.add(getCurreentDate()+" | Pass : calendar "+calendar.get(0) +"prensent in the list");
+			testcases.add(getCurreentDate()+" | Pass : calendar "+calendarList.get(0) +"prensent in the list");
 		}
-
-		currencyPage.logOut(2);
 
 	}
 	
@@ -95,7 +108,7 @@ public class A045_BACS_CalendarTest extends BaseTest{
 		String folder = "src/test/resources/";
 		String xmlFilePath = folder  + "E5H5.xml";
 		String[] nodeID = { "A045" };
-		String [] selectedNames = {"userName","passWord","code","currencyCode","calendar"};
+		String [] selectedNames = {"userName","passWord","code","currencyCode","calendarBACS","calendarOther"};
 		DataResource dataResourceSelected = new DataResource (xmlFilePath, selectedNames, true,nodeID);
 		DataRow [] [] rows = dataResourceSelected.getDataRows4DataProvider();
 		return rows;	

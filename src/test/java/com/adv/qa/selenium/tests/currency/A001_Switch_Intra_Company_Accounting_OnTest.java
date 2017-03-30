@@ -17,7 +17,7 @@ import com.adv.qa.selenium.helpers.DataRow;
  * Test Reference No	: 	A001 Switch On online auditing
  * Purpose              :   Switch on online auditing
  * Date					:   15-04-2014
- * ACCESS               :   XDJ
+ * ACCESS               :   AAB
  */
 
 public class A001_Switch_Intra_Company_Accounting_OnTest extends BaseTest{	
@@ -49,6 +49,8 @@ public class A001_Switch_Intra_Company_Accounting_OnTest extends BaseTest{
 		
 		/*Verify financial module*/
 		Assert.assertTrue(testcases,currencyPage.verifyFinancialModules(),"Financial module fields","checked by default");
+		
+		
 		
 		/*Verify Purchasing module*/
 		Assert.assertTrue(testcases,currencyPage.verifyPurchasingModules(),"Purchasing module fields","checked by default");

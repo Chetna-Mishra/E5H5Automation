@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?><SeleniumTestReport>
+<TestCase>
+<A052_Tax_AccountsTest>
+<Verification1>30/03/2017 05:40:18 | Pass : Login page displayed</Verification1>
+<Verification2>30/03/2017 05:40:23 | Pass : Command line displayed</Verification2>
+<Verification3>30/03/2017 05:40:39 | Pass : Currency search page displayed</Verification3>
+<Verification4>30/03/2017 05:42:08 | Pass : New  Tax AccoUnt G displayed in the list</Verification4>
+</A052_Tax_AccountsTest>
+</TestCase>
+</SeleniumTestReport>

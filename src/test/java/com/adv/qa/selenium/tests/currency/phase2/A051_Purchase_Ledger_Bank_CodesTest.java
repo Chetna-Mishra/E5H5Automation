@@ -78,7 +78,9 @@ public class A051_Purchase_Ledger_Bank_CodesTest extends BaseTest{
 		update = currencyPage.createBankAccount(bankCode);
 			
 		if(update==true){	
-			currencyPage.clickOnUpdtWarnings();
+			currencyPage.clickOnUpdate();
+			currencyPage.clickOnAcceptWarnings();
+			currencyPage.clickOnUpdate();
 		}
 		else{
 			testcases.add(getCurreentDate()+" | Pass : New bank code  "+bankCode.get(0)+ " created");

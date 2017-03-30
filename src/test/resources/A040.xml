@@ -12,27 +12,27 @@
             <firstICAData>B002</firstICAData>
             <firstICAData>NORTH</firstICAData>
             <firstICAData>Posting within BTZ element B001</firstICAData>
-            <firstICAData>2</firstICAData>
+            <firstICAData>12</firstICAData>
             <firstICAData>1500</firstICAData>
             <firstICAData>N1</firstICAData>
             <firstICAData>400.00</firstICAData>
             <firstICAData>6300</firstICAData>
             <firstICAData>N2</firstICAData>
             <firstICAData>-400.00</firstICAData>
-            <firstICAData>Next</firstICAData>
+            <firstICAData>This</firstICAData>
             
             <secondICAData>BASE</secondICAData>
             <secondICAData>B003</secondICAData>
             <secondICAData>NORTH</secondICAData>
             <secondICAData>Posting within BTZ element B002</secondICAData>
-            <secondICAData>2</secondICAData>
+            <secondICAData>12</secondICAData>
             <secondICAData>1500</secondICAData>
             <secondICAData>N1</secondICAData>
             <secondICAData>200.00</secondICAData>
             <secondICAData>6400</secondICAData>
             <secondICAData>S1</secondICAData>
             <secondICAData>-200.00</secondICAData>
-            <secondICAData>Next</secondICAData>
+            <secondICAData>This</secondICAData>
             
             <aGroup>LAY1</aGroup>
             <aGroup>A</aGroup>
@@ -54,9 +54,7 @@
             <account6400>-200.00</account6400>
             <account6400>-200.00</account6400>
             
-
-            
-            <structureEnqForA02>LAY1</structureEnqForA02>
+		    <structureEnqForA02>LAY1</structureEnqForA02>
             <structureEnqForA02>00</structureEnqForA02>
             <structureEnqForA02>NORTH</structureEnqForA02>
             <structureEnqForA02>N</structureEnqForA02>
@@ -76,8 +74,8 @@
             <structureEnq2ForN1>600.00</structureEnq2ForN1>
             
             <structureEnqForS1>S1</structureEnqForS1>
-            <structureEnqForS1>600.00</structureEnqForS1>
-            <structureEnqForS1>600.00</structureEnqForS1>
+            <structureEnqForS1>-200.00</structureEnqForS1>
+            <structureEnqForS1>-200.00</structureEnqForS1>
             
                         
             <balance>NBTZ</balance>

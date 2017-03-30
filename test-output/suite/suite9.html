@@ -55,11 +55,11 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>suite9</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>2/0/0</td>
+<td>Tests passed/Failed/Skipped:</td><td>1/1/0</td>
 </tr><tr>
-<td>Started on:</td><td>Fri Mar 17 09:53:36 IST 2017</td>
+<td>Started on:</td><td>Wed Mar 22 15:07:53 IST 2017</td>
 </tr>
-<tr><td>Total time:</td><td>502 seconds (502067 ms)</td>
+<tr><td>Total time:</td><td>504 seconds (504875 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -67,6 +67,100 @@ function toggleAllBoxes() {
 </tr>
 </table><p/>
 <small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-failed'>
+<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.adv.qa.selenium.tests.currency.A017_Normal_Balance_Sheet_CategoriesTest.verify()'><b>verify</b><br>Test class: com.adv.qa.selenium.tests.currency.A017_Normal_Balance_Sheet_CategoriesTest<br>Parameters: [DataUnit [userName = BM], DataUnit [passWord = E5], DataUnit [balanceCategoryCode = EAK], DataUnit [values = N], DataUnit [values = A], DataUnit [a02Category = N], DataUnit [a02Category = A], DataUnit [a02Category = 02], DataUnit [a02Category = Category A02 (N)], DataUnit [a02Category = Asset], DataUnit [b08Category = N], DataUnit [b08Category = B], DataUnit [b08Category = 08], DataUnit [b08Category = Category B08 (N)], DataUnit [b08Category = Asset], DataUnit [b01Category = N], DataUnit [b01Category = B], DataUnit [b01Category = 01], DataUnit [b01Category = Purchasing Assets], DataUnit [b01Category = Asset], DataUnit [b02Category = N], DataUnit [b02Category = B], DataUnit [b02Category = 02], DataUnit [b02Category = PL Creditors], DataUnit [b02Category = Liability], DataUnit [b03Category = N], DataUnit [b03Category = B], DataUnit [b03Category = 03], DataUnit [b03Category = Purchasing CTLs], DataUnit [b03Category = Liability], DataUnit [b04Category = N], DataUnit [b04Category = B], DataUnit [b04Category = 04], DataUnit [b04Category = POP Accruals], DataUnit [b04Category = Liability], DataUnit [c01Category = N], DataUnit [c01Category = C], DataUnit [c01Category = 01], DataUnit [c01Category = Self Assessed Tax Liability], DataUnit [c01Category = Asset], DataUnit [c02Category = N], DataUnit [c02Category = C], DataUnit [c02Category = 02], DataUnit [c02Category = Liability Category 02], DataUnit [c02Category = Liability]]</td>
+<td><div><pre>org.openqa.selenium.NoSuchElementException: Unable to find element with xpath == //fieldset/legend[text()=&apos;Command&apos;]/..//input[contains(@name,&apos;COMMAND&apos;)] (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 60.35 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.0.1&apos;, revision: &apos;1969d75&apos;, time: &apos;2016-10-18 09:48:19 -0700&apos;
+System info: host: &apos;ChetnaM-PC&apos;, ip: &apos;10.31.16.11&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_112&apos;
+Driver info: org.openqa.selenium.ie.InternetExplorerDriver
+Capabilities [{browserAttachTimeout=0, ie.enableFullPageScreenshot=true, enablePersistentHover=true, ie.forceCreateProcessApi=false, ie.forceShellWindowsApi=false, pageLoadStrategy=normal, ignoreZoomSetting=false, ie.fileUploadDialogTimeout=3000, version=11, platform=WINDOWS, nativeEvents=true, ie.ensureCleanSession=false, elementScrollBehavior=0, ie.browserCommandLineSwitches=, requireWindowFocus=false, browserName=internet explorer, initialBrowserUrl=http://localhost:37693/, javascriptEnabled=true, ignoreProtectedModeSettings=false, enableElementCacheCleanup=true, unexpectedAlertBehaviour=dismiss}]
+Session ID: 816deb8a-0222-4ec2-9d63-6f8054403c78
+*** Element info: {Using=xpath, value=//fieldset/legend[text()=&apos;Command&apos;]/..//input[contains(@name,&apos;COMMAND&apos;)]}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:216)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:168)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:635)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:368)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:473)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:360)
+	at sun.reflect.GeneratedMethodAccessor7.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$2.invoke(EventFiringWebDriver.java:103)
+	at com.sun.proxy.$Proxy9.findElement(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.findElement(EventFiringWebDriver.java:187)
+	at com.adv.qa.selenium.framework.pageObjects.currency.CurrencyPage.isCommandDisplayed(CurrencyPage.java:142)
+	at com.adv.qa.selenium.tests.currency.A017_Normal_Balance_Sheet_CategoriesTest.verify(A017_Normal_Balance_Sheet_CategoriesTest.java:58)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:104)
+	at org.testng.internal.InvokeMethodRunnable.runOne(InvokeMethodRunnable.java:54)
+	at org.testng.internal.InvokeMethodRunnable.run(InvokeMethodRunnable.java:44)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+</pre></div><a href='#' onClick='toggleBox("stack-trace2136480897", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace2136480897'><pre>org.openqa.selenium.NoSuchElementException: Unable to find element with xpath == //fieldset/legend[text()=&apos;Command&apos;]/..//input[contains(@name,&apos;COMMAND&apos;)] (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 60.35 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.0.1&apos;, revision: &apos;1969d75&apos;, time: &apos;2016-10-18 09:48:19 -0700&apos;
+System info: host: &apos;ChetnaM-PC&apos;, ip: &apos;10.31.16.11&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_112&apos;
+Driver info: org.openqa.selenium.ie.InternetExplorerDriver
+Capabilities [{browserAttachTimeout=0, ie.enableFullPageScreenshot=true, enablePersistentHover=true, ie.forceCreateProcessApi=false, ie.forceShellWindowsApi=false, pageLoadStrategy=normal, ignoreZoomSetting=false, ie.fileUploadDialogTimeout=3000, version=11, platform=WINDOWS, nativeEvents=true, ie.ensureCleanSession=false, elementScrollBehavior=0, ie.browserCommandLineSwitches=, requireWindowFocus=false, browserName=internet explorer, initialBrowserUrl=http://localhost:37693/, javascriptEnabled=true, ignoreProtectedModeSettings=false, enableElementCacheCleanup=true, unexpectedAlertBehaviour=dismiss}]
+Session ID: 816deb8a-0222-4ec2-9d63-6f8054403c78
+*** Element info: {Using=xpath, value=//fieldset/legend[text()=&apos;Command&apos;]/..//input[contains(@name,&apos;COMMAND&apos;)]}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:216)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:168)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:635)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:368)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:473)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:360)
+	at sun.reflect.GeneratedMethodAccessor7.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$2.invoke(EventFiringWebDriver.java:103)
+	at com.sun.proxy.$Proxy9.findElement(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.findElement(EventFiringWebDriver.java:187)
+	at com.adv.qa.selenium.framework.pageObjects.currency.CurrencyPage.isCommandDisplayed(CurrencyPage.java:142)
+	at com.adv.qa.selenium.tests.currency.A017_Normal_Balance_Sheet_CategoriesTest.verify(A017_Normal_Balance_Sheet_CategoriesTest.java:58)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:104)
+	at org.testng.internal.InvokeMethodRunnable.runOne(InvokeMethodRunnable.java:54)
+	at org.testng.internal.InvokeMethodRunnable.run(InvokeMethodRunnable.java:44)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+</pre></div></td>
+<td>137</td>
+<td>com.adv.qa.selenium.tests.currency.A017_Normal_Balance_Sheet_CategoriesTest@b62fe6d</td></tr>
+</table><p>
 <table width='100%' border='1' class='invocation-passed'>
 <tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
 <tr><td><b>Test method</b></td>
@@ -77,13 +171,8 @@ function toggleAllBoxes() {
 <tr>
 <td title='com.adv.qa.selenium.tests.currency.A017A_Normal_Balance_Sheet_CategoriesTest.verify()'><b>verify</b><br>Test class: com.adv.qa.selenium.tests.currency.A017A_Normal_Balance_Sheet_CategoriesTest<br>Parameters: [DataUnit [userName = BM1], DataUnit [passWord = E5], DataUnit [balanceCategoryCode = EAK], DataUnit [values = N], DataUnit [values = A], DataUnit [a09Category = N], DataUnit [a09Category = A], DataUnit [a09Category = 09], DataUnit [a09Category = CLOSEOUT], DataUnit [a09Category = Liability], DataUnit [g01Category = N], DataUnit [g01Category = G], DataUnit [g01Category = 01], DataUnit [g01Category = PPV Control Category], DataUnit [g01Category = Liability], DataUnit [i01Category = N], DataUnit [i01Category = I], DataUnit [i01Category = 01], DataUnit [i01Category = Inventory Liability], DataUnit [i01Category = Liability], DataUnit [i02Category = N], DataUnit [i02Category = I], DataUnit [i02Category = 02], DataUnit [i02Category = Inventory Asset], DataUnit [i02Category = Asset], DataUnit [t04Category = N], DataUnit [t04Category = T], DataUnit [t04Category = 04], DataUnit [t04Category = Purchasing Expenses], DataUnit [t04Category = Expense], DataUnit [t05Category = N], DataUnit [t05Category = T], DataUnit [t05Category = 05], DataUnit [t05Category = PL Gain/Loss on Exchange], DataUnit [t05Category = Expense], DataUnit [p03Category = N], DataUnit [p03Category = P], DataUnit [p03Category = 03], DataUnit [p03Category = Category P03 (N)], DataUnit [p03Category = Income], DataUnit [p04Category = N], DataUnit [p04Category = P], DataUnit [p04Category = 04], DataUnit [p04Category = Category P04 (N)], DataUnit [p04Category = Expense]]</td>
 <td></td>
-<td>487</td>
-<td>com.adv.qa.selenium.tests.currency.A017A_Normal_Balance_Sheet_CategoriesTest@37e547da</td></tr>
-<tr>
-<td title='com.adv.qa.selenium.tests.currency.A017_Normal_Balance_Sheet_CategoriesTest.verify()'><b>verify</b><br>Test class: com.adv.qa.selenium.tests.currency.A017_Normal_Balance_Sheet_CategoriesTest<br>Parameters: [DataUnit [userName = BM], DataUnit [passWord = E5], DataUnit [balanceCategoryCode = EAK], DataUnit [values = N], DataUnit [values = A], DataUnit [a02Category = N], DataUnit [a02Category = A], DataUnit [a02Category = 02], DataUnit [a02Category = Category A02 (N)], DataUnit [a02Category = Asset], DataUnit [b08Category = N], DataUnit [b08Category = B], DataUnit [b08Category = 08], DataUnit [b08Category = Category B08 (N)], DataUnit [b08Category = Asset], DataUnit [b01Category = N], DataUnit [b01Category = B], DataUnit [b01Category = 01], DataUnit [b01Category = Purchasing Assets], DataUnit [b01Category = Asset], DataUnit [b02Category = N], DataUnit [b02Category = B], DataUnit [b02Category = 02], DataUnit [b02Category = PL Creditors], DataUnit [b02Category = Liability], DataUnit [b03Category = N], DataUnit [b03Category = B], DataUnit [b03Category = 03], DataUnit [b03Category = Purchasing CTLs], DataUnit [b03Category = Liability], DataUnit [b04Category = N], DataUnit [b04Category = B], DataUnit [b04Category = 04], DataUnit [b04Category = POP Accruals], DataUnit [b04Category = Liability], DataUnit [c01Category = N], DataUnit [c01Category = C], DataUnit [c01Category = 01], DataUnit [c01Category = Self Assessed Tax Liability], DataUnit [c01Category = Asset], DataUnit [c02Category = N], DataUnit [c02Category = C], DataUnit [c02Category = 02], DataUnit [c02Category = Liability Category 02], DataUnit [c02Category = Liability]]</td>
-<td></td>
-<td>489</td>
-<td>com.adv.qa.selenium.tests.currency.A017_Normal_Balance_Sheet_CategoriesTest@3e3047e6</td></tr>
+<td>491</td>
+<td>com.adv.qa.selenium.tests.currency.A017A_Normal_Balance_Sheet_CategoriesTest@13acb0d1</td></tr>
 </table><p>
 </body>
 </html>

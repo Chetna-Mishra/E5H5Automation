@@ -49,7 +49,8 @@ public class A049_Common_Purchasing_Company_ControlsTest extends BaseTest{
 		
 		currencyPage.fillCurrenceyCode(code);
 		/*Verify currency search page displayed*/
-		Assert.assertEquals(testcases,currencyPage.getTableHeader(), "M"+currencyCode.get(0)+" - Common Purchasing Company Controls Edit","Currency search page","displayed");
+//		Assert.assertEquals(testcases,currencyPage.getTableHeader(), "M"+currencyCode.get(0)+" - Common Purchasing Company Controls Edit","Currency search page","displayed");
+		Assert.assertEquals(testcases,currencyPage.getTableHeader(), "M"+currencyCode.get(0)+" - Common Purchasing Company Cont","Currency search page","displayed");
 		
 		/*Create batch type code*/
 		currencyPage.enterPurchasingCompanyControlDetails(companyId,purchasingCompany);	
@@ -57,6 +58,7 @@ public class A049_Common_Purchasing_Company_ControlsTest extends BaseTest{
 		currencyPage.clickOnUpdate();
 
 		currencyPage.fillCurrenceyCode(currencyCode.get(1));
+		
 		/*Verify currency search page displayed*/
 		Assert.assertEquals(testcases,currencyPage.getTableHeader(), "M"+currencyCode.get(1)+" - Purchasing Company Controls Li","Currency search page","displayed");
 

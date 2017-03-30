@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <Root xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
 <Row >
-	    <userName>T45</userName>
-        <passWord>T45</passWord>
+	    <userName>MANAGER</userName>
+        <passWord>E5</passWord>
         <currencyCode>DAJ</currencyCode>
         <currencyCode>DAI</currencyCode>
         

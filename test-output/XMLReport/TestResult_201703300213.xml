@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?><SeleniumTestReport>
+<TestCase>
+<A050_Accounts_Payable_Control_AccountsTest>
+<Verification1>30/03/2017 02:13:13 | Pass : Login page displayed</Verification1>
+<Verification2>30/03/2017 02:13:19 | Pass : Command line displayed</Verification2>
+<Verification3>30/03/2017 02:13:32 | Fail : Currency search page not displayed</Verification3>
+</A050_Accounts_Payable_Control_AccountsTest>
+</TestCase>
+</SeleniumTestReport>

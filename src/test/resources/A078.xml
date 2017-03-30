@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <Root xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
 	<Row >
-	    <userName>T65</userName>
-        <passWord>T65</passWord>
+	    <userName>QUERY</userName>
+        <passWord>E5</passWord>
         <currencyCode>GOA</currencyCode>
         
 		<authorisationCodeL0>L0</authorisationCodeL0>

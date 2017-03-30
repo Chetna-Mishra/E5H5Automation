@@ -23,7 +23,7 @@ import com.adv.qa.selenium.helpers.DataRow;
 /**
  * Modified By          :   Chetna Mishra
  * Modified Date		:   17-01-2016
- * Code: 
+ * Code					: 	AGA
  */
 
 public class A002_Currency_DescriptionTest extends BaseTest{

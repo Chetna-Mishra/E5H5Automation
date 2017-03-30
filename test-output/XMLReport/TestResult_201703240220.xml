@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?><SeleniumTestReport>
+<TestCase>
+<A043_Insert_Tax_CodesTest>
+<Verification1>24/03/2017 02:20:51 | Pass : Login page displayed</Verification1>
+<Verification2>24/03/2017 02:20:57 | Pass : Command line displayed</Verification2>
+<Verification3>24/03/2017 02:20:58 | Pass : Command line displayed</Verification3>
+<Verification4>24/03/2017 02:21:10 | Pass : Currency search page displayed</Verification4>
+<Verification5>24/03/2017 02:23:09 | Pass : New tax code UKS displayed in the list</Verification5>
+<Verification6>24/03/2017 02:23:13 | Pass : New tax code UKE displayed in the list</Verification6>
+<Verification7>24/03/2017 02:23:18 | Pass : New tax code UKV displayed in the list</Verification7>
+<Verification8>24/03/2017 02:23:22 | Pass : New tax code UKZ displayed in the list</Verification8>
+</A043_Insert_Tax_CodesTest>
+</TestCase>
+</SeleniumTestReport>

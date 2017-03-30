@@ -5,6 +5,7 @@
 	    <userName>SYSTEM</userName>
         <passWord>E5</passWord>
         <code>XDJ</code>
+	
 	<tableValue1>TPB%</tableValue1>
 	<tableValue2>TPB%</tableValue2>
 		
@@ -20,10 +21,7 @@
 	<entityValue2>1</entityValue2>
 	<entityValue2>0</entityValue2>
 	<entityValue2>1</entityValue2>
-	
-		
-
-    </Row>
+ </Row>
    
    <Row id="A001">
 	    <userName>SYSTEM</userName>
@@ -72,7 +70,7 @@
 		<usdCurrency>Not Participating</usdCurrency>
 		<usdCurrency></usdCurrency>
 		<usdCurrency></usdCurrency>
-		<usdCurrency>Hundredth</usdCurrency> 
+		<usdCurrency>Hundredth</usdCurrency>
 		
 		<demCurrency>DEM</demCurrency>
 		<demCurrency>DEUTCHSMARK</demCurrency>
@@ -215,20 +213,18 @@
 		<demgbpCurrency>1</demgbpCurrency>
 		<demgbpCurrency>1.0</demgbpCurrency>
 		<demgbpCurrency>1.0</demgbpCurrency>
-		
-		
 		    
    </Row>
    
-     	<Row id="A004A">
+   
+ 	<Row id="A004A">
 	    <userName>SYSTEM</userName>
         <passWord>E5</passWord>
         <code>AGE</code>         
 			
  	    <RateType>IM</RateType>
 		<RateType>CO BOBS BISCUIT FACTORY</RateType>
-		
-     </Row>
+    </Row>
     
    	<Row id="A004">
 	    <userName>SYSTEM</userName>
@@ -608,8 +604,19 @@
        <calendarActivity>6</calendarActivity>
        <calendarActivity>7</calendarActivity>
 
-       
-       <calendarMonthActivity>IMMONTH</calendarMonthActivity>
+       <calendarOther>WORKING</calendarOther>
+       <calendarOther>IM DAILY FOR WORKING</calendarOther>
+       <calendarOther>Daily</calendarOther>
+       <calendarOther>1</calendarOther>
+       <calendarOther>2</calendarOther>
+       <calendarOther>day</calendarOther>
+       <calendarOther>3</calendarOther>
+       <calendarOther>4</calendarOther>	
+       <calendarOther>5</calendarOther>
+       <calendarOther></calendarOther>
+       <calendarOther></calendarOther>
+
+	   <calendarMonthActivity>IMMONTH</calendarMonthActivity>
        <calendarMonthActivity>CO IM MONTHLY</calendarMonthActivity>
        <calendarMonthActivity>Monthly</calendarMonthActivity>
        <calendarMonthActivity>31</calendarMonthActivity>
@@ -944,7 +951,7 @@
      	<companyControl>IM</companyControl>
      	<companyControl>IMFISCAL</companyControl>
      	<companyControl>2</companyControl>
-     	<companyControl>2</companyControl>
+     	<companyControl>1</companyControl>
      	<companyControl>SUMM</companyControl>
      	<companyControl>50</companyControl>
      	<companyControl>S1</companyControl>
@@ -1133,57 +1140,65 @@
 	  	  	  	  
 	  
 	<Row id="A044">
-	    <userName>T55</userName>
-        <passWord>T55</passWord>
+	    <userName>SYSTEM</userName>
+        <passWord>E5</passWord>
         <currencyCode>RAN</currencyCode>
-        <currencyCode>RAM</currencyCode>
+        
         
 	    <sType>UKS</sType>
 	    <sType>01 Jan 2000</sType>
 	    <sType>UK</sType>
-	    <sType>PS</sType>
+	    <sType>S</sType>
 	    <sType>17.50</sType>
-	    <sType>RAM</sType>
+	
 	   
 	    <zType>UKZ</zType>
 	    <zType>01 Jan 2000</zType>
 	    <zType>UK</zType>
-	    <zType>PZ</zType>
+	    <zType>Z</zType>
 	    <zType>0.00</zType>
-	    <zType>RAM</zType>
+	
 	    
 	    <eType>UKE</eType>
 	    <eType>01 Jan 2000</eType>
 	    <eType>UK</eType>
-	    <eType>PE</eType>
+	    <eType>E</eType>
 	    <eType>0.00</eType>
-	    <eType>RAM</eType>
+
 
 	    <vType>UKV</vType>
 	    <vType>01 Jan 2000</vType>
 	    <vType>UK</vType>
-	    <vType>PV</vType>
+	    <vType>V</vType>
 	    <vType>0.00</vType>
-	    <vType>RAM</vType>
-	</Row>
 	
+	</Row>
 	<Row id="A045">
-	     <userName>T45</userName>
-        <passWord>T45</passWord>
+	     <userName>QUERY</userName>
+        <passWord>E5</passWord>
         <currencyCode>APA</currencyCode>
         
-        <calendar>BACS03</calendar>
-        <calendar>BACS Calendar IM</calendar>
-        <calendar>Friday</calendar>
-        <calendar>1996</calendar>
-        <calendar>ACMONTH</calendar>
-        <calendar>2001</calendar>
-        <calendar>2014</calendar>               
+        <calendarBACS>A!BACS</calendarBACS>
+        <calendarBACS>BACS Calendar IM</calendarBACS>
+        <calendarBACS>Friday</calendarBACS>
+        <calendarBACS>1996</calendarBACS>
+        <calendarBACS>IMMONTH</calendarBACS>
+        <calendarBACS>2016</calendarBACS>
+        <calendarBACS>2018</calendarBACS>     
+        
+        <calendarOther>WORKING</calendarOther>
+        <calendarOther>Working Days Calendar</calendarOther>
+        <calendarOther>Friday</calendarOther>
+        <calendarOther>1996</calendarOther>
+        <calendarOther>WORKING</calendarOther>
+        <calendarOther>2016</calendarOther>
+        <calendarOther>2018</calendarOther>   
+
 	</Row>    
 	
 	<Row id="A046">
-	     <userName>T46</userName>
-        <passWord>T46</passWord>
+	     <userName>ADMIN</userName>
+        <passWord>E5</passWord>
         <currencyCode>AKY</currencyCode>
         <bankName>UK</bankName>
         
@@ -1211,9 +1226,10 @@
         <bankName3>NILL</bankName3>
         <bankName3>NILL</bankName3>       
 	</Row>
+	
 	<Row id="A047">
-	    <userName>T47</userName>
-        <passWord>T47</passWord>
+	    <userName>MANAGER</userName>
+        <passWord>E5</passWord>
         <currencyCode>AKL</currencyCode>
         <currencyCode>AKK</currencyCode>
         <company>09</company>
@@ -1230,7 +1246,6 @@
 	    <batchTypePDE1>NILL</batchTypePDE1>
 	    <batchTypePDE1>Warning</batchTypePDE1>
 	    
-
 	    <batchTypePDE2>PDE2</batchTypePDE2>
 	    <batchTypePDE2>Logged Transactions</batchTypePDE2>
 	    <batchTypePDE2>IM</batchTypePDE2>
@@ -1242,7 +1257,6 @@
 	    <batchTypePDE2>NILL</batchTypePDE2>
 	    <batchTypePDE2>Warning</batchTypePDE2>
 	    
-
 	    <batchTypePDE3>PDE3</batchTypePDE3>
 	    <batchTypePDE3>Entered Transactions</batchTypePDE3>
 	    <batchTypePDE3>IM</batchTypePDE3>
@@ -1254,7 +1268,6 @@
 	    <batchTypePDE3>NILL</batchTypePDE3>
 	    <batchTypePDE3>Warning</batchTypePDE3>
 	    
-
 	    <batchTypePDE4>PDE4</batchTypePDE4>
 	    <batchTypePDE4>Accepted Transactions</batchTypePDE4>
 	    <batchTypePDE4>IM</batchTypePDE4>
@@ -1266,7 +1279,6 @@
 	    <batchTypePDE4>NILL</batchTypePDE4>
 	    <batchTypePDE4>Warning</batchTypePDE4>
 	    
-
 	    <batchTypePDE5>PDE5</batchTypePDE5>
 	    <batchTypePDE5>Cancelled Transactions</batchTypePDE5>
 	    <batchTypePDE5>IM</batchTypePDE5>
@@ -1278,7 +1290,6 @@
 	    <batchTypePDE5>NILL</batchTypePDE5>
 	    <batchTypePDE5>Warning</batchTypePDE5>
 	    
-
 	    <batchTypePDE6>PDE6</batchTypePDE6>
 	    <batchTypePDE6>Payments</batchTypePDE6>
 	    <batchTypePDE6>IM</batchTypePDE6>
@@ -1304,78 +1315,87 @@
 	</Row>
 	
 	<Row id="A048">
-	    <userName>T48</userName>
-        <passWord>T48</passWord>
+	    <userName>EMPLOYEE</userName>
+        <passWord>E5</passWord>
         <currencyCode>AKO</currencyCode>
 	    <currencyCode>AKM</currencyCode>
 	    
-	    <uomCodeBox>BOX7</uomCodeBox>
+	    <uomCodeBox>BOX</uomCodeBox>
 	    <uomCodeBox>Box of 10 items</uomCodeBox>
 	    <uomCodeBox>1</uomCodeBox>
 	    
-	    <uomCodeEach>EAC7</uomCodeEach>
+	    <uomCodeEach>EACH</uomCodeEach>
 	    <uomCodeEach>1 Item</uomCodeEach>
-	    <uomCodeEach></uomCodeEach>
+	    <uomCodeEach>1</uomCodeEach>
 	    
-	    <uomCodeDays>DAY7</uomCodeDays>
-	    <uomCodeDays>DAY7</uomCodeDays>
+	    <uomCodeDays>DAYS</uomCodeDays>
+	    <uomCodeDays>Days</uomCodeDays>
 	    <uomCodeDays>1</uomCodeDays>
 	    
-	    <uomCodeYear>YER7</uomCodeYear>
+	    <uomCodeYear>YEAR</uomCodeYear>
 	    <uomCodeYear>Year</uomCodeYear>
 	    <uomCodeYear>1</uomCodeYear>
 	    
-	    <uomBaseForEach>BOX7</uomBaseForEach>
-	    <uomBaseForEach>EAC7</uomBaseForEach>    
+	    <uomBaseForEach>EACH</uomBaseForEach>
+	    <uomBaseForEach>BOX</uomBaseForEach>
 	    <uomBaseForEach>10.00000</uomBaseForEach>
 	    <uomBaseForEach>0.10000</uomBaseForEach>
 	    
-	    <uomBaseForDays>YER7</uomBaseForDays>
-	    <uomBaseForDays>DAY7</uomBaseForDays>	    
+	    <uomBaseForDays>DAYS</uomBaseForDays>
+	    <uomBaseForDays>YEAR</uomBaseForDays>
 	    <uomBaseForDays>0.00274</uomBaseForDays>
 	    <uomBaseForDays>365.00000</uomBaseForDays>
 	</Row>
 	    
 	<Row id="A049">
-	    <userName>T49</userName>
-        <passWord>T49</passWord>
+	    <userName>SYSTEM</userName>
+        <passWord>E5</passWord>
         <currencyCode>PAB</currencyCode>
         <currencyCode>PAA</currencyCode>
         
 		<purchasingCompany>IM</purchasingCompany>
 		<purchasingCompany>1</purchasingCompany>
-		<purchasingCompany>DAY7</purchasingCompany>
+		<purchasingCompany>DAYS</purchasingCompany>
 		<purchasingCompany>WORKING</purchasingCompany>
 	</Row>
 	
 	<Row id="A050">
-	    <userName>T50</userName>
-        <passWord>T50</passWord>
+	    <userName>BM</userName>
+        <passWord>E5</passWord>
         <currencyCode>GAC</currencyCode>
 
-        <control>02</control>
-		<control>02 PL Control Accounts Code</control>
+        <control>IM</control>
+		<control>IM PL Control Accounts Code</control>
 		<control>2000</control>
-		<control>DUM</control>
+		<control>W1</control>
 		<control>5000</control>
-		<control>DUM</control>
+		<control>W1</control>
 		<control>5050</control>
-		<control>DUM</control>
-		<control>2160</control>
-		<control>DUM</control>
+		<control>W1</control>
 		<control>1660</control>
-		<control>DUM</control>
+		<control>W1</control>
 		<control>5100</control>
-		<control>DUM</control>
-		<control>SALC</control>
-		<control>DUM</control>
-		<control>SLDE</control>
-		<control>DUM</control>		
+		<control>W1</control>
+		<control>6200</control>
+		<control>W1</control>
+		<control>5900</control>
+		<control>W1</control>
+		<control>7000</control>
+		<control>W1</control>
+		<control>7001</control>
+		<control>W1</control>
+		<control>2150</control>
+		<control>W1</control>
+		<control>2160</control>
+		<control>W1</control>
+		<control>2051</control>
+		<control>W1</control>
+	
 	</Row>
 	
 	<Row id= "A051A">
-	    <userName>T51</userName>
-        <passWord>T51</passWord>
+	    <userName>BM1</userName>
+        <passWord>E5</passWord>
         <currencyCode>E00</currencyCode>
         <currencyCode>EBA</currencyCode>
         
@@ -1386,72 +1406,69 @@
         <bankControl>BR3</bankControl>
         <bankControl>182</bankControl>
         
-        <nominalBANKR>BANKR</nominalBANKR>
-        
+         <nominalBANKR>BANKR</nominalBANKR>
         <nominalBANKR1>BANKR1</nominalBANKR1>
-        
         <nominalBANKR2>BANKR2</nominalBANKR2>
-        
-	</Row>
+ 	</Row>
 	
 	<Row id= "A051">
-	    <userName>T50</userName>
-        <passWord>T50</passWord>
+	    <userName>QUERY</userName>
+        <passWord>E5</passWord>
         <currencyCode>GAG</currencyCode>
         
         <bankCodeBP>BP</bankCodeBP>
-        <bankCodeBP>1234</bankCodeBP>
-        <bankCodeBP>BANK ACCOUNT</bankCodeBP>
+        <bankCodeBP>01020304</bankCodeBP>
+        <bankCodeBP>Yorkshire Bank - Hartlepool</bankCodeBP>
         <bankCodeBP>GBP</bankCodeBP>
         <bankCodeBP>05-02-86</bankCodeBP>
-        <bankCodeBP>BANKR</bankCodeBP>
-        <bankCodeBP>DUM</bankCodeBP>
+        <bankCodeBP>1550</bankCodeBP>
+        <bankCodeBP>W1</bankCodeBP>
         
         <bankCodeB1>B1</bankCodeB1>
-        <bankCodeB1>1234</bankCodeB1>
-        <bankCodeB1>BANK ACCOUNT</bankCodeB1>
+        <bankCodeB1>45236987</bankCodeB1>
+        <bankCodeB1>Barclays Bank - Hartlepool</bankCodeB1>
         <bankCodeB1>GBP</bankCodeB1>
         <bankCodeB1>05-02-86</bankCodeB1>
-        <bankCodeB1>BANKR</bankCodeB1>
-        <bankCodeB1>DUM</bankCodeB1>
+        <bankCodeB1>1550</bankCodeB1>
+        <bankCodeB1>W1</bankCodeB1>
         
         <bankCodeH1>H1</bankCodeH1>
-        <bankCodeH1>1234</bankCodeH1>
-        <bankCodeH1>BANK ACCOUNT</bankCodeH1>
+        <bankCodeH1>78568945</bankCodeH1>
+        <bankCodeH1>HSBC - Hartlepool</bankCodeH1>
         <bankCodeH1>GBP</bankCodeH1>
         <bankCodeH1>05-02-86</bankCodeH1>
-        <bankCodeH1>BANKR</bankCodeH1>
-        <bankCodeH1>DUM</bankCodeH1>        
+        <bankCodeH1>1550</bankCodeH1>
+        <bankCodeH1>W1</bankCodeH1>        
 
 	</Row>
 	
 	<Row id="A052">
-	     <userName>T52</userName>
-        <passWord>T52</passWord>
+	     <userName>ADMIN</userName>
+        <passWord>E5</passWord>
         <currencyCode>RAS</currencyCode>
 
         <system>G</system>
         
         <codeUKE>UKE</codeUKE>
-        <codeUKE>1500</codeUKE>
-        <codeUKE>DUM</codeUKE>
+        <codeUKE>VATA</codeUKE>
+        <codeUKE>W1</codeUKE>
         
         <codeUKS>UKS</codeUKS>
-	    <codeUKS>1500</codeUKS>
-	    <codeUKS>DUM</codeUKS>
+	    <codeUKS>VATA</codeUKS>
+	    <codeUKS>W1</codeUKS>
 	    
 	    <codeUKV>UKV</codeUKV>
-	    <codeUKV>1500</codeUKV>
-	    <codeUKV>DUM</codeUKV>
+	    <codeUKV>VATA</codeUKV>
+	    <codeUKV>W1</codeUKV>
 	    
 	    <codeUKZ>UKZ</codeUKZ>
-	    <codeUKZ>1500</codeUKZ>
-	    <codeUKZ>DUM</codeUKZ>
+	    <codeUKZ>VATA</codeUKZ>
+	    <codeUKZ>W1</codeUKZ>
 	</Row>
 	
 	<Row id="A053">
-	    <userName>T13</userName>
-        <passWord>T13</passWord>
+	    <userName>MANAGER</userName>
+        <passWord>E5</passWord>
         <currencyCode>PAD</currencyCode>
         <currencyCode>PAC</currencyCode>
 	  	
@@ -1462,8 +1479,8 @@
 	</Row>
 	
 	<Row id="A054">
-	    <userName>T54</userName>
-        <passWord>T54</passWord>
+	    <userName>EMPLOYEE</userName>
+        <passWord>E5</passWord>
         <currencyCode>PAF</currencyCode>
         <currencyCode>PAE</currencyCode>
 	  	
@@ -1476,8 +1493,8 @@
 	</Row>
 	
     <Row id="A055">
-	    <userName>T55</userName>
-        <passWord>T55</passWord>
+	    <userName>BM</userName>
+        <passWord>E5</passWord>
         <currencyCode>PAH</currencyCode>
         <currencyCode>PAG</currencyCode>
         
@@ -1507,8 +1524,8 @@
 	</Row>
 	
     <Row id="A056">
-	    <userName>T65</userName>
-        <passWord>T65</passWord>
+	    <userName>BM1</userName>
+        <passWord>E5</passWord>
         <currencyCode>GAA</currencyCode>
         
         <companyControl>IM</companyControl>
@@ -1544,8 +1561,8 @@
     </Row>
 	
     <Row id="A056A">
-	    <userName>T56</userName>
-        <passWord>T56</passWord>
+	    <userName>BUYER</userName>
+        <passWord>E5</passWord>
         <currencyCode>AKK</currencyCode>
         
         <apBatchTypePDE1>PDE1</apBatchTypePDE1>
@@ -1568,8 +1585,8 @@
     </Row>
     
 	<Row id="A057">
-	    <userName>T57</userName>
-        <passWord>T57</passWord>
+	    <userName>EXPED</userName>
+        <passWord>E5</passWord>
         <currencyCode>GAE</currencyCode>
         
         <transaction0>3</transaction0>
@@ -1584,8 +1601,8 @@
 	</Row>
     
 	<Row id="A058">
-	    <userName>T58</userName>
-        <passWord>T58</passWord>
+	    <userName>GREC</userName>
+        <passWord>E5</passWord>
         <currencyCode>GAI</currencyCode>
 	    
         <payment01>01</payment01>
@@ -1606,8 +1623,8 @@
 	</Row>
 	
 	<Row id="A059">
-	    <userName>T59</userName>
-        <passWord>T59</passWord>
+	    <userName>SYSTEM</userName>
+        <passWord>E5</passWord>
         <currencyCode>GAO</currencyCode>
         
         <payment01>BP</payment01>
@@ -1620,8 +1637,8 @@
 	</Row>
 	
 	<Row id="A060">
-	    <userName>T60</userName>
-        <passWord>T60</passWord>
+	    <userName>QUERY</userName>
+        <passWord>E5</passWord>
         <currencyCode>GAK</currencyCode>
         
         <payment01>01</payment01>
@@ -1666,8 +1683,8 @@
 	</Row>
 	
 	<Row id="A061">
-	    <userName>T61</userName>
-        <passWord>T61</passWord>
+	    <userName>ADMIN</userName>
+        <passWord>E5</passWord>
         <currencyCode>AK2</currencyCode>
 
 	    <locationHQ>POP HQ</locationHQ>
@@ -1771,8 +1788,8 @@
 	</Row>
 	
 	<Row id="A062">
-	    <userName>T62</userName>
-        <passWord>T62</passWord>
+	    <userName>MANAGER</userName>
+        <passWord>E5</passWord>
         <currencyCode>RAF</currencyCode>
 	    
         <taxR1>R7</taxR1>
@@ -1801,8 +1818,8 @@
     </Row>
       
 	<Row id="A063">
-	    <userName>T63</userName>
-        <passWord>T63</passWord>
+	    <userName>EMPLOYEE</userName>
+        <passWord>E5</passWord>
         <currencyCode>PXU</currencyCode>
                
         <standardAccept>QUOTE-ACCEPT</standardAccept>
@@ -1837,8 +1854,8 @@
     </Row>   
     
 	<Row id="A064">
-	    <userName>T64</userName>
-        <passWord>T64</passWord>
+	    <userName>BM</userName>
+        <passWord>E5</passWord>
         <currencyCode>PXM</currencyCode>
         
         <ppvAccount>MM</ppvAccount>
@@ -1850,8 +1867,8 @@
     </Row>
     
 	<Row id="A065">
-	    <userName>T65</userName>
-        <passWord>T65</passWord>
+	    <userName>BUYER</userName>
+        <passWord>E5</passWord>
         <currencyCode>PAA</currencyCode>
         
    		<purchasingCompany>MM</purchasingCompany>
@@ -1863,8 +1880,8 @@
     </Row>
 	
 	<Row id="A066">
-	    <userName>T66</userName>
-        <passWord>T66</passWord>
+	    <userName>EXPED</userName>
+        <passWord>E5</passWord>
         <currencyCode>DAA</currencyCode>
         
         <accrualCode>IC</accrualCode>
@@ -1874,8 +1891,8 @@
     </Row>  
     
     <Row id="A067">
-	    <userName>T67</userName>
-        <passWord>T67</passWord>
+	    <userName>SYSTEM</userName>
+        <passWord>E5</passWord>
         <currencyCode>DAG</currencyCode>
    		
    		<purchasingCompany>10</purchasingCompany>
@@ -1899,8 +1916,8 @@
     </Row>
     
 	<Row id="A068">
-	    <userName>T68</userName>
-        <passWord>T68</passWord>
+	    <userName>QUERY</userName>
+        <passWord>E5</passWord>
         <currencyCode>PXG</currencyCode>
         
         <inspectionCode>L1</inspectionCode>
@@ -1911,8 +1928,8 @@
     </Row>  
     
 	<Row id="A069">
-	    <userName>T69</userName>
-        <passWord>T69</passWord>
+	    <userName>ADMIN</userName>
+        <passWord>E5</passWord>
         <currencyCode>PXF</currencyCode>
         <currencyCode>PXE</currencyCode>
 
@@ -1921,8 +1938,8 @@
     </Row>
     
 	<Row id="A070">
-	    <userName>T80</userName>
-        <passWord>T80</passWord>
+	    <userName>MANAGER</userName>
+        <passWord>E5</passWord>
         <currencyCode>PXQ</currencyCode>
         
         <reasonCode>R2</reasonCode>
@@ -1930,8 +1947,8 @@
     </Row>
     
 	<Row id="A071">
-	    <userName>T71</userName>
-        <passWord>T71</passWord>
+	    <userName>QUERY</userName>
+        <passWord>E5</passWord>
         <currencyCode>PXJ</currencyCode>
         <currencyCode>PXI</currencyCode>
         
@@ -1961,8 +1978,8 @@
    </Row>
    
 	<Row id= "A072">
-	    <userName>T72</userName>
-        <passWord>T72</passWord>
+	    <userName>ADMIN</userName>
+        <passWord>E5</passWord>
         <currencyCode>PX2</currencyCode>
         <currencyCode>PX1</currencyCode>
 	    
@@ -2017,8 +2034,8 @@
 	</Row>
 	
 	<Row id="A073">
-	    <userName>T73</userName>
-        <passWord>T73</passWord>
+	    <userName>MANAGER</userName>
+        <passWord>E5</passWord>
         <currencyCode>PX3</currencyCode>
 	    
         <receiptControl>REC3</receiptControl>
@@ -2030,8 +2047,8 @@
 	</Row>
 	
 	<Row id="A074">
-	    <userName>T74</userName>
-        <passWord>T74</passWord>
+	    <userName>EMPLOYEE</userName>
+        <passWord>E5</passWord>
         <currencyCode>GAM</currencyCode>
 	    
         <bankingCode>AP</bankingCode>
@@ -2043,8 +2060,8 @@
 	</Row>
 	
 	<Row id="A077">
-	    <userName>T77</userName>
-        <passWord>T77</passWord>
+	    <userName>SYSTEM</userName>
+        <passWord>E5</passWord>
         <currencyCode>PAA</currencyCode>
 	
 		<cpCompanyControl>SR</cpCompanyControl>
@@ -2054,8 +2071,8 @@
 	</Row>
 		
 	<Row id="A079">
-	    <userName>T79</userName>
-        <passWord>T79</passWord>
+	    <userName>MANAGER</userName>
+        <passWord>E5</passWord>
         <currencyCode>DBC</currencyCode>
         <currencyCode>GOC</currencyCode>
         
@@ -2067,8 +2084,8 @@
 	</Row>
 	
 	<Row id="A080">
-	    <userName>T80</userName>
-        <passWord>T80</passWord>
+	    <userName>EMPLOYEE</userName>
+        <passWord>E5</passWord>
         <currencyCode>DBA</currencyCode>
         
 		<authorisationCodeL1>L1</authorisationCodeL1>
@@ -2099,8 +2116,8 @@
 	</Row>
 
 	<Row id="A082">
-	    <userName>T45</userName>
-        <passWord>T45</passWord>
+	    <userName>BUYER</userName>
+        <passWord>E5</passWord>
         <currencyCode>GOP</currencyCode>
         <currencyCode>DBP</currencyCode>
         
@@ -2112,8 +2129,8 @@
 	</Row>
 	
 	<Row id="A084">
-	    <userName>T85</userName>
-        <passWord>T85</passWord>
+	    <userName>QUERY</userName>
+        <passWord>E5</passWord>
         <currencyCode>DBE</currencyCode>
         <currencyCode>GOE</currencyCode>
         
@@ -2151,8 +2168,8 @@
 	</Row>    
 	
 	<Row id="A085">
-	    <userName>T68</userName>
-        <passWord>T68</passWord>
+	    <userName>MANAGER</userName>
+        <passWord>E5</passWord>
         <currencyCode>GOG</currencyCode>
         <currencyCode>DBG</currencyCode>
         
@@ -2202,8 +2219,8 @@
     </Row>
     
 	<Row id="A086">
-	    <userName>T65</userName>
-        <passWord>T65</passWord>
+	    <userName>EMPLOYEE</userName>
+        <passWord>E5</passWord>
         <currencyCode>GOI</currencyCode>
         
         <authorisationHQ>PM</authorisationHQ>
@@ -2239,8 +2256,8 @@
     </Row>    
 	
    <Row id="A088">
-	    <userName>T65</userName>
-        <passWord>T65</passWord>
+	    <userName>BUYER</userName>
+        <passWord>E5</passWord>
         <currencyCode>GON</currencyCode>
         
         <authorisationHQ>PM</authorisationHQ>
@@ -2311,8 +2328,8 @@
     
    
     <Row id="A089">
-	    <userName>T65</userName>
-        <passWord>T65</passWord>
+	    <userName>ADMIN</userName>
+        <passWord>E5</passWord>
         <currencyCode>GAA</currencyCode>
         
         <apCompanyControl>L1</apCompanyControl>
@@ -2324,8 +2341,8 @@
     </Row>
     
     <Row id="A090">
-	    <userName>T66</userName>
-        <passWord>T66</passWord>
+	    <userName>EXPED</userName>
+        <passWord>E5</passWord>
         <currencyCode>DAG</currencyCode>
         <currencyCode>DAI</currencyCode>
         
@@ -2340,8 +2357,8 @@
  	</Row>
  	
     <Row id="A091">
-        <userName>T67</userName>
-        <passWord>T67</passWord>
+        <userName>SYSTEM</userName>
+        <passWord>E5</passWord>
         <currencyCode>PBA</currencyCode>
         
         <sonySupplier>SONY</sonySupplier>

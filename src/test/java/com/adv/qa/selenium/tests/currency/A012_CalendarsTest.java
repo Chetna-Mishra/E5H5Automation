@@ -34,7 +34,9 @@ public class A012_CalendarsTest extends BaseTest{
 		String passWord = dataRow.get("passWord");
 		String currencyCode = dataRow.get("code");
 		List<String> calendarActivity = dataRow.findNamesReturnValues("calendarActivity");
+		List<String> calendarOther = dataRow.findNamesReturnValues("calendarOther");
 		List<String> calendarMonthActivity = dataRow.findNamesReturnValues("calendarMonthActivity");
+		
 		
 		/*Log in to application*/
 		LoginPage loginPage = new LoginPage(driver);
@@ -53,7 +55,9 @@ public class A012_CalendarsTest extends BaseTest{
 		Assert.assertEquals(testcases,currencyPage.getTableHeader(), "M"+currencyCode+" - Common Activities","Search page","displayed");
 		
 		/*Create calendar activity*/
+		
 		createcalendar(currencyPage,dataRow,calendarActivity);
+		createcalendar(currencyPage,dataRow,calendarOther);
 		createcalendar(currencyPage,dataRow,calendarMonthActivity);
 			
 		currencyPage.logOut(2);
@@ -71,7 +75,7 @@ public class A012_CalendarsTest extends BaseTest{
 			currencyPage.clickOnInsert(); 
 					
 			/*Enter calendar activity details*/
-			currencyPage.createDayCalendar(calendarActivity,1);
+			currencyPage.createCalendar(calendarActivity,1);
 			
 			currencyPage.clickOnUpdate();
 					
@@ -105,7 +109,7 @@ public class A012_CalendarsTest extends BaseTest{
 		String folder = "src/test/resources/";
 		String xmlFilePath = folder  + "E5H5.xml";
 		String[] nodeID = { "A012" };
-		String [] selectedNames = {"userName","passWord","code","calendarActivity","calendarMonthActivity"};
+		String [] selectedNames = {"userName","passWord","code","calendarActivity","calendarOther", "calendarMonthActivity"};
 		DataResource dataResourceSelected = new DataResource (xmlFilePath, selectedNames, true,nodeID);
 		DataRow [] [] rows = dataResourceSelected.getDataRows4DataProvider();
 		return rows;	

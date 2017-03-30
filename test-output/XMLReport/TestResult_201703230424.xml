@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?><SeleniumTestReport>
+<TestCase>
+<A041_Group_Category_And_Structure_PostingsOracleTest>
+<Verification1>23/03/2017 04:24:42 | Pass : Login page displayed</Verification1>
+<Verification2>23/03/2017 04:24:48 | Pass : Command line displayed</Verification2>
+<Verification3>23/03/2017 04:25:34 | Pass : Process has entered task list</Verification3>
+<Verification4>23/03/2017 04:25:45 | Pass : Process EP4 performed on E5H5EP4</Verification4>
+<Verification5>23/03/2017 04:26:04 | Pass : Command line displayed</Verification5>
+<Verification6>23/03/2017 04:26:16 | Pass : Structure Rebuild page displayed</Verification6>
+<Verification7>23/03/2017 04:26:58 | Pass : Process has entered task list</Verification7>
+<Verification8>23/03/2017 04:27:08 | Pass : Process EP5 performed on E5H5EP5</Verification8>
+</A041_Group_Category_And_Structure_PostingsOracleTest>
+</TestCase>
+</SeleniumTestReport>

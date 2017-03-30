@@ -78,7 +78,7 @@ public class A046_Bank_Account_Names_for_PurchasingTest extends BaseTest{
 		/*Create bank account name*/
 		boolean update = currencyPage.bankSortCode(bankName); 
 		
-		if(update){
+		if(update == true){
 			currencyPage.clickOnUpdate();
 		}
 		

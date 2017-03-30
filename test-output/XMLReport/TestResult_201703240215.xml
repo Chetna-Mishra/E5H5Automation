@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?><SeleniumTestReport>
+<TestCase>
+<A043_Insert_Tax_CodesTest>
+<Verification1>24/03/2017 02:15:35 | Pass : Login page displayed</Verification1>
+<Verification2>24/03/2017 02:15:41 | Pass : Command line displayed</Verification2>
+<Verification3>24/03/2017 02:15:41 | Pass : Command line displayed</Verification3>
+<Verification4>24/03/2017 02:15:54 | Pass : Currency search page displayed</Verification4>
+<Verification5>24/03/2017 02:17:07 | Pass : Command line displayed</Verification5>
+<Verification6>24/03/2017 02:17:20 | Pass : Currency search page displayed</Verification6>
+</A043_Insert_Tax_CodesTest>
+</TestCase>
+</SeleniumTestReport>

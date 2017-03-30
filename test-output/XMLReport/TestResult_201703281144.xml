@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?><SeleniumTestReport>
+<TestCase>
+<A047_Accounts_Payable_Batch_TypesTest>
+<Verification1>28/03/2017 11:44:50 | Pass : Login page displayed</Verification1>
+<Verification2>28/03/2017 11:44:56 | Pass : Command line displayed</Verification2>
+<Verification3>28/03/2017 11:45:12 | Pass : Currency search page displayed</Verification3>
+<Verification4>28/03/2017 11:46:47 | Fail : New Batch type of AP PDE1 not displayed in the list</Verification4>
+<Verification5>28/03/2017 11:46:48 | Pass : Command line displayed</Verification5>
+<Verification6>28/03/2017 11:47:04 | Pass : Currency search page displayed</Verification6>
+<Verification7>28/03/2017 11:48:38 | Fail : New Batch type of AP PDE2 not displayed in the list</Verification7>
+<Verification8>28/03/2017 11:48:39 | Pass : Command line displayed</Verification8>
+<Verification9>28/03/2017 11:48:54 | Pass : Currency search page displayed</Verification9>
+<Verification10>28/03/2017 11:50:29 | Fail : New Batch type of AP PDE3 not displayed in the list</Verification10>
+<Verification11>28/03/2017 11:50:29 | Pass : Command line displayed</Verification11>
+<Verification12>28/03/2017 11:50:45 | Pass : Currency search page displayed</Verification12>
+<Verification13>28/03/2017 11:52:20 | Fail : New Batch type of AP PDE4 not displayed in the list</Verification13>
+<Verification14>28/03/2017 11:52:20 | Pass : Command line displayed</Verification14>
+<Verification15>28/03/2017 11:52:35 | Pass : Currency search page displayed</Verification15>
+<Verification16>28/03/2017 11:54:10 | Fail : New Batch type of AP PDE5 not displayed in the list</Verification16>
+<Verification17>28/03/2017 11:54:10 | Pass : Command line displayed</Verification17>
+<Verification18>28/03/2017 11:54:26 | Pass : Currency search page displayed</Verification18>
+<Verification19>28/03/2017 11:56:01 | Fail : New Batch type of AP PDE6 not displayed in the list</Verification19>
+<Verification20>28/03/2017 11:56:01 | Pass : Command line displayed</Verification20>
+<Verification21>28/03/2017 11:56:16 | Pass : Currency search page displayed</Verification21>
+<Verification22>28/03/2017 11:57:51 | Fail : New Batch type of AP PDE7 not displayed in the list</Verification22>
+</A047_Accounts_Payable_Batch_TypesTest>
+</TestCase>
+</SeleniumTestReport>

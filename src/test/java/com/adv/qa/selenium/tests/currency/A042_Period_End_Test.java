@@ -55,9 +55,9 @@ public class A042_Period_End_Test extends BaseTest{
 		
 		period = Integer.parseInt(currencyPage.periodOfTheYear());
 		
+//		if(period<=12){
 		if(period<12){
 			do{
-//				currencyPage.enterPeriodAndYearDetails(companyId);
 				currencyPage.clickOnCloseGLPeriod();
 				currencyPage.clickOnUpdate();
 				

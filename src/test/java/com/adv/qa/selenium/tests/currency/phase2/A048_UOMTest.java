@@ -99,7 +99,7 @@ public class A048_UOMTest extends BaseTest{
 		/*Create UOM code*/
 		boolean update = currencyPage.enterUomDetails(uomCode);	
 		
-		if(update){				
+		if(update == true){				
 			currencyPage.clickOnUpdate();
 		}
 		else{

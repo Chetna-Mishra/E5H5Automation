@@ -55,11 +55,11 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>suite17</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>0/2/0</td>
+<td>Tests passed/Failed/Skipped:</td><td>6/0/0</td>
 </tr><tr>
-<td>Started on:</td><td>Wed Mar 08 18:32:20 IST 2017</td>
+<td>Started on:</td><td>Thu Mar 23 12:45:38 IST 2017</td>
 </tr>
-<tr><td>Total time:</td><td>259 seconds (259788 ms)</td>
+<tr><td>Total time:</td><td>1226 seconds (1226017 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -67,8 +67,8 @@ function toggleAllBoxes() {
 </tr>
 </table><p/>
 <small><i>(Hover the method name to see the test class name)</i></small><p/>
-<table width='100%' border='1' class='invocation-failed'>
-<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
 <tr><td><b>Test method</b></td>
 <td width="30%"><b>Exception</b></td>
 <td width="10%"><b>Time (seconds)</b></td>
@@ -76,180 +76,34 @@ function toggleAllBoxes() {
 </tr>
 <tr>
 <td title='com.adv.qa.selenium.tests.currency.A026_Layout_CodesTest.verify()'><b>verify</b><br>Test class: com.adv.qa.selenium.tests.currency.A026_Layout_CodesTest<br>Parameters: [DataUnit [userName = SYSTEM], DataUnit [passWord = E5], DataUnit [code = EAE], DataUnit [layoutList = LAY1], DataUnit [layoutList = Layout 1], DataUnit [layoutList = Totals at Bottom], DataUnit [layoutList = CAL1], DataUnit [layoutList = CAL2], DataUnit [layoutList = BS1], DataUnit [layoutList = MS1], DataUnit [layoutList = <], DataUnit [layoutList = 0.0]]</td>
-<td><div><pre>org.openqa.selenium.NoSuchElementException: Unable to locate element: //input[starts-with(@name,&apos;LYT_&apos;)]
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
-Build info: version: &apos;unknown&apos;, revision: &apos;1969d75&apos;, time: &apos;2016-10-18 09:43:45 -0700&apos;
-System info: host: &apos;ChetnaM-PC&apos;, ip: &apos;10.31.16.11&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_112&apos;
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities [{rotatable=false, raisesAccessibilityExceptions=false, marionette=true, firefoxOptions={args=[], prefs={}}, appBuildId=20160421124000, version=, platform=XP, proxy={}, specificationLevel=1, acceptSslCerts=false, browserVersion=46.0, platformVersion=10.0, XULappId={ec8030f7-c20a-464f-9b0e-13a3a9e97384}, browserName=Firefox, takesScreenshot=true, takesElementScreenshot=true, platformName=Windows_NT, device=desktop}]
-Session ID: c906dca1-cdc8-4225-b1c7-a2237d907efe
-*** Element info: {Using=xpath, value=//input[starts-with(@name,&apos;LYT_&apos;)]}
-	at sun.reflect.GeneratedConstructorAccessor25.newInstance(Unknown Source)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
-	at java.lang.reflect.Constructor.newInstance(Unknown Source)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:127)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:93)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:42)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:163)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:82)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:601)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:368)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:473)
-	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:360)
-	at sun.reflect.GeneratedMethodAccessor9.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-	at java.lang.reflect.Method.invoke(Unknown Source)
-	at org.openqa.selenium.support.events.EventFiringWebDriver$2.invoke(EventFiringWebDriver.java:103)
-	at com.sun.proxy.$Proxy9.findElement(Unknown Source)
-	at org.openqa.selenium.support.events.EventFiringWebDriver.findElement(EventFiringWebDriver.java:187)
-	at com.adv.qa.selenium.framework.pageObjects.currency.CurrencyPage.enterLayoutDetails(CurrencyPage.java:2571)
-	at com.adv.qa.selenium.tests.currency.A026_Layout_CodesTest.verify(A026_Layout_CodesTest.java:59)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-	at java.lang.reflect.Method.invoke(Unknown Source)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:104)
-	at org.testng.internal.InvokeMethodRunnable.runOne(InvokeMethodRunnable.java:54)
-	at org.testng.internal.InvokeMethodRunnable.run(InvokeMethodRunnable.java:44)
-	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
-	at java.util.concurrent.FutureTask.run(Unknown Source)
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
-	at java.lang.Thread.run(Unknown Source)
-</pre></div><a href='#' onClick='toggleBox("stack-trace446445803", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace446445803'><pre>org.openqa.selenium.NoSuchElementException: Unable to locate element: //input[starts-with(@name,&apos;LYT_&apos;)]
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
-Build info: version: &apos;unknown&apos;, revision: &apos;1969d75&apos;, time: &apos;2016-10-18 09:43:45 -0700&apos;
-System info: host: &apos;ChetnaM-PC&apos;, ip: &apos;10.31.16.11&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_112&apos;
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities [{rotatable=false, raisesAccessibilityExceptions=false, marionette=true, firefoxOptions={args=[], prefs={}}, appBuildId=20160421124000, version=, platform=XP, proxy={}, specificationLevel=1, acceptSslCerts=false, browserVersion=46.0, platformVersion=10.0, XULappId={ec8030f7-c20a-464f-9b0e-13a3a9e97384}, browserName=Firefox, takesScreenshot=true, takesElementScreenshot=true, platformName=Windows_NT, device=desktop}]
-Session ID: c906dca1-cdc8-4225-b1c7-a2237d907efe
-*** Element info: {Using=xpath, value=//input[starts-with(@name,&apos;LYT_&apos;)]}
-	at sun.reflect.GeneratedConstructorAccessor25.newInstance(Unknown Source)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
-	at java.lang.reflect.Constructor.newInstance(Unknown Source)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:127)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:93)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:42)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:163)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:82)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:601)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:368)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:473)
-	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:360)
-	at sun.reflect.GeneratedMethodAccessor9.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-	at java.lang.reflect.Method.invoke(Unknown Source)
-	at org.openqa.selenium.support.events.EventFiringWebDriver$2.invoke(EventFiringWebDriver.java:103)
-	at com.sun.proxy.$Proxy9.findElement(Unknown Source)
-	at org.openqa.selenium.support.events.EventFiringWebDriver.findElement(EventFiringWebDriver.java:187)
-	at com.adv.qa.selenium.framework.pageObjects.currency.CurrencyPage.enterLayoutDetails(CurrencyPage.java:2571)
-	at com.adv.qa.selenium.tests.currency.A026_Layout_CodesTest.verify(A026_Layout_CodesTest.java:59)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-	at java.lang.reflect.Method.invoke(Unknown Source)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:104)
-	at org.testng.internal.InvokeMethodRunnable.runOne(InvokeMethodRunnable.java:54)
-	at org.testng.internal.InvokeMethodRunnable.run(InvokeMethodRunnable.java:44)
-	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
-	at java.util.concurrent.FutureTask.run(Unknown Source)
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
-	at java.lang.Thread.run(Unknown Source)
-</pre></div></td>
-<td>93</td>
-<td>com.adv.qa.selenium.tests.currency.A026_Layout_CodesTest@778d1062</td></tr>
+<td></td>
+<td>190</td>
+<td>com.adv.qa.selenium.tests.currency.A026_Layout_CodesTest@2d9d4f9d</td></tr>
 <tr>
-<td title='com.adv.qa.selenium.tests.currency.A027_Default_StructureTest.verify()'><b>verify</b><br>Test class: com.adv.qa.selenium.tests.currency.A027_Default_StructureTest<br>Parameters: [DataUnit [userName = BM], DataUnit [passWord = E5], DataUnit [code = ECA], DataUnit [structureList = 00], DataUnit [structureList = ICA Structure], DataUnit [structureList = Y]]</td>
-<td><div><pre>org.openqa.selenium.NoSuchElementException: Unable to locate element: //fieldset/legend[text()=&apos;Command&apos;]/..//input[contains(@name,&apos;COMMAND&apos;)]
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
-Build info: version: &apos;unknown&apos;, revision: &apos;1969d75&apos;, time: &apos;2016-10-18 09:43:45 -0700&apos;
-System info: host: &apos;ChetnaM-PC&apos;, ip: &apos;10.31.16.11&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_112&apos;
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities [{rotatable=false, raisesAccessibilityExceptions=false, marionette=true, firefoxOptions={args=[], prefs={}}, appBuildId=20160421124000, version=, platform=XP, proxy={}, specificationLevel=1, acceptSslCerts=false, browserVersion=46.0, platformVersion=10.0, XULappId={ec8030f7-c20a-464f-9b0e-13a3a9e97384}, browserName=Firefox, takesScreenshot=true, takesElementScreenshot=true, platformName=Windows_NT, device=desktop}]
-Session ID: 54f10c8d-6b1f-4e30-8d2c-5163826bcd46
-*** Element info: {Using=xpath, value=//fieldset/legend[text()=&apos;Command&apos;]/..//input[contains(@name,&apos;COMMAND&apos;)]}
-	at sun.reflect.GeneratedConstructorAccessor25.newInstance(Unknown Source)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
-	at java.lang.reflect.Constructor.newInstance(Unknown Source)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:127)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:93)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:42)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:163)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:82)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:601)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:368)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:473)
-	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:360)
-	at sun.reflect.GeneratedMethodAccessor9.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-	at java.lang.reflect.Method.invoke(Unknown Source)
-	at org.openqa.selenium.support.events.EventFiringWebDriver$2.invoke(EventFiringWebDriver.java:103)
-	at com.sun.proxy.$Proxy9.findElement(Unknown Source)
-	at org.openqa.selenium.support.events.EventFiringWebDriver.findElement(EventFiringWebDriver.java:187)
-	at com.adv.qa.selenium.framework.pageObjects.currency.CurrencyPage.isCommandDisplayed(CurrencyPage.java:141)
-	at com.adv.qa.selenium.tests.currency.A027_Default_StructureTest.verify(A027_Default_StructureTest.java:47)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-	at java.lang.reflect.Method.invoke(Unknown Source)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:104)
-	at org.testng.internal.InvokeMethodRunnable.runOne(InvokeMethodRunnable.java:54)
-	at org.testng.internal.InvokeMethodRunnable.run(InvokeMethodRunnable.java:44)
-	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
-	at java.util.concurrent.FutureTask.run(Unknown Source)
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
-	at java.lang.Thread.run(Unknown Source)
-</pre></div><a href='#' onClick='toggleBox("stack-trace600958416", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace600958416'><pre>org.openqa.selenium.NoSuchElementException: Unable to locate element: //fieldset/legend[text()=&apos;Command&apos;]/..//input[contains(@name,&apos;COMMAND&apos;)]
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
-Build info: version: &apos;unknown&apos;, revision: &apos;1969d75&apos;, time: &apos;2016-10-18 09:43:45 -0700&apos;
-System info: host: &apos;ChetnaM-PC&apos;, ip: &apos;10.31.16.11&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_112&apos;
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities [{rotatable=false, raisesAccessibilityExceptions=false, marionette=true, firefoxOptions={args=[], prefs={}}, appBuildId=20160421124000, version=, platform=XP, proxy={}, specificationLevel=1, acceptSslCerts=false, browserVersion=46.0, platformVersion=10.0, XULappId={ec8030f7-c20a-464f-9b0e-13a3a9e97384}, browserName=Firefox, takesScreenshot=true, takesElementScreenshot=true, platformName=Windows_NT, device=desktop}]
-Session ID: 54f10c8d-6b1f-4e30-8d2c-5163826bcd46
-*** Element info: {Using=xpath, value=//fieldset/legend[text()=&apos;Command&apos;]/..//input[contains(@name,&apos;COMMAND&apos;)]}
-	at sun.reflect.GeneratedConstructorAccessor25.newInstance(Unknown Source)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
-	at java.lang.reflect.Constructor.newInstance(Unknown Source)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:127)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:93)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:42)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:163)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:82)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:601)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:368)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:473)
-	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:360)
-	at sun.reflect.GeneratedMethodAccessor9.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-	at java.lang.reflect.Method.invoke(Unknown Source)
-	at org.openqa.selenium.support.events.EventFiringWebDriver$2.invoke(EventFiringWebDriver.java:103)
-	at com.sun.proxy.$Proxy9.findElement(Unknown Source)
-	at org.openqa.selenium.support.events.EventFiringWebDriver.findElement(EventFiringWebDriver.java:187)
-	at com.adv.qa.selenium.framework.pageObjects.currency.CurrencyPage.isCommandDisplayed(CurrencyPage.java:141)
-	at com.adv.qa.selenium.tests.currency.A027_Default_StructureTest.verify(A027_Default_StructureTest.java:47)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-	at java.lang.reflect.Method.invoke(Unknown Source)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:104)
-	at org.testng.internal.InvokeMethodRunnable.runOne(InvokeMethodRunnable.java:54)
-	at org.testng.internal.InvokeMethodRunnable.run(InvokeMethodRunnable.java:44)
-	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
-	at java.util.concurrent.FutureTask.run(Unknown Source)
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
-	at java.lang.Thread.run(Unknown Source)
-</pre></div></td>
-<td>137</td>
-<td>com.adv.qa.selenium.tests.currency.A027_Default_StructureTest@670002</td></tr>
+<td title='com.adv.qa.selenium.tests.currency.A027_Default_StructureTest.verify()'><b>verify</b><br>Test class: com.adv.qa.selenium.tests.currency.A027_Default_StructureTest<br>Parameters: [DataUnit [userName = SYSTEM], DataUnit [passWord = E5], DataUnit [code = ECA], DataUnit [structureList = 00], DataUnit [structureList = ICA Structure], DataUnit [structureList = Y]]</td>
+<td></td>
+<td>187</td>
+<td>com.adv.qa.selenium.tests.currency.A027_Default_StructureTest@4034c28c</td></tr>
+<tr>
+<td title='com.adv.qa.selenium.tests.currency.A028_Default_Structure_ControlsTest.verify()'><b>verify</b><br>Test class: com.adv.qa.selenium.tests.currency.A028_Default_Structure_ControlsTest<br>Parameters: [DataUnit [userName = SYSTEM], DataUnit [passWord = E5], DataUnit [code = ECC], DataUnit [controlList = 00], DataUnit [controlList = 2], DataUnit [controlList = SUSP], DataUnit [controlList =  Mandatory ], DataUnit [controlList = Immediate], DataUnit [controlList = LAY1], DataUnit [controlList = LAY1], DataUnit [controlList = 2]]</td>
+<td></td>
+<td>135</td>
+<td>com.adv.qa.selenium.tests.currency.A028_Default_Structure_ControlsTest@e50a6f6</td></tr>
+<tr>
+<td title='com.adv.qa.selenium.tests.currency.A029_Default_Structure_ElementsTest.verify()'><b>verify</b><br>Test class: com.adv.qa.selenium.tests.currency.A029_Default_Structure_ElementsTest<br>Parameters: [DataUnit [userName = BM1], DataUnit [passWord = E5], DataUnit [code = ECE], DataUnit [values = 00], DataUnit [structureForHQ = 00], DataUnit [structureForHQ = HQ], DataUnit [structureForHQ = Head Quarters], DataUnit [structureForHQ = ], DataUnit [structureForNorth = 00], DataUnit [structureForNorth = NORTH], DataUnit [structureForNorth = Northern Division], DataUnit [structureForNorth = HQ], DataUnit [structureForSouth = 00], DataUnit [structureForSouth = SOUTH], DataUnit [structureForSouth = Southern Division], DataUnit [structureForSouth = HQ], DataUnit [structureForEast = 00], DataUnit [structureForEast = EAST], DataUnit [structureForEast = Eastern Division], DataUnit [structureForEast = HQ], DataUnit [structureForWest = 00], DataUnit [structureForWest = WEST], DataUnit [structureForWest = Western Division], DataUnit [structureForWest = HQ], DataUnit [structureForSusp = 00], DataUnit [structureForSusp = SUSP], DataUnit [structureForSusp = Suspense], DataUnit [structureForSusp = WEST], DataUnit [pathKeyList = 00], DataUnit [pathKeyList = 2], DataUnit [pathKeyList = DUM], DataUnit [pathKeyList = Dummy Costcentre for ICA BTZ], DataUnit [pathKeyList = WEST]]</td>
+<td></td>
+<td>354</td>
+<td>com.adv.qa.selenium.tests.currency.A029_Default_Structure_ElementsTest@14ec4505</td></tr>
+<tr>
+<td title='com.adv.qa.selenium.tests.currency.A030_Security_ElementsTest.verify()'><b>verify</b><br>Test class: com.adv.qa.selenium.tests.currency.A030_Security_ElementsTest<br>Parameters: [DataUnit [userName = QUERY], DataUnit [passWord = E5], DataUnit [code = ENI], DataUnit [code = AFF], DataUnit [securityList = STD], DataUnit [securityList = 00], DataUnit [securityList = HQ], DataUnit [securityList = STD], DataUnit [securityList = Access to all E5 application function]]</td>
+<td></td>
+<td>155</td>
+<td>com.adv.qa.selenium.tests.currency.A030_Security_ElementsTest@53ca01a2</td></tr>
+<tr>
+<td title='com.adv.qa.selenium.tests.currency.A031_Company_ControlsTest.verify()'><b>verify</b><br>Test class: com.adv.qa.selenium.tests.currency.A031_Company_ControlsTest<br>Parameters: [DataUnit [userName = EXPED], DataUnit [passWord = E5], DataUnit [code = EAA], DataUnit [companyControl = LAY1], DataUnit [companyControl = LAY1], DataUnit [companyControl = 00], DataUnit [companyControl = B], DataUnit [companyControl = TRAN], DataUnit [companyControl = REVV], DataUnit [companyControl = Layout 1], DataUnit [companyControl = Layout 1], DataUnit [companyControl = ICA Structure], DataUnit [companyControl = Transfer], DataUnit [companyControl = Reversal]]</td>
+<td></td>
+<td>127</td>
+<td>com.adv.qa.selenium.tests.currency.A031_Company_ControlsTest@358c99f5</td></tr>
 </table><p>
 </body>
 </html>

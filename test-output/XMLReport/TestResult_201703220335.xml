@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?><SeleniumTestReport>
+<TestCase>
+<A018_Ledger_Control_Nominals>
+<Verification1>22/03/2017 03:35:45 | Pass : Login page displayed</Verification1>
+<Verification2>22/03/2017 03:35:51 | Pass : Command line displayed</Verification2>
+<Verification3>22/03/2017 03:36:03 | Pass : Currency search page displayed</Verification3>
+<Verification4>22/03/2017 03:38:04 | Fail : New ledger control 2500 not displayed in the list</Verification4>
+</A018_Ledger_Control_Nominals>
+<A018A_Ledger_Control_Nominals>
+<Verification1>22/03/2017 03:35:45 | Pass : Login page displayed</Verification1>
+<Verification2>22/03/2017 03:35:51 | Pass : Command line displayed</Verification2>
+<Verification3>22/03/2017 03:36:03 | Pass : Currency search page displayed</Verification3>
+<Verification4>22/03/2017 03:38:04 | Fail : New ledger control 2000 not displayed in the list</Verification4>
+<Verification5>22/03/2017 03:39:50 | Fail : New ledger control 5000 not displayed in the list</Verification5>
+<Verification6>22/03/2017 03:41:36 | Fail : New ledger control 5050 not displayed in the list</Verification6>
+<Verification7>22/03/2017 03:43:23 | Fail : New ledger control 2150 not displayed in the list</Verification7>
+<Verification8>22/03/2017 03:45:09 | Fail : New ledger control 6500 not displayed in the list</Verification8>
+<Verification9>22/03/2017 03:46:55 | Fail : New ledger control BANKR not displayed in the list</Verification9>
+<Verification10>22/03/2017 03:48:41 | Fail : New ledger control BANKR1 not displayed in the list</Verification10>
+<Verification11>22/03/2017 03:50:26 | Fail : New ledger control BANKR2 not displayed in the list</Verification11>
+<Verification12>22/03/2017 03:52:13 | Fail : New ledger control STKR not displayed in the list</Verification12>
+</A018A_Ledger_Control_Nominals>
+<A018C_Ledger_Control_Nominals>
+<Verification1>22/03/2017 03:53:17 | Pass : Login page displayed</Verification1>
+</A018C_Ledger_Control_Nominals>
+<A018B_Ledger_Control_Nominals>
+<Verification1>22/03/2017 03:53:18 | Pass : Login page displayed</Verification1>
+<Verification2>22/03/2017 03:53:24 | Pass : Command line displayed</Verification2>
+<Verification3>22/03/2017 03:53:36 | Pass : Currency search page displayed</Verification3>
+<Verification4>22/03/2017 03:55:38 | Fail : New ledger control 2160 not displayed in the list</Verification4>
+<Verification5>22/03/2017 03:57:24 | Fail : New ledger control 1660 not displayed in the list</Verification5>
+<Verification6>22/03/2017 03:59:10 | Fail : New ledger control 5100 not displayed in the list</Verification6>
+<Verification7>22/03/2017 04:00:56 | Fail : New ledger control 2051 not displayed in the list</Verification7>
+<Verification8>22/03/2017 04:02:42 | Fail : New ledger control 6200 not displayed in the list</Verification8>
+<Verification9>22/03/2017 04:04:29 | Fail : New ledger control 5900 not displayed in the list</Verification9>
+<Verification10>22/03/2017 04:06:14 | Fail : New ledger control 7000 not displayed in the list</Verification10>
+<Verification11>22/03/2017 04:08:01 | Fail : New ledger control 7001 not displayed in the list</Verification11>
+<Verification12>22/03/2017 04:09:47 | Fail : New ledger control SALC not displayed in the list</Verification12>
+<Verification13>22/03/2017 04:11:33 | Fail : New ledger control SLDE not displayed in the list</Verification13>
+</A018B_Ledger_Control_Nominals>
+<A018E_Ledger_Control_Nominals>
+<Verification1>22/03/2017 04:12:38 | Pass : Login page displayed</Verification1>
+<Verification2>22/03/2017 04:12:44 | Pass : Command line displayed</Verification2>
+<Verification3>22/03/2017 04:12:56 | Pass : Currency search page displayed</Verification3>
+<Verification4>22/03/2017 04:14:58 | Fail : New ledger control GLICA1 not displayed in the list</Verification4>
+<Verification5>22/03/2017 04:16:43 | Fail : New ledger control 4000 not displayed in the list</Verification5>
+<Verification6>22/03/2017 04:18:28 | Fail : New ledger control 4100 not displayed in the list</Verification6>
+<Verification7>22/03/2017 04:20:13 | Fail : New ledger control 4200 not displayed in the list</Verification7>
+<Verification8>22/03/2017 04:21:59 | Fail : New ledger control 6000 not displayed in the list</Verification8>
+<Verification9>22/03/2017 04:23:44 | Fail : New ledger control 6100 not displayed in the list</Verification9>
+<Verification10>22/03/2017 04:25:29 | Fail : New ledger control 1560 not displayed in the list</Verification10>
+<Verification11>22/03/2017 04:27:14 | Fail : New ledger control 1661 not displayed in the list</Verification11>
+<Verification12>22/03/2017 04:29:00 | Fail : New ledger control 2001 not displayed in the list</Verification12>
+<Verification13>22/03/2017 04:30:44 | Fail : New ledger control 2100 not displayed in the list</Verification13>
+</A018E_Ledger_Control_Nominals>
+<A018D_Ledger_Control_Nominals>
+<Verification1>22/03/2017 04:12:37 | Pass : Login page displayed</Verification1>
+<Verification2>22/03/2017 04:12:44 | Pass : Command line displayed</Verification2>
+<Verification3>22/03/2017 04:12:56 | Pass : Currency search page displayed</Verification3>
+<Verification4>22/03/2017 04:14:58 | Fail : New ledger control STKE not displayed in the list</Verification4>
+<Verification5>22/03/2017 04:16:44 | Fail : New ledger control STKS not displayed in the list</Verification5>
+<Verification6>22/03/2017 04:18:30 | Fail : New ledger control STKW not displayed in the list</Verification6>
+<Verification7>22/03/2017 04:20:16 | Fail : New ledger control STKN not displayed in the list</Verification7>
+<Verification8>22/03/2017 04:22:02 | Fail : New ledger control INTE not displayed in the list</Verification8>
+<Verification9>22/03/2017 04:23:47 | Fail : New ledger control INTW not displayed in the list</Verification9>
+<Verification10>22/03/2017 04:25:33 | Fail : New ledger control INTS not displayed in the list</Verification10>
+<Verification11>22/03/2017 04:27:20 | Fail : New ledger control INTN not displayed in the list</Verification11>
+<Verification12>22/03/2017 04:29:05 | Fail : New ledger control DEN not displayed in the list</Verification12>
+<Verification13>22/03/2017 04:30:50 | Fail : New ledger control ARCM not displayed in the list</Verification13>
+</A018D_Ledger_Control_Nominals>
+<A018G_Ledger_Control_Nominals>
+<Verification1>22/03/2017 04:31:54 | Pass : Login page displayed</Verification1>
+</A018G_Ledger_Control_Nominals>
+<A018F_Ledger_Control_Nominals>
+<Verification1>22/03/2017 04:31:55 | Pass : Login page displayed</Verification1>
+<Verification2>22/03/2017 04:32:01 | Pass : Command line displayed</Verification2>
+<Verification3>22/03/2017 04:32:13 | Pass : Currency search page displayed</Verification3>
+<Verification4>22/03/2017 04:34:14 | Fail : New ledger control 5500 not displayed in the list</Verification4>
+<Verification5>22/03/2017 04:36:00 | Fail : New ledger control VATA not displayed in the list</Verification5>
+<Verification6>22/03/2017 04:37:45 | Fail : New ledger control 5901 not displayed in the list</Verification6>
+<Verification7>22/03/2017 04:39:31 | Fail : New ledger control 5902 not displayed in the list</Verification7>
+<Verification8>22/03/2017 04:41:16 | Fail : New ledger control 5903 not displayed in the list</Verification8>
+<Verification9>22/03/2017 04:42:02 | Fail : New ledger control EXP1 not displayed in the list</Verification9>
+<Verification10>22/03/2017 04:42:47 | Fail : New ledger control EXP2 not displayed in the list</Verification10>
+</A018F_Ledger_Control_Nominals>
+</TestCase>
+</SeleniumTestReport>

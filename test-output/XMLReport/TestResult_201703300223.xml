@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?><SeleniumTestReport>
+<TestCase>
+<A050_Accounts_Payable_Control_AccountsTest>
+<Verification1>30/03/2017 02:23:43 | Pass : Login page displayed</Verification1>
+<Verification2>30/03/2017 02:23:48 | Pass : Command line displayed</Verification2>
+<Verification3>30/03/2017 02:24:02 | Pass : Currency search page displayed</Verification3>
+<Verification4>30/03/2017 02:26:35 | Fail : New account payable control IM not displayed in the list</Verification4>
+</A050_Accounts_Payable_Control_AccountsTest>
+</TestCase>
+</SeleniumTestReport>

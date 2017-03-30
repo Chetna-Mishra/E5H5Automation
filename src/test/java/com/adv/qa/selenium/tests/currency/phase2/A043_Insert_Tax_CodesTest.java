@@ -32,6 +32,7 @@ public class A043_Insert_Tax_CodesTest extends BaseTest{
 		String userName = dataRow.get("userName");
 		String passWord = dataRow.get("passWord");
 		List<String> currencyCode = dataRow.findNamesReturnValues("currencyCode");
+		List<String> location = dataRow.findNamesReturnValues("location");
 		List<String> eType = dataRow.findNamesReturnValues("eType");
 		List<String> sType = dataRow.findNamesReturnValues("sType");
 		List<String> vType = dataRow.findNamesReturnValues("vType");
@@ -45,10 +46,13 @@ public class A043_Insert_Tax_CodesTest extends BaseTest{
 		LoginPage loginPage = new LoginPage(driver);
 		
 		Assert.assertTrue(testcases, loginPage.isLoginPageDisplayed(), "Login page", "displayed");
+		
 		loginPage.logIn(userName, passWord);
 		
 		/*Navigate to currency page Home page e5 application*/
 		CurrencyPage currencyPage = new CurrencyPage(driver);
+		
+		Assert.assertTrue(testcases,currencyPage.isCommandDisplayed(),"Command line","displayed");
 		
 		insertTaxCode(currencyPage,eType,currencyCode.get(0));
 		insertTaxCode(currencyPage,sType,currencyCode.get(0));
@@ -69,7 +73,27 @@ public class A043_Insert_Tax_CodesTest extends BaseTest{
 		
 		currencyPage.clickOnCancel();
 		
-		/*Verify command line*/
+		
+		/*Verify command line for Creating Location*/
+		Assert.assertTrue(testcases,currencyPage.isCommandDisplayed(),"Command line","displayed");
+		
+		currencyPage.fillCurrenceyCode(currencyCode.get(3));
+		
+		/*Verify currency search page displayed*/
+		Assert.assertEquals(testcases,currencyPage.getTableHeader(), "M"+currencyCode.get(3)+" - Tax Location List","Currency search page","displayed");	
+		
+		currencyPage.searchValue(location.get(0), 1, 0);
+		
+		currencyPage.clickOnInsert();
+		
+		createLocations(currencyPage,location);
+		
+		currencyPage.clickOnCancel();
+		
+		currencyPage.clickOnCancel();
+		
+				
+		/*Verify command line for creating Tax Code*/
 		Assert.assertTrue(testcases,currencyPage.isCommandDisplayed(),"Command line","displayed");
 		
 		currencyPage.fillCurrenceyCode(currencyCode.get(2));
@@ -80,12 +104,12 @@ public class A043_Insert_Tax_CodesTest extends BaseTest{
 		currencyPage.searchValue(companyId, 4, 0);
 		
 		currencyPage.clickOnInsert();
-		
-		/*Create tax locations*/
-		createLocations(currencyPage,uksTaxCode,currencyCode.get(2));
-		createLocations(currencyPage,ukeTaxCode,currencyCode.get(2));
-		createLocations(currencyPage,ukvTaxCode,currencyCode.get(2));
-		createLocations(currencyPage,ukzTaxCode,currencyCode.get(2));
+				
+		/*Create tax Code*/
+		createTaxCode(currencyPage,uksTaxCode,currencyCode.get(2));
+		createTaxCode(currencyPage,ukeTaxCode,currencyCode.get(2));
+		createTaxCode(currencyPage,ukvTaxCode,currencyCode.get(2));
+		createTaxCode(currencyPage,ukzTaxCode,currencyCode.get(2));
 		
 		currencyPage.clickOnCancel();
 		
@@ -106,6 +130,7 @@ public class A043_Insert_Tax_CodesTest extends BaseTest{
 		Assert.assertTrue(testcases,currencyPage.isCommandDisplayed(),"Command line","displayed");
 		
 		currencyPage.fillCurrenceyCode(command);
+
 		/*Verify currency search page displayed*/
 		Assert.assertEquals(testcases,currencyPage.getTableHeader(), "M"+currencyCode+" - Tax Type Edit","Currency search page","displayed");
 			
@@ -121,8 +146,25 @@ public class A043_Insert_Tax_CodesTest extends BaseTest{
 		}
 	}
 	
-	/*Create tax locations*/
-	private void createLocations(CurrencyPage currencyPage,List<String> taxList,String currencyCode) throws InterruptedException{
+	
+	/*Create tax Location */
+		private void createLocations(CurrencyPage currencyPage,List<String> location) throws InterruptedException{
+			
+			/*Create Tax type*/
+			boolean update = currencyPage.createLocation(location);	
+			
+			if(update == true){
+				currencyPage.clickOnUpdate();
+			}
+			
+			else{
+				testcases.add(getCurreentDate()+" | Pass : New tax code "+location.get(0)+ " displayed in the list");
+			}	
+		}	
+		
+	
+	/*Create tax Code */
+	private void createTaxCode(CurrencyPage currencyPage,List<String> taxList,String currencyCode) throws InterruptedException{
 		
 		/*Create Tax type*/
 		boolean update = currencyPage.createTaxCodeLocation(taxList);	
@@ -136,9 +178,13 @@ public class A043_Insert_Tax_CodesTest extends BaseTest{
 		}	
 	}
 	
+	/*Verify Values in the table list*/
+	
 	private void verifyValues(CurrencyPage currencyPage,List<String> taxCode){
 		
-		if(currencyPage.verifyValues(taxCode.get(0))){
+		if(currencyPage.verifyValues(taxCode.get(0)))
+		
+		{
 			testcases.add(getCurreentDate()+" | Pass : New tax code "+taxCode.get(0)+ " displayed in the list");
 		}
 		else{

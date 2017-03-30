@@ -144,18 +144,29 @@ public class PageObjects {
 //	Page Objects for "A001_Switch_Intra_Company_Accounting_OnTest"
 	
 	public final String A001_FINANCIAL_MODULE_TAB ="//a[contains(@class,'ui-tabs-anchor')]/following::a[text()='Financial Modules']";
+	
 	public final String A001_GENERAL_LEDGER="//fieldset/legend[text()='E5 Modules Available']/..//label[text()='General Ledger']/../input[1]";
-	public final String A001_PROJECT_TRACKING="//fieldset/legend[text()='E5 Modules Available']/..//label[text()='Project Tracking']/../input[1]";
 	public final String A001_INTRA_COMPANY_ACCOUNTING="//fieldset/legend[text()='E5 Modules Available']/..//label[text()='Intra Company Accounting']/../input[1]";
 	public final String A001_AVERAGE_DAY_BALANCE="//fieldset/legend[text()='E5 Modules Available']/..//label[text()='Average Days Balance']/../input[1]";
 	public final String A001_VALUE_DATED_ACCOUNTING="//fieldset/legend[text()='E5 Modules Available']/..//label[text()='Value Dated Accounting']/../input[1]";
-
+	public final String A001_COMM_ACCOUNTING="//fieldset/legend[text()='E5 Modules Available']/..//label[text()='Commitment Accounting']/../input[1]";
+	public final String A001_TIME_RECO="//fieldset/legend[text()='E5 Modules Available']/..//label[text()='Timesheet Recording']/../input[1]";
+	public final String A001_JOB_BIL="//fieldset/legend[text()='E5 Modules Available']/..//label[text()='Job Billing']/../input[1]";
+	
+	public final String A001_PROJECT_TRACKING="//fieldset/legend[text()='E5 Modules Available']/..//label[text()='Project Tracking']/../input[1]";
+	public final String A001_BANK_REC="//fieldset/legend[text()='E5 Modules Available']/..//label[text()='Bank Reconciliation']/../input[1]";
+	public final String A001_DRIECT="//fieldset/legend[text()='E5 Modules Available']/..//label[text()='Direct Debit Mandates']/../input[1]";
+	public final String A001_PROPS_MNGT="//fieldset/legend[text()='E5 Modules Available']/..//label[text()='Proposed Project Management']/../input[1]";
+	public final String A001_FIXD_ASS="//fieldset/legend[text()='E5 Modules Available']/..//label[text()='Fixed Assets']/../input[1]";
+	public final String A001_LEAS="//fieldset/legend[text()='E5 Modules Available']/..//label[text()='Leasing']/../input[1]";
+	
 	public final String A001_PURCHASING_MODULE_TAB ="//a[contains(@class,'ui-tabs-anchor')]/following::a[text()='Purchasing Modules']";
 	public final String A001_ACCOUNTS_PAYABLE="//fieldset/legend[text()='E5 Modules Available']/..//label[text()='Accounts Payable']/../input[1]";
 	public final String A001_cISEDI="//fieldset/legend[text()='E5 Modules Available']/..//label[text()='CIS EDI']/../input[1]";
+	public final String A001_SER_LDGR="//fieldset/legend[text()='E5 Modules Available']/..//label[text()='Service Ledger']/../input[1]";
 	public final String A001_PURCHASING_MANAGEMENT="//fieldset/legend[text()='E5 Modules Available']/..//label[text()='Purchasing Management']/../input[1]";
 	public final String A001_INVENTORY_MANAGEMENT="//fieldset/legend[text()='E5 Modules Available']/..//label[text()='Inventory Management']/../input[1]";
-	
+	public final String A001_IN_FLIGHT="//fieldset/legend[text()='E5 Modules Available']/..//label[text()='In Flight Direct Operating Costs']/../input[1]";
 	
 //	Page Objects for "A001A_On_line_AuditingTest"
 	public final String A001A_NAV_BAR = "//div[contains(@class,'navbar')]/..//div[contains(@class,'variantHeader')]";
@@ -385,11 +396,8 @@ public class PageObjects {
 	
 
 //	Page Objects for "A019_Ledger_Control_Management_CodeTest"
-	
-	
 	public final String A019_MNGT_KEY="//input[starts-with(@name,'PATH-KEY_')]";
 	public final String A019_SHRT_NAME="//input[starts-with(@name,'SHORT-NAME_')]";
-	
 	public final String A019_FINC = "//label[text()='Financial']/../input[1]";
 	public final String A019_PLNG = "//label[text()='Planning']/../input[1]";
 	public final String A019_CST_ALC = "//label[text()='Cost Allocation']/../input[1]";
@@ -398,26 +406,21 @@ public class PageObjects {
 	
 	
 //	Page Objects for "A020_Ledger_Control_AccountsTest"
-	
 	public final String A020_LEDGR_COD ="//input[starts-with(@name,'LEDGR-CNTRL_')]";
 	public final String A020_CURR_RND_ACC = "//div/input[starts-with(@name,'subfield')][1]";
 	public final String A020_CURR_RND_CST = "//div/input[starts-with(@name,'subfield')][2]";
-	
 	public final String A020_CLOS_OUT_ACC = "//div/input[starts-with(@name,'subfield')][4]";
 	public final String A020_CLOS_OUT_CST = "//div/input[starts-with(@name,'subfield')][5]";
-		
 	public final String A020_JRN_SUSP_ACC = "//div/input[starts-with(@name,'subfield')][7]";
 	public final String A020_JRN_SUSP_CST = "//div/input[starts-with(@name,'subfield')][8]";
 	
 //	Page Objects for "A021_Batch_TypesTest"
-	
 	public final String A021_BATCH_TYPE = "//input[starts-with(@name,'BTCH-TYPE_')]";
 	public final String A021_LEDR_CTRL_CD = "//input[starts-with(@name,'LEDGR-CNTRL_')]";
 	public final String A021_UPDT_IND = "//select[starts-with(@name,'UPDT-IND_')]";
 	public final String A021_BS_VALUE = "//label[text()='Base Values']/../input[1]";
 	public final String A021_FRN_VALUE = "//label[text()='Foreign Values']/../input[1]";
 	public final String A021_BSN_FRN = "//label[text()='Base and Foreign']/../input[1]";
-	
 	
 //	Page Objects for "A022_Balance_ClassesTest"
 	public final String A022_BAL_CLS= "//input[starts-with(@name,'BAL_')]";
@@ -433,16 +436,13 @@ public class PageObjects {
 	public final String A022_AVG_DLY_BAL= "//select[starts-with(@name,'ADB-IND_')]";
 
 //	Page Objects for "A023_Balance_ClassesTest"
-	
 	public final String A023_CURNT_PER= "//input[starts-with(@name,'CURNT-PER-NUM_')]"; 	
 	public final String A023_CURNT_YR="//input[starts-with(@name,'CURNT-YY_')]";
 	public final String A023_CNTL_AC_CD ="//input[starts-with(@name,'LEDGR-CNTRL_')]";
 	public final String A023_CALDR ="//input[starts-with(@name,'FSCL-CLNDR_')]";
 	public final String A023_YR_RNGE_FUTR ="//input[starts-with(@name,'YY-RNGE-FUTR_')]";
 	public final String A023_YR_RNGE_HIST ="//input[starts-with(@name,'YY-RNGE-HIST_')]";
-	
 	public final String A023_SUMMAR="//input[starts-with(@name,'SUMM-BTCH-TYPE_')]";
-	
 	public final String A023_TRANSAC ="//input[starts-with(@name,'CURNT-DD_')]";
 	public final String A023_STSCL_BAL ="//input[starts-with(@name,'STSCL-BAL_')]";
 	public final String A023_CHK_FINC ="//label[text()='Financial']/../input[1]";
@@ -450,7 +450,6 @@ public class PageObjects {
 	public final String A023_CHK_AVG_BAL ="//label[text()='Average Balances']/../input[1]";
 	public final String A023_CHK_SUMM ="//label[text()='Summarise']/../input[1]";
 	public final String A023_CHK_PLANG ="//label[text()='Planning']/../input[1]";
-	
 	public final String A023_SUSPN_ACC = "//select[starts-with(@name,'SUSP-ACCT-IND_')]";
 	public final String A023_ACCEPT_WAR_OFF="//label[text()='Accept Warnings Off-line']/../input[1]";
 	public final String A023_CHK_ACCEPT_WAR_OFF="//label[text()='Accept Warnings Off-line']/../input[1]";
@@ -462,8 +461,6 @@ public class PageObjects {
 	public final String A023_CHK_REC_MSG ="//label[text()='Reconciliation Messages']/../input[1]";
 	public final String A023_CHK_DEL_CHK ="//label[text()='Delete Check']/../input[1]";
 	public final String A023_ACC_WAR_OFL ="//label[text()='Accept Warnings Off-line']/../input[1]";
-	
-		
 	public final String A023_CURR_R_TYPE ="//input[starts-with(@name,'RATE-TYPE_')]";
 	public final String A023_RNDG_TOLRN_AMT = "//input[starts-with(@name,'RNDG-TOLRN-AMT_')]";
 	public final String A023_RNDG_TOLRN_PERC = "//input[starts-with(@name,'RNDG-TOLRN-PERC_')]";
@@ -482,13 +479,11 @@ public class PageObjects {
 		
 
 //	Page Objects for "A024_Batch_TypesTest"
-	
 	public final String A024_SECDRY_IND = "//label[text()='Secondary Index']/../input[1]";
 	public final String A024_ACCRL= "//select[starts-with(@name,'ACCRL-IND_')]";
 	public final String A024_RCCRL= "//select[starts-with(@name,'RECUR-BTCH-IND_')]";
 	
 //	Page Objects for "A025_FormulaTest"
-	
 	public final String A025_FORM = "//input[starts-with(@name,'CALC_')]";
 	public final String A025_HEADN = "//input[starts-with(@name,'HEAD_')]";
 	public final String A025_CHK_APPY_CURR = "//label[text()='Apply Currency']/../input[1]";
@@ -523,7 +518,6 @@ public class PageObjects {
 	public final String A029_NEW_PARENT_IN ="//input[starts-with(@name,'NEW-PRNT-ELEM_')]";
 	
 //	Page Objects for "A031_Company_ControlsTest"
-	
 	public final String A031_ACC_LAY ="//input[starts-with(@name,'DFLT-ACCT-LYT_')]";
 	public final String A031_BSPL_LAY ="//input[starts-with(@name,'DFLT-BSPL-LYT_')]";
 	public final String A031_STRUCT ="//input[starts-with(@name,'ICA-STRUC_')]";
@@ -537,7 +531,6 @@ public class PageObjects {
 	public final String A031_REVRS1 ="//input[starts-with(@name,'REVSL-BTCH-TYPE_')]/..//label[6]";
 	
 //	Page Objects for "A032A_PathKeyNewParentTest"
-	
 	public final String A032A_NEW_PAR= "//input[starts-with(@name,'NEW-PRNT-ELEM_')]";
 	public final String A032A_PATH_KEY= "//input[starts-with(@name,'subfield_4_0')]";
 	
@@ -545,7 +538,6 @@ public class PageObjects {
 	public final String A033_PST_LIMIT_CHECKS= "//select[starts-with(@name,'POST-LIMIT-IND_')]";
 	public final String A033_PST_CR_LIMITS= "//input[starts-with(@name,'POST-CR-LIMIT_')]";
 	public final String A033_PST_DB_LIMITS= "//input[starts-with(@name,'POST-DR-LIMIT_')]";
-	
 	public final String A033_BAL_LIMIT_CHECKS= "//select[starts-with(@name,'BAL-LIMIT-IND_')]";
 	public final String A033_BAL_CR_LIMITS= "//input[starts-with(@name,'BAL-CR-LIMIT_')]";
 	public final String A033_BAL_DB_LIMITS= "//input[starts-with(@name,'BAL-DR-LIMIT_')]";
@@ -557,7 +549,6 @@ public class PageObjects {
 	public final String A035_YEAR1="//input[@id='chk_0_14']";
 	public final String A035_YEAR2="//input[@id='chk_0_16']";
 	public final String A035_YEAR3="//input[@id='chk_0_18']";
-	
 	public final String A035_START_CONFIRM="//div[contains(@class,'roundedCorners')]/button[@value='Start']";
 	public final String A035_STOP_CONFIRM="//div[contains(@class,'roundedCorners')]/button[@value='Stop']";
 	public final String A035_CONFM_SUBMIT= "//div[contains(@class,'roundedCorners')]/button[@id='2_2']";
@@ -578,7 +569,6 @@ public class PageObjects {
 // Page Objects for "A038_Process_EP2Test"
 	public final String A038_CHK_UPDT_All="//label[text()='Update All']/../input[1]";
 	public final String A038_CHK_NET_BAL="//label[text()='Net Balances']/../input[1]";
-	
 	public final String A038_CHK_INCLD="//div[1]/table/tbody/tr/td[5]/input";
 	
 //	Page Objects for "A039_EnquiryTest"
@@ -587,7 +577,6 @@ public class PageObjects {
 	public final String A039_LKP_CMPY= "//input[starts-with(@name,'HDR-CMPY_')]";
 	public final String A039_LKP_OK= "//div[contains(@class,'roundedCorners')]/button[@id='1_1']";
 	public final String A039_EXT_OK="//button[contains(@class,'roundedbutton')][@id='0_44']";
-	
 	
 //	Page Objects for "A040_ICA_Data_EntryTest"
 	public final String A040_JOUR_TYPE= "//input[starts-with(@name,'BTCH-TYPE_')]";
@@ -606,10 +595,104 @@ public class PageObjects {
 	
 //	Page Objects for "A042_Period_End_Test"
 	public final String A042_CMPY= "//input[starts-with(@name,'PARAM-CMPY_')]";
+
+/*--------------------------------PHASE II PageObjects----------------------------------------------------------------*/	
 	
 	
+//	Page Objects for "A043_Insert_Tax_CodesTest"
+	public final String A043_TX_TYPE= "//input[starts-with(@name,'TAX-TYPE_')]";
+	public final String A043_TOLRN_PERC = "//input[starts-with(@name,'TOLRN-PERC_')]";
+	public final String A043_TOLRN_AMT = "//input[starts-with(@name,'TOLRN-AMT_')]";
+	public final String A043_CHK_TX_RATE_EXP = "//label[text()='Tax Rate Exempt']/../input[1]";
+	public final String A043_CODE ="//input[starts-with(@name,'TAX-CODE_')]";
+	public final String A043_LOC ="//input[starts-with(@name,'LOCTN_')]";
+	public final String A043_CHK_ECSTATE ="//label[text()='EC State']/../input[1]";
 	
+//	Page Objects for "A044_TAX_Rates_by_Tax_CodesTest"
+	public final String A044_EFF_DATE = "//div/input[starts-with(@name,'datefield_')]";
+	public final String A044_TOT_RATE = "//input[starts-with(@name,'TOT-RATE_')]";
 	
+//	Page Objects for "A045_BACS_CalendarTest"
+	public final String A045_CAL = "//input[starts-with(@name,'CLNDR_')]";
+	public final String A045_RAD_BACS = "//div/input[@name='CLNDR-TYPE_1'][@value='BACS']";
+	public final String A045_WK_DAY = "//select[starts-with(@name,'WK-END-DAY_')]";
+	public final String A045_CHK_SHOW_WK_END = "//label[text()='Show Week Ending']/../input[1]";
+	public final String A045_ACT = "//input[starts-with(@name,'ACTVT_')]";
+	public final String A045_FRM_YR = "//input[starts-with(@name,'FROM-YR_')]";
+	public final String A045_TO_YR = "//input[starts-with(@name,'TO-YR_')]";
+	public final String A045_YEAR = "//input[starts-with(@name,'YR_')]";
+	
+//	Page Objects for "A046_Bank_Account_Names_for_PurchasingTest"
+	public final String A046_CNTRY = "//input[starts-with(@name,'CNTRY_')]";
+	public final String A046_SRTCODE =	"//input[starts-with(@name,'SRTCODE_')]";
+	public final String A046_BANK_NAME =	"//input[starts-with(@name,'BANK-NAME_')]";
+	public final String A046_ADDRES1 = "//input[starts-with(@name,'BANK-ADDRES-LINE_')][1]";
+	public final String A046_ADDRES2 = "//input[starts-with(@name,'BANK-ADDRES-LINE_')][2]";
+	public final String A046_ADDRES3 = "//input[starts-with(@name,'BANK-ADDRES-LINE_')][3]";
+	public final String A046_PSTCD  = "//input[starts-with(@name,'POST-CODE_')]"; 
+
+//	Page Objects for "A048_UOMTest"
+	public final String A048_UOM_CODE  = "//input[starts-with(@name,'UOM-CODE_')]";
+	public final String A048_CHK_SUBD  = "//label[text()='Sub-Division']/../input[1]";
+	public final String A048_BASE_UOM  = "//input[starts-with(@name,'UOM_')]";
+	public final String A048_UOM_NBASE = "//input[starts-with(@name,'UOM-NBASE_')]";
+	public final String A048_NBASE_BASE_FACT = "//input[starts-with(@name,'NBASE-BASE-FACT_')]";
+	public final String A048_BASE_NBASE_FACT = "//input[starts-with(@name,'BASE-NBASE-FACT_')]";
+
+//	Page Objects for "A049_Common_Purchasing_Company_ControlsTest"
+	public final String A049_EXCH_RATE_TYPE = "//input[starts-with(@name,'EXCH-RATE-TYPE_')]";
+	public final String A049_GL_HOld_CMPY = "//input[starts-with(@name,'GL-HOLDING-CMPY_')]";
+	public final String A049_GL_RLTN_IND = "//input[starts-with(@name,'GL-RLTN-IND_')]";
+	public final String A049_RAD_NOR = "//div/input[@name='GL-RLTN-IND_1'][@value='Normal']";
+	
+	public final String A049_DD_UOM = "//input[starts-with(@name,'DD-UOM_')]";
+	public final String A049_WRK_DAYS_CLNDR = "//input[starts-with(@name,'WRK-DAYS-CLNDR_')]";
+	public final String A049_CHK_KEYWD_INUSE = "//label[text()='Keywords In Use']/../input[1]";
+	public final String A049_CHK_NSV_INUSE = "//label[text()='NSV In Use ']/../input[1]";
+	public final String A049_RAD_DUP_PST_NR = "//div/input[@name='DUP-POSTCODE-IND_1'][@value='Not Required']";
+	public final String A049_RAD_SUPP_PST_ALLSUP = "//div/input[@name='SUPP-POSTCODE-IND'][@value='All Supplier Types']";
+	public final String A049_RAD_PM_ADDR_NNOT = "//div/input[@name='PM-MULTI-ADDR-IND'][@value='No Notification']";
+	public final String A049_RAD_AP_ADDR_NNOT ="//div/input[@name='AP-MULTI-ADDR-IND'][@value='No Notification']";
+
+//	Page Objects for "A050_Accounts_Payable_Control_AccountsTest"
+
+	public final String A050_CNTL_AC_CD = "//input[starts-with(@name,'LEDGR_')]";
+
+	public final String A050_CRE_CONT_ACC = "//div/input[starts-with(@name,'subfield_3_0')]";
+	public final String A050_CRE_CONT_CST = "//div/input[starts-with(@name,'subfield_3_1')]";
+	public final String A050_DIS_RECE_ACC = "//div/input[starts-with(@name,'subfield_4_0')]";
+	public final String A050_DIS_RECE_CST = "//div/input[starts-with(@name,'subfield_4_1')]";
+	public final String A050_BNK_CHG_ACC = "//div/input[starts-with(@name,'subfield_5_0')]";
+	public final String A050_BNK_CHG_CST = "//div/input[starts-with(@name,'subfield_5_1')]";
+	public final String A050_PREPAY_ACC = "//div/input[starts-with(@name,'subfield_6_0')]";
+	public final String A050_PREPAY_CST = "//div/input[starts-with(@name,'subfield_6_1')]";
+	public final String A050_DET_VAR_ACC = "//div/input[starts-with(@name,'subfield_7_0')]";
+	public final String A050_DET_VAR_CST = "//div/input[starts-with(@name,'subfield_7_1')]";
+	public final String A050_TRD_CUR_ACC = "//div/input[starts-with(@name,'subfield_8_0')]";
+	public final String A050_TRD_CUR_CST = "//div/input[starts-with(@name,'subfield_8_1')]";
+	public final String A050_SRV_ACCR_ACC = "//div/input[starts-with(@name,'subfield_9_0')]";
+	public final String A050_SRV_ACCR_CST = "//div/input[starts-with(@name,'subfield_9_1')]";
+	public final String A050_SRV_DEFE_ACC = "//div/input[starts-with(@name,'subfield_10_0')]";
+	public final String A050_SRV_DEFE_CST = "//div/input[starts-with(@name,'subfield_10_1')]";
+	public final String A050_AP_AR_ACC = "//div/input[starts-with(@name,'subfield_11_0')]";
+	public final String A050_AP_AR_CST = "//div/input[starts-with(@name,'subfield_11_1')]";
+	public final String A050_TAX_SUP_ACC = "//div/input[starts-with(@name,'subfield_14_0')]";
+	public final String A050_TAX_SUP_CST = "//div/input[starts-with(@name,'subfield_14_1')]";
+	public final String A050_TAX_VAR_ACC = "//div/input[starts-with(@name,'subfield_15_0')]";
+	public final String A050_TAX_VAR_CST = "//div/input[starts-with(@name,'subfield_15_1')]";
+	public final String A050_MUL_GL_ACC = "//div/input[starts-with(@name,'subfield_16_0')]";
+	public final String A050_MUL_GL_CST = "//div/input[starts-with(@name,'subfield_16_1')]";
+	public final String A050_SLF_ASS_ACC = "//div/input[starts-with(@name,'subfield_17_0')]";
+	public final String A050_SLF_ASS_CST = "//div/input[starts-with(@name,'subfield_17_1')]";
+	
+//	Page Objects for "A051_Purchase_Ledger_Bank_CodesTest"
+	
+	public final String A051_BNK_CODE = "//input[starts-with(@name,'BANK_')]";
+	public final String A051_BNK_ACC_NU = "//input[starts-with(@name,'ACCT-NUM_')]";
+	public final String A051_SRT_CODE = "//input[starts-with(@name,'SRT-CODE_')]";
+	
+	public final String A050_GL_BNK_ACC = "//div/input[starts-with(@name,'subfield_7_0')]";
+	public final String A050_GL_BNK_CST = "//div/input[starts-with(@name,'subfield_7_1')]";
 	
 	
 	

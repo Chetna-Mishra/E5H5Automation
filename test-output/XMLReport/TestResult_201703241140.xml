@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?><SeleniumTestReport>
+<TestCase>
+<A043_Insert_Tax_CodesTest>
+<Verification1>24/03/2017 11:41:03 | Pass : Login page displayed</Verification1>
+<Verification2>24/03/2017 11:41:55 | Pass : Command line displayed</Verification2>
+<Verification3>24/03/2017 11:42:16 | Pass : Currency search page displayed</Verification3>
+<Verification4>24/03/2017 11:43:06 | Pass : Command line displayed</Verification4>
+<Verification5>24/03/2017 11:43:24 | Pass : Currency search page displayed</Verification5>
+<Verification6>24/03/2017 11:44:09 | Pass : Command line displayed</Verification6>
+<Verification7>24/03/2017 11:44:27 | Pass : Currency search page displayed</Verification7>
+<Verification8>24/03/2017 11:45:44 | Pass : Command line displayed</Verification8>
+<Verification9>24/03/2017 11:46:00 | Pass : Currency search page displayed</Verification9>
+<Verification10>24/03/2017 11:46:55 | Pass : Currency search page displayed</Verification10>
+<Verification11>24/03/2017 11:47:14 | Pass : New tax code E displayed in the list</Verification11>
+<Verification12>24/03/2017 11:47:19 | Pass : New tax code S displayed in the list</Verification12>
+<Verification13>24/03/2017 11:47:25 | Pass : New tax code V displayed in the list</Verification13>
+<Verification14>24/03/2017 11:47:42 | Pass : New tax code Z displayed in the list</Verification14>
+<Verification15>24/03/2017 11:47:54 | Pass : Command line displayed</Verification15>
+<Verification16>24/03/2017 11:48:08 | Pass : Currency search page displayed</Verification16>
+<Verification17>24/03/2017 11:48:32 | Fail : Currency search page not displayed</Verification17>
+</A043_Insert_Tax_CodesTest>
+</TestCase>
+</SeleniumTestReport>

@@ -59,13 +59,12 @@ public class A052_Tax_AccountsTest extends BaseTest{
 		/*Create batch type code*/
 		currencyPage.enterTaxAccountDetails(codeUKE,codeUKS,codeUKV,codeUKZ);	
 		
+		currencyPage.clickOnUpdate();
 		currencyPage.clickOnUpdateWarnings();
 		
-		currencyPage.clickOnUpdate();
+//		/*Verify new batch type in the list*/
+//		Assert.assertTrue(testcases,currencyPage.isCommandDisplayed(), "New  Tax AccoUnt "+system,"displayed in the list");
 
-		/*Verify new batch type in the list*/
-		Assert.assertTrue(testcases,currencyPage.isCommandDisplayed(), "New  Tax AccoUnt "+system,"displayed in the list");
-		
 		currencyPage.logOut(1);
 
 	}
