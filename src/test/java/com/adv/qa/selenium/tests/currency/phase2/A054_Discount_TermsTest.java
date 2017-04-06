@@ -52,7 +52,7 @@ public class A054_Discount_TermsTest extends BaseTest{
 		Assert.assertEquals(testcases,currencyPage.getTableHeader(), "M"+currencyCode.get(0)+" - Discount Terms Edit","Currency search page","displayed");
 		
 		/*Create batch type code*/
-		currencyPage.enterDiscountTerms(discount);	
+		currencyPage.enterDiscountTerms(discount);
 		
 		currencyPage.clickOnUpdate();
 		

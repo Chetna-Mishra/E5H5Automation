@@ -38,35 +38,7 @@ public class A013_Fiscal_CalendarTest extends BaseTest{
 		String passWord = dataRow.get("passWord");
 		String currencyCode = dataRow.get("code");
 		List<String> calendar = dataRow.findNamesReturnValues("calendar");
-
-		List<String> year96 = dataRow.findNamesReturnValues("year96");
-		List<String> year97 = dataRow.findNamesReturnValues("year97");
-		List<String> year98 = dataRow.findNamesReturnValues("year98");
-		List<String> year99 = dataRow.findNamesReturnValues("year99");
-		List<String> year2000 = dataRow.findNamesReturnValues("year2000");
-		
-		List<String> year2001 = dataRow.findNamesReturnValues("year2001");
-		List<String> year2002 = dataRow.findNamesReturnValues("year2002");
-		List<String> year2003 = dataRow.findNamesReturnValues("year2003");
-		List<String> year2004 = dataRow.findNamesReturnValues("year2004");
-		List<String> year2005 = dataRow.findNamesReturnValues("year2005");
-		
-		List<String> year2006 = dataRow.findNamesReturnValues("year2006");
-		List<String> year2007 = dataRow.findNamesReturnValues("year2007");
-		List<String> year2008 = dataRow.findNamesReturnValues("year2008");
-		List<String> year2009 = dataRow.findNamesReturnValues("year2009");
-		List<String> year2010 = dataRow.findNamesReturnValues("year2010");
-		
-		List<String> year2011 = dataRow.findNamesReturnValues("year2011");
-		List<String> year2012 = dataRow.findNamesReturnValues("year2012");
-		List<String> year2013 = dataRow.findNamesReturnValues("year2013");
-		List<String> year2014 = dataRow.findNamesReturnValues("year2014");
-		List<String> year2015 = dataRow.findNamesReturnValues("year2015");
-		List<String> year2016 = dataRow.findNamesReturnValues("year2016");
-		List<String> year2017 = dataRow.findNamesReturnValues("year2017");
-		List<String> year2018 = dataRow.findNamesReturnValues("year2018");
-		List<String> year2019 = dataRow.findNamesReturnValues("year2019");
-		
+	
 		/*Log in to application*/
 		LoginPage loginPage = new LoginPage(driver);
 		
@@ -92,8 +64,7 @@ public class A013_Fiscal_CalendarTest extends BaseTest{
 		/*Insert new balance sheet details*/
 			currencyPage.clickOnInsert();
 			
-			currencyPage.enterFiscalCalendarDetails(calendar,year96,year97,year98,year99,year2000,year2001,year2002,year2003,year2004,year2005,year2006,
-					year2007,year2008,year2009,year2010,year2011,year2012,year2013,year2014,year2015,year2016,year2017,year2018,year2019);
+			currencyPage.enterFiscalCalendarDetails(calendar);
 			
 			if(currencyPage.verifyEventsForLevel("E")){
 				testcases.add(getCurreentDate()+" | Pass : Level 0 line contains events E");
@@ -107,8 +78,7 @@ public class A013_Fiscal_CalendarTest extends BaseTest{
 			
 			/*currencyPage.lockCalendar();*/
 			
-		currencyPage.enterLockCalendarDetails(year96,year97,year98,year99,year2000,year2001,year2002,year2003,year2004,year2005,year2006,
-					year2007,year2008,year2009,year2010,year2011,year2012,year2013,year2014,year2015,year2016,year2017,year2018,year2019);
+		currencyPage.enterLockCalendarDetails(1);
 			
 		
 			currencyPage.clickOnEventsH();
@@ -133,9 +103,6 @@ public class A013_Fiscal_CalendarTest extends BaseTest{
 			testcases.add(getCurreentDate()+" | Pass : New fiscal calendar displayed in the list");
 		}
 		
-
-		
-		driver.executeScript("document.body.style.zoom = '100%'");
 				
 		/*Clear test data*/
 		currencyPage.logOut(2);
@@ -153,8 +120,7 @@ public class A013_Fiscal_CalendarTest extends BaseTest{
 		String folder = "src/test/resources/";
 		String xmlFilePath = folder  + "E5H5.xml";
 		String[] nodeID = { "A013" };
-		String [] selectedNames = {"userName","passWord","code","calendar","year96","year97","year98","year99","year2000","year2001","year2002","year2003",
-				"year2004","year2005","year2006","year2007","year2008","year2009","year2010","year2011","year2012","year2013","year2014","year2015", "year2016","year2017","year2018","year2019"};
+		String [] selectedNames = {"userName","passWord","code","calendar"};
 		DataResource dataResourceSelected = new DataResource (xmlFilePath, selectedNames, true,nodeID);
 		DataRow [] [] rows = dataResourceSelected.getDataRows4DataProvider();
 		return rows;	

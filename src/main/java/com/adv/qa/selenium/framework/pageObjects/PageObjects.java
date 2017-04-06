@@ -183,9 +183,8 @@ public class PageObjects {
 	public final String A001A_AUD_KEPT="//input[starts-with(@name,'AUDT-KEEP-NUM_')]";
 	public final String A001A_PROC_LVL = "//input[starts-with(@name,'PROC-LVL_')]";
 		
-	//Page Objects for "A002_Currency_DescriptionTest"
+//Page Objects for "A002_Currency_DescriptionTest"
 	public final String A002_CURRENCY = "//input[contains(@name,'CURR_')]";
-//	public final String A002_CURRENCY = "//input[@id='0_0']";
 	public final String A002_OK ="//button[contains(@class,'roundedbutton')][@value='OK']";
 	public final String A002_DESCRIPTION = "//input[contains(@name,'DESCR_')]";
 	public final String A002_DECIMAL_P = "//input[contains(@name,'DECMLP_')]";
@@ -615,6 +614,9 @@ public class PageObjects {
 //	Page Objects for "A045_BACS_CalendarTest"
 	public final String A045_CAL = "//input[starts-with(@name,'CLNDR_')]";
 	public final String A045_RAD_BACS = "//div/input[@name='CLNDR-TYPE_1'][@value='BACS']";
+	
+	public final String A045_RAD_OTH = "//div/input[@name='CLNDR-TYPE_1'][@value='Other']";
+	
 	public final String A045_WK_DAY = "//select[starts-with(@name,'WK-END-DAY_')]";
 	public final String A045_CHK_SHOW_WK_END = "//label[text()='Show Week Ending']/../input[1]";
 	public final String A045_ACT = "//input[starts-with(@name,'ACTVT_')]";
@@ -690,10 +692,97 @@ public class PageObjects {
 	public final String A051_BNK_CODE = "//input[starts-with(@name,'BANK_')]";
 	public final String A051_BNK_ACC_NU = "//input[starts-with(@name,'ACCT-NUM_')]";
 	public final String A051_SRT_CODE = "//input[starts-with(@name,'SRT-CODE_')]";
-	
 	public final String A050_GL_BNK_ACC = "//div/input[starts-with(@name,'subfield_7_0')]";
 	public final String A050_GL_BNK_CST = "//div/input[starts-with(@name,'subfield_7_1')]";
+
+//	Page Objects for "A053_Category_CodeTest"
+	public final String A053_HLD_DAY = "//input[starts-with(@name,'HOLD-DD_')]";
+	public final String A053_CHK_AUTO_SUPP_CLER = "//label[text()='Auto Supplier Cleardown']/../input[1]";
+
+//	Page Objects for "A054_Discount_TermsTest"
+	public final String A054_DSCNT = "//input[starts-with(@name,'DSCNT_')]";
+	public final String A054_RAD_PER_D ="//div/input[@name='PER-IND_1'][@value='Daily']";
+	public final String A054_NUM_DD = "//input[starts-with(@name,'NUM-DD_')]";
+	public final String A054_RATE_PERC = "//input[starts-with(@name,'RATE-PERC_')]";
+	public final String A054_RAD_SRTP_INVDT ="//div/input[@name='STRT-POINT-IND_1'][@value='Invoice Date']";
 	
+//	Page Objects for "A055_Settlement_TermsTest"
+	public final String A055_SETT_TERM= "//input[starts-with(@name,'STLMNT_')]";
+	public final String A055_RAD_PERD_M= "//div/input[@name='PER-IND_1'][@value='Monthly']";
+	public final String A055_FROM_DD= "//input[starts-with(@name,'FROM-DD_')]";
+	public final String A055_TO_DD= "//input[starts-with(@name,'TO-DD_')]";
+	public final String A055_MONTH= "//input[starts-with(@name,'NUM-MM_')]";
+	public final String A055_DATE= "//input[starts-with(@name,'DUE-DD_')]";
+	public final String A055_DAYS= "//input[starts-with(@name,'NUM-DD_')]";
+	public final String A055_RAD_STRT_PER= "//div/input[@name='STRT-POINT-IND_1'][@value='Period']";
+	public final String A055_RAD_STRT_INV= "//div/input[@name='STRT-POINT-IND_1'][@value='Invoice']";
+	
+//	Page Objects for "A056_AP_Ledger_ControlsTest"
+	public final String A056_TOL_PROC= "//select[starts-with(@name,'EXCH-TOLRN-IND_')]";
+	public final String A056_CHK_CURR_TURN= "//label[text()='Currency Turnover Maintained']/../input[1]";
+	public final String A056_CHK_TURN_IN_TAX= "//label[text()='Turnover To Include Tax']/../input[1]";
+	public final String A056_CHK_TRNS_ENQ= "//label[text()='Transaction Enquiry in Reverse Date Sequence']/../input[1]";	
+	public final String A056_AUTO_CNCL= "//select[starts-with(@name,'AUTO-CANC-IND_')]";
+	public final String A056_TURN_PER_IND= "//select[starts-with(@name,'TNVR-GL-PER-FLAG_')]";
+	
+	public final String A056_TRANS_DUP= "//select[starts-with(@name,'DUP-REF-ERR-FLAG_')]";
+	public final String A056_LOG_TRANS= "//select[starts-with(@name,'LOG-IND_')]";
+	public final String A056_POSTCD_ETRY= "//select[starts-with(@name,'POSTCODE-ENT-IND_')]";
+	
+	public final String A056_CRDT_NT_DUE_DT= "//select[starts-with(@name,'CRED-DUE-DATE-IND_')]";
+	public final String A056_CHK_TRNS_TTL_CORR= "//label[text()='Transaction Totals Correction']/../input[1]";
+	public final String A056_CHK_TX_DET_LVL= "//label[text()='Tax at Detail Level']/../input[1]";
+	public final String A056_CHK_TX_ON_EXP_AT_DL= "//label[text()='Tax On Expenses at Detail Level']/../input[1]";
+	public final String A056_TAX_VRNC_CODE= "//input[starts-with(@name,'TAX-VRNC-CODE_')]";
+	
+	public final String A056_CHK_BTCH_TOT_CORR= "//label[text()='Batch Totals Correction']/../input[1]";
+	public final String A056_CHK_BTCH_TOT_NUM_TRAN= "//label[text()='Batch Totals on Number of Transactions']/../input[1]";
+	public final String A056_CHK_BTCH_TOT_OVER= "//label[text()='Batch Totals Override']/../input[1]";
+	public final String A056_CHK_BTCH_ON_ENT= "//label[text()='Batch on Entry']/../input[1]";
+	public final String A056_CHK_BTCH_ON_LOG= "//label[text()='Batch on Logging']/../input[1]";
+	public final String A056_CHK_BTCH_ON_EXP= "//label[text()='Batch on Expense']/../input[1]";
+	public final String A056_CHK_MNDTY_TRAN_DT= "//label[text()='Mandatory Transaction Date']/../input[1]";
+	public final String A056_CHK_USE_VAT_ANLS= "//label[text()='Use VAT Analysis']/../input[1]";
+	public final String A056_COD_IDNT= "//input[starts-with(@name,'VAT-MGMT-CODE-ID_')]";
+	public final String A056_PSTNG_TYPE = "//select[starts-with(@name,'VAT-ANAL-TYPE_')]";
+	public final String A056_WITH_TYPE = "//select[starts-with(@name,'WHOLD-TYPE-IND_')]";
+	public final String A056_TX_RATE= "//input[starts-with(@name,'CIT-TAX-RATE_')]";
+	public final String A056_NTCOMP_TX_RATE= "//input[starts-with(@name,'NCOMP-TAX-RATE_')]";
+	public final String A056_NUM_DAY_TX_PRMPT= "//input[starts-with(@name,'CIT-WARN-DD_')]";
+	public final String A056_SCHD_ADV_WARN= "//input[starts-with(@name,'SCHD-WARN-DD_')]";
+	public final String A056_MIN_PAY_BAL= "//input[starts-with(@name,'MIN-PAY-VAL_')]";
+	public final String A056_PAY_REGST_VAL= "//input[starts-with(@name,'PAY-REGST-VAL_')]";
+	public final String A056_PAY_RECON = "//select[starts-with(@name,'PAY-RECON-IND_')]";
+	public final String A056_CHQ_DUP = "//select[starts-with(@name,'DUP-CHQ-ERR-FLAG_')]";
+	public final String A056_DAYS_BFR_ARCHV= "//input[starts-with(@name,'ARCH-DD_')]";
+	public final String A056_REL_IND = "//select[starts-with(@name,'GL-RLTN-IND_')]";
+	public final String A056_CNTRL_ACC_CD= "//input[starts-with(@name,'DFLT-LEDGR_')]";
+	public final String A056_CHK_DEF_PER = "//label[text()='Default Period']/../input[1]";
+	public final String A056_DAYS_RESIT= "//input[starts-with(@name,'DIARY-RESIDENT-DD_')]";
+	
+	public final String A056_DEF_BATCH_TYP= "//input[starts-with(@name,'DFLT-BTCH-TYPE_')]";
+	public final String A056_LOG_TRANC= "//input[starts-with(@name,'LOG-BTCH-TYPE_')]";
+	public final String A056_ENTR_TRANC= "//input[starts-with(@name,'ENTRY-BTCH-TYPE_')]";
+	public final String A056_CANLD_TRANC= "//input[starts-with(@name,'CANC-BTCH-TYPE_')]";
+	public final String A056_TRANC_TRANSF= "//input[starts-with(@name,'TRF-BTCH-TYPE_')]";
+	public final String A056_VAT_ANYS_CST_CNTR= "//input[starts-with(@name,'VAT-CC-BTCH-TYPE_')]";
+	public final String A056_PAYMNT= "//input[starts-with(@name,'PAY-BTCH-TYPE_')]";
+	
+	public final String A056_AP_AR_NETT_OFF = "//select[starts-with(@name,'NET-OFF-IND_')]";
+	
+	
+	public final String A056_TOL_TYPE = "//select[starts-with(@name,'TOLRN-TYPE-IND_')]";
+	public final String A056_TOLRNC_PSTV ="//input[starts-with(@name,'TOLRN-PERC-PSTV_')]";
+	public final String A056_TOLRNC_NEG ="//input[starts-with(@name,'TOLRN-PERC-NEG_')]";
+	public final String A056_TOLRNC_AMT ="//input[starts-with(@name,'TOLRN-AMT_')]";
+	public final String A056_CHK_TRNC_HD_DIFF = "//label[text()='Transaction Held for Price Difference']/../input[1]";
+	public final String A056_OVR_INVO_GRN = "//select[starts-with(@name,'OVER-INVCE-IND_')]";
+	public final String A056_GRN_FURT_MAT = "//select[starts-with(@name,'GRN-MTCH-IND_')]";
+	
+	public final String A056_CR_TOL_TYPE = "//select[starts-with(@name,'CR-TOLRN-TYPE-IND')]";
+	public final String A056_CR_TOLRNC_PSTV ="//input[starts-with(@name,'CR-TOLRN-PERC_')]";
+	
+	public final String A056_CR_TOLRNC_AMT ="//input[starts-with(@name,'CR-TOLRN-AMT_')]";
 	
 	
 	

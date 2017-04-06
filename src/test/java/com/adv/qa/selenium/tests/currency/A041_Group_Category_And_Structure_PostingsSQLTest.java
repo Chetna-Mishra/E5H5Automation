@@ -20,7 +20,7 @@ import com.adv.qa.selenium.helpers.DataRow;
  * ACCESS               :   Submit EP4 and Submit EP5
  */
 
-public class A041_Group_Category_And_Structure_PostingsTest extends BaseTest{
+public class A041_Group_Category_And_Structure_PostingsSQLTest extends BaseTest{
 	/*Launch the browser*/
 	@BeforeClass
 	public void beforeClass() throws Exception {

@@ -628,7 +628,6 @@
 	    <userName>SYSTEM</userName>
         <passWord>E5</passWord>
    		<code>API</code>  
-  
          
        <calendar>IMFISCAL</calendar>
        <calendar>AC FISCAL CALENDAR</calendar>
@@ -637,152 +636,7 @@
        <calendar>LEVEL 0</calendar>
 	   <calendar>level 0</calendar>
        <calendar>IMMONTH</calendar>
-      
-       <year96>1996</year96>
-       <year96>96</year96>
-       <year96>01-Jan-1996</year96>
-       <year96>31-Dec-1996</year96>
-       <year96>Y</year96>
        
-         	
-       <year97>1997</year97>
-       <year97>97</year97>
-       <year97>01-Jan-1997</year97>
-       <year97>31-Dec-1997</year97>
-       <year97>Y</year97>
-         	
-       <year98>1998</year98>
-       <year98>98</year98>
-       <year98>01-Jan-1998</year98>
-       <year98>31-Dec-1998</year98>
-       <year98>Y</year98>
-       
-         	
-       <year99>1999</year99>
-       <year99>99</year99>
-       <year99>01-Jan-1999</year99>
-       <year99>31-Dec-1999</year99>
-       <year99>Y</year99>
-         	
-       <year2000>2000</year2000>
-       <year2000>2000</year2000>
-       <year2000>01-Jan-2000</year2000>
-       <year2000>31-Dec-2000</year2000>
-       <year2000>Y</year2000>
-       
-       <year2001>2001</year2001>
-       <year2001>2001</year2001>
-       <year2001>01-Jan-2001</year2001>
-       <year2001>31-Dec-2001</year2001>
-       <year2001>Y</year2001>
-       
-       <year2002>2002</year2002>
-       <year2002>2002</year2002>
-       <year2002>01-Jan-2002</year2002>
-       <year2002>31-Dec-2002</year2002>
-       <year2002>Y</year2002>
-       
-       <year2003>2003</year2003>
-       <year2003>2003</year2003>
-       <year2003>01-Jan-2003</year2003>
-       <year2003>31-Dec-2003</year2003>
-       <year2003>Y</year2003>
-       
-       <year2004>2004</year2004>
-       <year2004>2004</year2004>
-       <year2004>01-Jan-2004</year2004>
-       <year2004>31-Dec-2004</year2004>
-       <year2004>Y</year2004>
-       
-       <year2005>2005</year2005>
-       <year2005>2005</year2005>
-       <year2005>01-Jan-2005</year2005>
-       <year2005>31-Dec-2005</year2005>
-       <year2005>Y</year2005>
-       
-       <year2006>2006</year2006>
-       <year2006>2006</year2006>
-       <year2006>01-Jan-2006</year2006>
-       <year2006>31-Dec-2006</year2006>
-       <year2006>Y</year2006>
-       
-       <year2007>2007</year2007>
-       <year2007>2007</year2007>
-       <year2007>01-Jan-2007</year2007>
-       <year2007>31-Dec-2007</year2007>
-       <year2007>Y</year2007>
-       
-       <year2008>2008</year2008>
-       <year2008>2008</year2008>
-       <year2008>01-Jan-2008</year2008>
-       <year2008>31-Dec-2008</year2008>
-       <year2008>Y</year2008>
-       
-       <year2009>2009</year2009>
-       <year2009>2009</year2009>
-       <year2009>01-Jan-2009</year2009>
-       <year2009>31-Dec-2009</year2009>
-       <year2009>Y</year2009>
-       
-       <year2010>2010</year2010>
-       <year2010>2010</year2010>
-       <year2010>01-Jan-2010</year2010>
-       <year2010>31-Dec-2010</year2010>
-       <year2010>Y</year2010>
-       
-       <year2011>2011</year2011>
-       <year2011>2011</year2011>
-       <year2011>01-Jan-2011</year2011>
-       <year2011>31-Dec-2011</year2011>
-       <year2011>Y</year2011>
-       
-       <year2012>2012</year2012>
-       <year2012>2012</year2012>
-       <year2012>01-Jan-2012</year2012>
-       <year2012>31-Dec-2012</year2012>
-       <year2012>Y</year2012>
-       
-       <year2013>2013</year2013>
-       <year2013>2013</year2013>
-       <year2013>01-Jan-2013</year2013>
-       <year2013>31-Dec-2013</year2013>
-       <year2013>Y</year2013>
-       
-       <year2014>2014</year2014>
-       <year2014>2014</year2014>
-       <year2014>01-Jan-2014</year2014>
-       <year2014>31-Dec-2014</year2014>
-       <year2014>Y</year2014>
-       
-       <year2015>2015</year2015>
-       <year2015>2015</year2015>
-       <year2015>01-Jan-2015</year2015>
-       <year2015>31-Dec-2015</year2015>
-       <year2015>Y</year2015>
-       
-       <year2016>2016</year2016>
-       <year2016>2016</year2016>
-       <year2016>01-Jan-2016</year2016>
-       <year2016>31-Dec-2016</year2016>
-       <year2016>Y</year2016>
-       
-       <year2017>2017</year2017>
-       <year2017>2017</year2017>
-       <year2017>01-Jan-2017</year2017>
-       <year2017>31-Dec-2017</year2017>
-       <year2017>Y</year2017>
-
-       <year2018>2018</year2018>
-       <year2018>2018</year2018>
-       <year2018>01-Jan-2018</year2018>
-       <year2018>31-Dec-2018</year2018>
-       <year2018>Y</year2018>
-       
-       <year2019>2019</year2019>
-       <year2019>2019</year2019>
-       <year2019>01-Jan-2019</year2019>
-       <year2019>31-Dec-2019</year2019>
-       <year2019>Y</year2019>       
        
     </Row>
 	  	  
@@ -1183,14 +1037,16 @@
         <calendarBACS>Friday</calendarBACS>
         <calendarBACS>1996</calendarBACS>
         <calendarBACS>IMMONTH</calendarBACS>
+        <calendarBACS>BACS</calendarBACS>
         <calendarBACS>2016</calendarBACS>
-        <calendarBACS>2018</calendarBACS>     
-        
-        <calendarOther>WORKING</calendarOther>
+        <calendarBACS>2018</calendarBACS>
+         
+        <calendarOther>WORKING3</calendarOther>
         <calendarOther>Working Days Calendar</calendarOther>
         <calendarOther>Friday</calendarOther>
         <calendarOther>1996</calendarOther>
-        <calendarOther>WORKING</calendarOther>
+        <calendarOther>IMWORK</calendarOther>
+        <calendarOther>Other</calendarOther>
         <calendarOther>2016</calendarOther>
         <calendarOther>2018</calendarOther>   
 
@@ -1469,6 +1325,7 @@
 	<Row id="A053">
 	    <userName>MANAGER</userName>
         <passWord>E5</passWord>
+        
         <currencyCode>PAD</currencyCode>
         <currencyCode>PAC</currencyCode>
 	  	
@@ -1484,7 +1341,7 @@
         <currencyCode>PAF</currencyCode>
         <currencyCode>PAE</currencyCode>
 	  	
-       	<discount>D2</discount>
+       	<discount>D1</discount>
        	<discount>Discount 5.00% within 30 days</discount>    
        	<discount>1</discount>
        	<discount>30</discount>
@@ -1498,7 +1355,7 @@
         <currencyCode>PAH</currencyCode>
         <currencyCode>PAG</currencyCode>
         
-       	<settlementS1>S2</settlementS1>
+       	<settlementS1>S1</settlementS1>
        	<settlementS1>1 Month after period end date</settlementS1>
        	<settlementS1>0</settlementS1>
        	<settlementS1>1</settlementS1>
@@ -1507,19 +1364,17 @@
        	<settlementS1>1</settlementS1>
        	<settlementS1>NILL</settlementS1>
        	<settlementS1>0</settlementS1>
-       	<settlementS1>0</settlementS1>
        	<settlementS1>1</settlementS1>
        	    
-       	<settlementS2>S3</settlementS2>
+       	<settlementS2>S2</settlementS2>
        	<settlementS2>Payment due date at end of month</settlementS2>
        	<settlementS2>0</settlementS2>
        	<settlementS2>1</settlementS2>
        	<settlementS2>1</settlementS2>
        	<settlementS2>31</settlementS2>
        	<settlementS2>NILL</settlementS2>
-       	<settlementS2>NILL</settlementS2>
        	<settlementS2>31</settlementS2>
-       	<settlementS2>1</settlementS2>
+       	<settlementS2>NILL</settlementS2>
        	<settlementS2>0</settlementS2>
 	</Row>
 	
@@ -1527,37 +1382,50 @@
 	    <userName>BM1</userName>
         <passWord>E5</passWord>
         <currencyCode>GAA</currencyCode>
-        
-        <companyControl>IM</companyControl>
-        <companyControl>UKS</companyControl>
-        <companyControl>0.00</companyControl>
-        <companyControl>0.00</companyControl>       
-        <companyControl>0</companyControl>
-        <companyControl>5</companyControl>
-        <companyControl>BP</companyControl>
-        <companyControl>0.00</companyControl>
-        <companyControl>3.00</companyControl>       
-        <companyControl>PL and GL</companyControl>
-        <companyControl>0</companyControl>
-        <companyControl>02</companyControl>
-        <companyControl>2</companyControl>
-        <companyControl>2003</companyControl>      
-        <companyControl>30</companyControl>
-        <companyControl>PDE1</companyControl>
-        <companyControl>PDE2</companyControl>
-        <companyControl>PDE3</companyControl>
-        <companyControl>PDE4</companyControl>        
-        <companyControl>PDE5</companyControl>
-        <companyControl>PDE7</companyControl>
-        <companyControl>PDE6</companyControl>
-        <companyControl>Not Allowed</companyControl>
-        <companyControl>% and Amount</companyControl>        
-        <companyControl>0.00</companyControl>
-        <companyControl>0.00</companyControl>
-        <companyControl>0.00</companyControl>
-        <companyControl>% And Amount</companyControl>
-        <companyControl>0.00</companyControl>        
-        <companyControl>0.00</companyControl>        
+
+	<companyControl>Warning</companyControl>
+	<companyControl>Optional</companyControl>
+	<companyControl>Warning</companyControl>
+	<companyControl>Transaction</companyControl>
+	<companyControl>A1</companyControl>
+	<companyControl>None</companyControl>
+	<companyControl>UKV</companyControl>
+	<companyControl>Not Allowed</companyControl>
+	<companyControl>B</companyControl>
+	<companyControl>Cost Centre</companyControl>
+	<companyControl>0</companyControl>
+	<companyControl>None</companyControl>
+	<companyControl>0.00</companyControl>
+	<companyControl>0.00</companyControl>
+	<companyControl>0</companyControl>
+	<companyControl>Await Payment</companyControl>
+	<companyControl>GL Calendar</companyControl>
+	<companyControl>5</companyControl>
+	<companyControl>BP</companyControl>
+	<companyControl>0.00</companyControl>
+	<companyControl>3.00</companyControl>
+	<companyControl>AP and GL</companyControl>
+	<companyControl>Warning</companyControl>
+	<companyControl>Normal</companyControl>
+	<companyControl>A1</companyControl>
+	<companyControl>12</companyControl>
+	<companyControl>PDE1</companyControl>
+	<companyControl>PDE2</companyControl>
+	<companyControl>PDE3</companyControl>
+	<companyControl>PDE4</companyControl>
+	<companyControl>PDE5</companyControl>
+	<companyControl>PDE7</companyControl>
+	<companyControl>PDE6</companyControl>
+	<companyControl>% and Amount</companyControl>
+	<companyControl>0.00</companyControl>
+	<companyControl>0.00</companyControl>
+	<companyControl>0.00</companyControl>
+	<companyControl>Warning</companyControl>
+	<companyControl>Prorata</companyControl>
+	<companyControl>% And Amount</companyControl>
+	<companyControl>0.00</companyControl>
+	<companyControl>0.00</companyControl>
+	<companyControl>30</companyControl>
     </Row>
 	
     <Row id="A056A">

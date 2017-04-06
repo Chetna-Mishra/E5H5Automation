@@ -67,9 +67,7 @@ public class A045_BACS_CalendarTest extends BaseTest{
 			if(!currencyPage.verifyValues(calendarList.get(0))){	
 				
 			currencyPage.clickOnInsert();
-			
-			currencyPage.clickOnInsert();	
-				
+							
 			/*Create batch type code*/
 			currencyPage.enterCalendarDetails(calendarList);
 						

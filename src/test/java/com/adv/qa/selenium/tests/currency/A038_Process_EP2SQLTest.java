@@ -14,13 +14,13 @@ import com.adv.qa.selenium.helpers.DataRow;
 
 /**
  * @author              :   Draxayani
- * Test Reference No	: 	A035 Structure Rebuild (EP3)
+ * Test Reference No	: 	A038 Process EP2
  * Purpose              :   Run Structure Rebuild
- * Date					:   02-05-2014
- * ACCESS               :   Submit EP3
+ * Date					:   26-05-2014
+ * ACCESS               :   Submit EP2
  */
 
-public class A035_Structure_RebuildTest extends BaseTest{
+public class A038_Process_EP2SQLTest extends BaseTest{
 	/*Launch the browser*/
 	@BeforeClass
 	public void beforeClass() throws Exception {
@@ -32,8 +32,8 @@ public class A035_Structure_RebuildTest extends BaseTest{
 		String userName = dataRow.get("userName");
 		String passWord = dataRow.get("passWord");
 		String currencyCode = dataRow.get("code");
-		List<String> structureList = dataRow.findNamesReturnValues("structureList");
-		String process = dataRow.get("process");
+		String process = dataRow.get("process");	
+		List<String> processList = dataRow.findNamesReturnValues("processList");
 		boolean value = false;
 		
 		/*Log in to application*/
@@ -49,30 +49,28 @@ public class A035_Structure_RebuildTest extends BaseTest{
 		Assert.assertTrue(testcases,currencyPage.isCommandDisplayed(),"Command line","displayed");
 		
 		currencyPage.fillCurrenceyCode(currencyCode);
-		
 		/*Verify currency search page displayed*/
-		Assert.assertEquals(testcases,currencyPage.getTableHeader(), "M"+structureList.get(0)+" - Structure Rebuild Parameters","Structure Rebuild page","displayed");
+		Assert.assertEquals(testcases,currencyPage.getTableHeader(), "M"+processList.get(0)+" - Postings Rebuild Parameters","Structure Rebuild page","displayed");
 		
-		/*Create structure build details*/
-		currencyPage.enterStructureReBuildDetails(structureList,companyId);
+		/*Create new process*/
+		currencyPage.enterEP2ProcessDetails(processList,companyId);	
 		
-		currencyPage.enterAboutsubmitDetails(); 
+		currencyPage.enterAboutsubmitDetails();
 		
-		String statBefore = currencyPage.getProcessDetails(process,structureList.get(1));
-		
+		String statBefore = currencyPage.getProcessDetailsOracle(process,processList.get(1));
 		Assert.assertEquals(testcases,statBefore, "2","Precess has","entered task list");
-		
-		if(statBefore.equals("2")){;
-			currencyPage.updateProcess(process,structureList.get(1));
+		if(statBefore.equals("2")){
+			currencyPage.updateProcess(process,processList.get(1));
 		}
 		
-		String statAfter = currencyPage.getProcessDetails(process,structureList.get(1));
+		String statAfter = currencyPage.getProcessDetails(process,processList.get(1));
 		
 		if(statAfter == null || statAfter.equals("3"))
 		{
 			value = true;			
 		}
-		Assert.assertTrue(testcases,value,"Precess" +process,"performed on "+structureList.get(1));
+		Assert.assertTrue(testcases,value,"Precess "+process,"performed on "+processList.get(1));
+		
 		currencyPage.clickOnCancel();
 		
 		currencyPage.isConfirmPopUpDisplayed();
@@ -91,9 +89,9 @@ public class A035_Structure_RebuildTest extends BaseTest{
 	{		
 		String folder = "src/test/resources/";
 		String xmlFilePath = folder  + "E5H5.xml";
-		String[] nodeID = { "A035" };
-		String [] selectedNames = {"userName","passWord","code","structureList","process"};
-		DataResource dataResourceSelected = new DataResource (xmlFilePath, selectedNames, true, nodeID);
+		String[] nodeID = { "A038" };
+		String [] selectedNames = {"userName","passWord","code","process","processList"};
+		DataResource dataResourceSelected = new DataResource (xmlFilePath, selectedNames, true,nodeID);
 		DataRow [] [] rows = dataResourceSelected.getDataRows4DataProvider();
 		return rows;	
 	}

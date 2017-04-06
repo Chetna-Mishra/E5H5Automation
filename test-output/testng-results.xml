@@ -2,31 +2,31 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="145361" started-at="2017-03-30T12:10:05Z" finished-at="2017-03-30T12:12:30Z">
+  <suite name="Default suite" duration-ms="211690" started-at="2017-04-05T08:42:11Z" finished-at="2017-04-05T08:45:43Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="145361" started-at="2017-03-30T12:10:05Z" finished-at="2017-03-30T12:12:30Z">
-      <class name="com.adv.qa.selenium.tests.currency.phase2.A052_Tax_AccountsTest">
-        <test-method status="PASS" signature="beforeClass()[pri:0, instance:com.adv.qa.selenium.tests.currency.phase2.A052_Tax_AccountsTest@780cb77]" name="beforeClass" is-config="true" duration-ms="12169" started-at="2017-03-30T17:40:05Z" finished-at="2017-03-30T17:40:17Z">
+    <test name="Default test" duration-ms="211690" started-at="2017-04-05T08:42:11Z" finished-at="2017-04-05T08:45:43Z">
+      <class name="com.adv.qa.selenium.tests.currency.phase2.A055_Settlement_TermsTest">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:com.adv.qa.selenium.tests.currency.phase2.A055_Settlement_TermsTest@780cb77]" name="beforeClass" is-config="true" duration-ms="22178" started-at="2017-04-05T14:12:11Z" finished-at="2017-04-05T14:12:33Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeClass -->
-        <test-method status="PASS" signature="verify(com.adv.qa.selenium.helpers.DataRow)[pri:0, instance:com.adv.qa.selenium.tests.currency.phase2.A052_Tax_AccountsTest@780cb77]" name="verify" duration-ms="131857" started-at="2017-03-30T17:40:17Z" data-provider="dp" finished-at="2017-03-30T17:42:29Z">
+        <test-method status="PASS" signature="verify(com.adv.qa.selenium.helpers.DataRow)[pri:0, instance:com.adv.qa.selenium.tests.currency.phase2.A055_Settlement_TermsTest@780cb77]" name="verify" duration-ms="181291" started-at="2017-04-05T14:12:33Z" data-provider="dp" finished-at="2017-04-05T14:15:34Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[DataUnit [userName = ADMIN], DataUnit [passWord = E5], DataUnit [currencyCode = RAS], DataUnit [system = G], DataUnit [codeUKE = UKE], DataUnit [codeUKE = VATA], DataUnit [codeUKE = W1], DataUnit [codeUKS = UKS], DataUnit [codeUKS = VATA], DataUnit [codeUKS = W1], DataUnit [codeUKV = UKV], DataUnit [codeUKV = VATA], DataUnit [codeUKV = W1], DataUnit [codeUKZ = UKZ], DataUnit [codeUKZ = VATA], DataUnit [codeUKZ = W1]]]]>
+                <![CDATA[[DataUnit [userName = BM], DataUnit [passWord = E5], DataUnit [currencyCode = PAH], DataUnit [currencyCode = PAG], DataUnit [settlementS1 = S1], DataUnit [settlementS1 = 1 Month after period end date], DataUnit [settlementS1 = 0], DataUnit [settlementS1 = 1], DataUnit [settlementS1 = 1], DataUnit [settlementS1 = 31], DataUnit [settlementS1 = 1], DataUnit [settlementS1 = NILL], DataUnit [settlementS1 = 0], DataUnit [settlementS1 = 1], DataUnit [settlementS2 = S2], DataUnit [settlementS2 = Payment due date at end of month], DataUnit [settlementS2 = 0], DataUnit [settlementS2 = 1], DataUnit [settlementS2 = 1], DataUnit [settlementS2 = 31], DataUnit [settlementS2 = NILL], DataUnit [settlementS2 = 31], DataUnit [settlementS2 = NILL], DataUnit [settlementS2 = 0]]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verify -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.adv.qa.selenium.tests.currency.phase2.A052_Tax_AccountsTest@780cb77]" name="tearDown" is-config="true" duration-ms="1219" started-at="2017-03-30T17:42:29Z" finished-at="2017-03-30T17:42:30Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.adv.qa.selenium.tests.currency.phase2.A055_Settlement_TermsTest@780cb77]" name="tearDown" is-config="true" duration-ms="8049" started-at="2017-04-05T14:15:34Z" finished-at="2017-04-05T14:15:43Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- com.adv.qa.selenium.tests.currency.phase2.A052_Tax_AccountsTest -->
+      </class> <!-- com.adv.qa.selenium.tests.currency.phase2.A055_Settlement_TermsTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

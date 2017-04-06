@@ -165,8 +165,10 @@
       	 	 <class name="com.adv.qa.selenium.tests.currency.A042_Period_End_Test"/>
     	</classes>
   	 </test>
-  	   	 
-   <!--  	  	 
+   
+ </suite>
+
+  <!--  	  	 
    	 <test name="suite15" preserve-order="true" time-out="8000000" enabled="false">
     	<classes>
       		 <class name="com.adv.qa.selenium.tests.currency.A035A_StartDispatcher"/>
@@ -174,5 +176,3 @@
   	 </test>
    
   	 -->
-  	 
- </suite>

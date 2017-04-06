@@ -29,7 +29,7 @@
   <test name="suite4" preserve-order="true" time-out="800000" parallel="classes" thread-count="2" enabled="false">
     	<classes>  	    
     	    <class name="com.adv.qa.selenium.tests.currency.phase2.A050_Accounts_Payable_Control_AccountsTest"/>
-    	   	<class name="com.adv.qa.selenium.tests.currency.phase2.A051A_Purchase_Ledger_Bank_CodesTest"/>         	 
+    	   	         	 
     	</classes>
   </test> 
   
@@ -190,3 +190,7 @@
   
 </suite>
 
+ <!-- 
+<class name="com.adv.qa.selenium.tests.currency.phase2.A051A_Purchase_Ledger_Bank_CodesTest"/>
+
+-->
